@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/10788778",
+    "filename": "pubmed_10788778.pdf",
+    "status": "success_direct",
+    "timestamp": "2025-07-03T19:07:03.933545"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3891634/",
+    "filename": "pmc_3891634.pdf",
+    "status": "success_direct",
+    "timestamp": "2025-07-03T19:07:06.092202"
+  },
+  {
+    "url": "https://www.nature.com/articles/s41598-019-39584-6",
+    "filename": "nature_s41598-019-39584-6.pdf",
+    "status": "success_direct",
+    "timestamp": "2025-07-03T19:07:09.457832"
+  }
+]

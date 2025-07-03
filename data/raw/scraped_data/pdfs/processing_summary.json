@@ -1,0 +1,25 @@
+{
+  "total_pdfs": 3,
+  "processed_successfully": 3,
+  "failed": 0,
+  "total_words": 71934,
+  "total_chars": 756742,
+  "processing_date": "2025-07-03T19:09:45.142948",
+  "articles": [
+    {
+      "filename": "pubmed_10788778.pdf",
+      "title": "pubmed_10788778",
+      "word_count": 12272
+    },
+    {
+      "filename": "nature_s41598-019-39584-6.pdf",
+      "title": "nature_s41598-019-39584-6",
+      "word_count": 44592
+    },
+    {
+      "filename": "pmc_3891634.pdf",
+      "title": "pmc_3891634",
+      "word_count": 15070
+    }
+  ]
+}

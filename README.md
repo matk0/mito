@@ -67,7 +67,7 @@ bundle install
 npm install
 
 # Python dependencies  
-pip install -r requirements.txt
+pip install -r config/requirements.txt
 
 # Additional dependencies for PDF processing
 pip install PyPDF2 pdfplumber requests
@@ -84,7 +84,7 @@ docker run --name neo4j-health -p7474:7474 -p7687:7687 \
   --env NEO4J_AUTH=neo4j/healthgraph123 -d neo4j:5.23
 
 # Build the knowledge graph
-python neo4j_graph_builder.py
+python scripts/data_processing/neo4j_graph_builder.py
 ```
 
 ### 4. Set Up Ollama (Local LLM)
@@ -114,7 +114,6 @@ rails server
 
 ```
 ├── README.md                          # This documentation
-├── requirements.txt                   # Python dependencies
 ├── NEO4J_SETUP.md                    # Neo4j installation guide
 │
 ├── mito/                              # Rails 8 Web Application
@@ -123,34 +122,55 @@ rails server
 │   │   ├── services/intelligent_response_service.rb  # Multi-LLM integration
 │   │   └── views/chat/index.html.erb          # Chat interface
 │   ├── graphrag_interface.py          # GraphRAG ↔ Rails communication
-│   ├── graphrag_system.py            # Core GraphRAG system
-│   ├── entity_extractor.py           # Slovak entity extraction
 │   └── config/                       # Rails configuration
 │
-├── Data Processing Pipeline/
-│   ├── blog_scraper.rb               # Web scraper for content
-│   ├── pdf_downloader.py             # Scientific PDF downloader
-│   ├── pdf_processor.py              # PDF text extraction and processing
-│   ├── download_and_process_pdfs.py  # Complete PDF pipeline
-│   ├── content_chunker.py            # Enhanced chunking with context windows
-│   ├── embedding_generator.py        # Context-aware vector embeddings
-│   ├── entity_extractor.py           # Custom Slovak health NER pipeline
-│   └── neo4j_graph_builder.py        # Knowledge graph construction
+├── scripts/                           # Organized Processing Scripts
+│   ├── data_processing/              # Core data pipeline
+│   │   ├── blog_scraper.rb           # Web scraper for Slovak health content
+│   │   ├── content_chunker.py        # Enhanced chunking with context windows
+│   │   ├── embedding_generator.py    # Context-aware vector embeddings
+│   │   ├── entity_extractor.py       # Custom Slovak health NER pipeline
+│   │   ├── neo4j_graph_builder.py    # Knowledge graph construction
+│   │   ├── graphrag_system.py        # Core GraphRAG system
+│   │   └── graphrag_chat.py          # GraphRAG chat interface
+│   │
+│   ├── pdf_processing/               # Scientific literature pipeline
+│   │   ├── pdf_downloader.py         # Downloads from PubMed, PMC, Nature
+│   │   ├── pdf_processor.py          # Text extraction and processing
+│   │   └── download_and_process_pdfs.py  # Complete PDF pipeline
+│   │
+│   ├── testing/                      # Test suites
+│   │   ├── test_graphrag.py          # GraphRAG system tests
+│   │   ├── test_entity_*.py          # Entity extraction tests
+│   │   └── test_*.py                 # Comprehensive testing suite
+│   │
+│   ├── analysis/                     # Data analysis tools
+│   │   ├── analyze_extracted_entities.py  # Entity analysis
+│   │   └── debug_embedding.py        # Embedding diagnostics
+│   │
+│   └── utilities/                    # Helper scripts and tools
 │
-├── Data Storage/
-│   ├── scraped_data/                 # Raw scraped articles (184 articles)
-│   │   └── pdfs/                     # Processed scientific PDFs
-│   ├── pdfs/                         # Downloaded PDF files
-│   ├── chunked_data/                 # Enhanced chunks + extracted entities
-│   │   ├── chunked_content.json      # 959 chunks with context windows
-│   │   ├── extracted_entities.json   # 30K+ filtered health entities
-│   │   └── entity_analysis.json      # Entity relationships and insights
-│   └── vector_db/                    # ChromaDB vector database
+├── data/                             # Organized Data Storage
+│   ├── raw/                          # Source data
+│   │   ├── scraped_data/             # 184 Slovak health articles
+│   │   └── pdfs/                     # Downloaded scientific PDFs
+│   │
+│   ├── processed/                    # Processed data
+│   │   └── chunked_data/             # Enhanced chunks + extracted entities
+│   │       ├── chunked_content.json  # 959 chunks with context windows
+│   │       ├── extracted_entities.json  # 30K+ filtered health entities
+│   │       └── entity_analysis.json  # Entity relationships and insights
+│   │
+│   ├── embeddings/                   # Vector databases
+│   │   └── vector_db/                # ChromaDB vector database
+│   │
+│   └── knowledge_graph/              # Neo4j graph data and exports
 │
-└── Testing & Analysis/
-    ├── test_graphrag.py              # GraphRAG system tests
-    ├── test_entity_*.py              # Entity extraction tests
-    └── analyze_extracted_entities.py # Entity analysis tools
+├── config/                           # Configuration files
+│   ├── articles.md                   # Scientific article URLs (140+)
+│   └── requirements.txt              # Python dependencies
+│
+└── docs/                             # Documentation
 ```
 
 ## 🔧 Technical Implementation
@@ -271,15 +291,15 @@ The system includes a comprehensive PDF processing pipeline to augment the Slova
 #### Usage
 
 ```bash
-# Download and process PDFs from articles.md
-python3.12 download_and_process_pdfs.py
+# Download and process PDFs from config/articles.md
+python3.12 scripts/pdf_processing/download_and_process_pdfs.py
 
 # Individual operations
-python3.12 pdf_downloader.py        # Downloads PDFs to pdfs/
-python3.12 pdf_processor.py         # Processes to scraped_data/pdfs/
+python3.12 scripts/pdf_processing/pdf_downloader.py        # Downloads PDFs to data/raw/pdfs/
+python3.12 scripts/pdf_processing/pdf_processor.py         # Processes to data/raw/scraped_data/pdfs/
 ```
 
-#### Input Format (articles.md)
+#### Input Format (config/articles.md)
 ```
 https://www.ncbi.nlm.nih.gov/pubmed/10788778
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3891634/
@@ -288,12 +308,12 @@ https://www.nature.com/articles/s41598-019-39584-6
 
 #### Output Structure
 ```
-pdfs/                              # Downloaded PDF files
+data/raw/pdfs/                     # Downloaded PDF files
 ├── pubmed_10788778.pdf
 ├── pmc_3891634.pdf
 └── nature_s41598-019-39584-6.pdf
 
-scraped_data/pdfs/                 # Processed articles
+data/raw/scraped_data/pdfs/        # Processed articles
 ├── pubmed_10788778.json          # Structured article data
 ├── extracted_text/               # Clean text files
 ├── metadata/                     # PDF metadata
@@ -339,7 +359,7 @@ RETURN e, r, e2
 - **Neo4j Browser**: http://localhost:7474 (after Neo4j setup)
 - **Ollama Interface**: http://localhost:11434 (after Ollama setup)
 - **Original Content**: [Jaroslav Lachky's Blog](https://jaroslavlachky.sk)
-- **Entity Analysis**: See `chunked_data/entity_analysis.json`
+- **Entity Analysis**: See `data/processed/chunked_data/entity_analysis.json`
 
 ## 🏆 Project Achievements
 
@@ -460,7 +480,10 @@ cd mito
 python3.12 graphrag_interface.py --query "test" --format text
 
 # Check Python dependencies
-pip install -r requirements.txt
+pip install -r config/requirements.txt
+
+# Run comprehensive tests
+python3.12 scripts/testing/test_graphrag.py
 
 # Verify Neo4j connection
 python3.12 -c "from neo4j import GraphDatabase; print('Neo4j OK')"

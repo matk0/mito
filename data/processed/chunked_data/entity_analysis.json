@@ -1,0 +1,2233 @@
+{
+  "domain_entity_stats": {
+    "CHEMICAL_FORMULA": {
+      "total_mentions": 28304,
+      "unique_entities": 3143,
+      "top_entities": [
+        [
+          "Ak",
+          2102
+        ],
+        [
+          "UV",
+          1258
+        ],
+        [
+          "No",
+          981
+        ],
+        [
+          "DHA",
+          769
+        ],
+        [
+          "ATP",
+          751
+        ],
+        [
+          "Je",
+          662
+        ],
+        [
+          "Na",
+          633
+        ],
+        [
+          "Aj",
+          615
+        ],
+        [
+          "DNA",
+          595
+        ],
+        [
+          "Tu",
+          246
+        ]
+      ]
+    },
+    "MEASUREMENT_UNIT": {
+      "total_mentions": 16557,
+      "unique_entities": 16,
+      "top_entities": [
+        [
+          "v",
+          13643
+        ],
+        [
+          "V",
+          1281
+        ],
+        [
+          "k",
+          1240
+        ],
+        [
+          "nm",
+          136
+        ],
+        [
+          "K",
+          89
+        ],
+        [
+          "eV",
+          65
+        ],
+        [
+          "mV",
+          43
+        ],
+        [
+          "W",
+          36
+        ],
+        [
+          "Volt",
+          7
+        ],
+        [
+          "Kelvin",
+          6
+        ]
+      ]
+    },
+    "PHYSICS_CONCEPT": {
+      "total_mentions": 238,
+      "unique_entities": 17,
+      "top_entities": [
+        [
+          "Kvantová Biológia",
+          113
+        ],
+        [
+          "KVANTOVÁ BIOLÓGIA",
+          41
+        ],
+        [
+          "kvantová biológia",
+          14
+        ],
+        [
+          "negatívna entropia",
+          12
+        ],
+        [
+          "Kvantová biológia",
+          11
+        ],
+        [
+          "Negatívna Entropia",
+          10
+        ],
+        [
+          "kvantovanie",
+          8
+        ],
+        [
+          "Gibbsova voľná energia",
+          5
+        ],
+        [
+          "piezoelektrina",
+          5
+        ],
+        [
+          "negatívna Entropia",
+          5
+        ]
+      ]
+    },
+    "CELLULAR_COMPONENT": {
+      "total_mentions": 2014,
+      "unique_entities": 23,
+      "top_entities": [
+        [
+          "mitochondrie",
+          1183
+        ],
+        [
+          "mitochondria",
+          343
+        ],
+        [
+          "MITOCHONDRIE",
+          145
+        ],
+        [
+          "Mitochondrie",
+          127
+        ],
+        [
+          "Mitochondria",
+          55
+        ],
+        [
+          "MITOCHONDRIA",
+          47
+        ],
+        [
+          "CHLOROPLAST",
+          21
+        ],
+        [
+          "chloroplast",
+          20
+        ],
+        [
+          "respiračné komplexy",
+          16
+        ],
+        [
+          "vnútorná membrána",
+          15
+        ]
+      ]
+    },
+    "ENVIRONMENTAL": {
+      "total_mentions": 1517,
+      "unique_entities": 27,
+      "top_entities": [
+        [
+          "chlad",
+          332
+        ],
+        [
+          "teplo",
+          191
+        ],
+        [
+          "deutérium",
+          178
+        ],
+        [
+          "teplota",
+          120
+        ],
+        [
+          "Chlad",
+          107
+        ],
+        [
+          "CHLAD",
+          106
+        ],
+        [
+          "tlak",
+          96
+        ],
+        [
+          "TEPLO",
+          81
+        ],
+        [
+          "Teplo",
+          38
+        ],
+        [
+          "CIRKADIÁLNY RYTMUS",
+          37
+        ]
+      ]
+    },
+    "MEASUREMENT": {
+      "total_mentions": 606,
+      "unique_entities": 248,
+      "top_entities": [
+        [
+          "10 cm",
+          14
+        ],
+        [
+          "400 mV",
+          13
+        ],
+        [
+          "580 nm",
+          12
+        ],
+        [
+          "5G",
+          11
+        ],
+        [
+          "200 mV",
+          11
+        ],
+        [
+          "7,83 Hz",
+          10
+        ],
+        [
+          "4G",
+          10
+        ],
+        [
+          "430 nm",
+          9
+        ],
+        [
+          "480 nm",
+          7
+        ],
+        [
+          "10 Hz",
+          7
+        ]
+      ]
+    },
+    "TECHNICAL_TERM": {
+      "total_mentions": 1169,
+      "unique_entities": 16,
+      "top_entities": [
+        [
+          "ATP",
+          750
+        ],
+        [
+          "Redox",
+          151
+        ],
+        [
+          "REDOX",
+          95
+        ],
+        [
+          "redox",
+          58
+        ],
+        [
+          "ROS",
+          50
+        ],
+        [
+          "molekulárny vodík",
+          34
+        ],
+        [
+          "detoxikácia",
+          8
+        ],
+        [
+          "DETOXIKÁCIA",
+          6
+        ],
+        [
+          "ALAN",
+          5
+        ],
+        [
+          "biohacking",
+          4
+        ]
+      ]
+    },
+    "GENETIC_PROCESS": {
+      "total_mentions": 89,
+      "unique_entities": 12,
+      "top_entities": [
+        [
+          "Epigenetika",
+          51
+        ],
+        [
+          "epigenetika",
+          16
+        ],
+        [
+          "EPIGENETIKA",
+          4
+        ],
+        [
+          "Endosymbióza",
+          3
+        ],
+        [
+          "ENDOSYMBIÓZA",
+          3
+        ],
+        [
+          "Epigenetics",
+          3
+        ],
+        [
+          "transkripcia",
+          2
+        ],
+        [
+          "Acetylácia histónov",
+          2
+        ],
+        [
+          "metylácia DNA",
+          2
+        ],
+        [
+          "translácia",
+          1
+        ]
+      ]
+    },
+    "DISEASE": {
+      "total_mentions": 234,
+      "unique_entities": 19,
+      "top_entities": [
+        [
+          "rakovina",
+          90
+        ],
+        [
+          "cukrovka",
+          32
+        ],
+        [
+          "RAKOVINA",
+          25
+        ],
+        [
+          "Rakovina",
+          17
+        ],
+        [
+          "Cukrovka",
+          16
+        ],
+        [
+          "autizmus",
+          10
+        ],
+        [
+          "CUKROVKA",
+          9
+        ],
+        [
+          "Cancer",
+          7
+        ],
+        [
+          "autoimunita",
+          7
+        ],
+        [
+          "Diabetes",
+          5
+        ]
+      ]
+    },
+    "FATTY_ACID": {
+      "total_mentions": 1530,
+      "unique_entities": 22,
+      "top_entities": [
+        [
+          "DHA",
+          763
+        ],
+        [
+          "cholesterol",
+          241
+        ],
+        [
+          "LDL",
+          152
+        ],
+        [
+          "VLDL",
+          95
+        ],
+        [
+          "PUFA",
+          82
+        ],
+        [
+          "HDL",
+          81
+        ],
+        [
+          "Cholesterol",
+          37
+        ],
+        [
+          "ketóny",
+          24
+        ],
+        [
+          "triglyceridy",
+          19
+        ],
+        [
+          "Ketóny",
+          9
+        ]
+      ]
+    },
+    "HORMONE": {
+      "total_mentions": 1295,
+      "unique_entities": 48,
+      "top_entities": [
+        [
+          "inzulín",
+          173
+        ],
+        [
+          "leptín",
+          141
+        ],
+        [
+          "dopamín",
+          91
+        ],
+        [
+          "Leptín",
+          89
+        ],
+        [
+          "melatonín",
+          87
+        ],
+        [
+          "LEPTÍN",
+          79
+        ],
+        [
+          "serotonín",
+          65
+        ],
+        [
+          "T3",
+          63
+        ],
+        [
+          "Inzulín",
+          60
+        ],
+        [
+          "kortizol",
+          51
+        ]
+      ]
+    },
+    "SYMPTOM_CONDITION": {
+      "total_mentions": 140,
+      "unique_entities": 9,
+      "top_entities": [
+        [
+          "zápal",
+          98
+        ],
+        [
+          "bolesť",
+          17
+        ],
+        [
+          "únava",
+          7
+        ],
+        [
+          "ZÁPAL",
+          7
+        ],
+        [
+          "oxidative stress",
+          4
+        ],
+        [
+          "Zápal",
+          3
+        ],
+        [
+          "neurodegenerácia",
+          2
+        ],
+        [
+          "BOLESŤ",
+          1
+        ],
+        [
+          "inflammation",
+          1
+        ]
+      ]
+    },
+    "LIGHT_ELECTROMAGNETIC": {
+      "total_mentions": 1821,
+      "unique_entities": 44,
+      "top_entities": [
+        [
+          "UV svetlo",
+          387
+        ],
+        [
+          "elektrón",
+          289
+        ],
+        [
+          "infračervené svetlo",
+          134
+        ],
+        [
+          "UVB",
+          114
+        ],
+        [
+          "slnečné svetlo",
+          113
+        ],
+        [
+          "protón",
+          112
+        ],
+        [
+          "modré svetlo",
+          105
+        ],
+        [
+          "fotón",
+          102
+        ],
+        [
+          "UVA",
+          87
+        ],
+        [
+          "ELEKTRÓN",
+          38
+        ]
+      ]
+    },
+    "METABOLIC_PROCESS": {
+      "total_mentions": 277,
+      "unique_entities": 24,
+      "top_entities": [
+        [
+          "krebsov cyklus",
+          50
+        ],
+        [
+          "oxidácia",
+          44
+        ],
+        [
+          "apoptóza",
+          29
+        ],
+        [
+          "autofágia",
+          20
+        ],
+        [
+          "Apoptóza",
+          20
+        ],
+        [
+          "Autofágia",
+          17
+        ],
+        [
+          "glykolýza",
+          15
+        ],
+        [
+          "Fotosyntéza",
+          13
+        ],
+        [
+          "KREBSOV CYKLUS",
+          11
+        ],
+        [
+          "fotosyntéza",
+          9
+        ]
+      ]
+    },
+    "VITAMIN_MINERAL": {
+      "total_mentions": 628,
+      "unique_entities": 45,
+      "top_entities": [
+        [
+          "vápnik",
+          66
+        ],
+        [
+          "vitamín A",
+          59
+        ],
+        [
+          "horčík",
+          47
+        ],
+        [
+          "síra",
+          42
+        ],
+        [
+          "vitamín D3",
+          39
+        ],
+        [
+          "Molybdén",
+          35
+        ],
+        [
+          "železo",
+          30
+        ],
+        [
+          "jód",
+          26
+        ],
+        [
+          "vitamín C",
+          22
+        ],
+        [
+          "molybdén",
+          22
+        ]
+      ]
+    },
+    "ORGAN_SYSTEM": {
+      "total_mentions": 374,
+      "unique_entities": 17,
+      "top_entities": [
+        [
+          "pečeň",
+          105
+        ],
+        [
+          "epifýza",
+          75
+        ],
+        [
+          "mozgomiešny mok",
+          39
+        ],
+        [
+          "CNS",
+          30
+        ],
+        [
+          "žalúdok",
+          29
+        ],
+        [
+          "štítna žľaza",
+          20
+        ],
+        [
+          "Pečeň",
+          16
+        ],
+        [
+          "hypotalamus",
+          13
+        ],
+        [
+          "Epifýza",
+          12
+        ],
+        [
+          "Mozgomiešny mok",
+          10
+        ]
+      ]
+    },
+    "LIFESTYLE": {
+      "total_mentions": 506,
+      "unique_entities": 30,
+      "top_entities": [
+        [
+          "spánok",
+          121
+        ],
+        [
+          "stres",
+          58
+        ],
+        [
+          "grounding",
+          46
+        ],
+        [
+          "Spánok",
+          37
+        ],
+        [
+          "Adaptácia na chlad",
+          30
+        ],
+        [
+          "SPÁNOK",
+          29
+        ],
+        [
+          "adaptácia na chlad",
+          19
+        ],
+        [
+          "uzemnenie",
+          18
+        ],
+        [
+          "fasting",
+          18
+        ],
+        [
+          "STRES",
+          17
+        ]
+      ]
+    }
+  },
+  "top_connected_entities": {
+    "mitochondrie": {
+      "total_connections": 21827,
+      "unique_connections": 311,
+      "top_connected": [
+        [
+          "atp",
+          2493
+        ],
+        [
+          "mitochondria",
+          1753
+        ],
+        [
+          "chlad",
+          1227
+        ],
+        [
+          "dha",
+          1147
+        ],
+        [
+          "elektrón",
+          780
+        ]
+      ]
+    },
+    "atp": {
+      "total_connections": 11832,
+      "unique_connections": 240,
+      "top_connected": [
+        [
+          "mitochondrie",
+          2493
+        ],
+        [
+          "mitochondria",
+          901
+        ],
+        [
+          "teplo",
+          559
+        ],
+        [
+          "redox",
+          502
+        ],
+        [
+          "dha",
+          419
+        ]
+      ]
+    },
+    "dha": {
+      "total_connections": 10008,
+      "unique_connections": 204,
+      "top_connected": [
+        [
+          "mitochondrie",
+          1147
+        ],
+        [
+          "melatonín",
+          468
+        ],
+        [
+          "chlad",
+          451
+        ],
+        [
+          "mitochondria",
+          451
+        ],
+        [
+          "uv svetlo",
+          427
+        ]
+      ]
+    },
+    "mitochondria": {
+      "total_connections": 8857,
+      "unique_connections": 198,
+      "top_connected": [
+        [
+          "mitochondrie",
+          1753
+        ],
+        [
+          "atp",
+          901
+        ],
+        [
+          "dha",
+          451
+        ],
+        [
+          "elektrón",
+          357
+        ],
+        [
+          "redox",
+          346
+        ]
+      ]
+    },
+    "chlad": {
+      "total_connections": 7891,
+      "unique_connections": 174,
+      "top_connected": [
+        [
+          "mitochondrie",
+          1227
+        ],
+        [
+          "inzulín",
+          471
+        ],
+        [
+          "dha",
+          451
+        ],
+        [
+          "atp",
+          412
+        ],
+        [
+          "teplo",
+          381
+        ]
+      ]
+    },
+    "uv svetlo": {
+      "total_connections": 6128,
+      "unique_connections": 230,
+      "top_connected": [
+        [
+          "mitochondrie",
+          622
+        ],
+        [
+          "dha",
+          427
+        ],
+        [
+          "mitochondria",
+          338
+        ],
+        [
+          "chlad",
+          273
+        ],
+        [
+          "atp",
+          256
+        ]
+      ]
+    },
+    "cholesterol": {
+      "total_connections": 6051,
+      "unique_connections": 145,
+      "top_connected": [
+        [
+          "ldl",
+          942
+        ],
+        [
+          "vldl",
+          704
+        ],
+        [
+          "hdl",
+          622
+        ],
+        [
+          "mitochondrie",
+          480
+        ],
+        [
+          "dha",
+          259
+        ]
+      ]
+    },
+    "elektrón": {
+      "total_connections": 5340,
+      "unique_connections": 177,
+      "top_connected": [
+        [
+          "mitochondrie",
+          780
+        ],
+        [
+          "mitochondria",
+          357
+        ],
+        [
+          "atp",
+          334
+        ],
+        [
+          "protón",
+          333
+        ],
+        [
+          "dha",
+          287
+        ]
+      ]
+    },
+    "redox": {
+      "total_connections": 5230,
+      "unique_connections": 166,
+      "top_connected": [
+        [
+          "mitochondrie",
+          727
+        ],
+        [
+          "atp",
+          502
+        ],
+        [
+          "mitochondria",
+          346
+        ],
+        [
+          "cholesterol",
+          247
+        ],
+        [
+          "chlad",
+          227
+        ]
+      ]
+    },
+    "teplo": {
+      "total_connections": 4872,
+      "unique_connections": 177,
+      "top_connected": [
+        [
+          "mitochondrie",
+          664
+        ],
+        [
+          "atp",
+          559
+        ],
+        [
+          "teplota",
+          388
+        ],
+        [
+          "chlad",
+          381
+        ],
+        [
+          "uv svetlo",
+          208
+        ]
+      ]
+    }
+  },
+  "article_diversity": {
+    "SOLÁRNY MOZOĽ #FAQ (melasma, akné, znamienka a iné)": {
+      "unique_entities": 37,
+      "total_mentions": 245,
+      "top_entities": [
+        [
+          "leptín",
+          31
+        ],
+        [
+          "dha",
+          28
+        ],
+        [
+          "chlad",
+          21
+        ],
+        [
+          "mitochondrie",
+          14
+        ],
+        [
+          "uv svetlo",
+          14
+        ]
+      ]
+    },
+    "Hormóny #10 inzulínová rezistencia a reverzný flow mitochondrie": {
+      "unique_entities": 35,
+      "total_mentions": 245,
+      "top_entities": [
+        [
+          "mitochondrie",
+          47
+        ],
+        [
+          "inzulín",
+          45
+        ],
+        [
+          "chlad",
+          27
+        ],
+        [
+          "mitochondria",
+          20
+        ],
+        [
+          "atp",
+          15
+        ]
+      ]
+    },
+    "VOZ #12 Irisín, mTOR, NAD a chlad ako druhá barlička": {
+      "unique_entities": 34,
+      "total_mentions": 185,
+      "top_entities": [
+        [
+          "mitochondrie",
+          28
+        ],
+        [
+          "chlad",
+          27
+        ],
+        [
+          "ros",
+          14
+        ],
+        [
+          "redox",
+          9
+        ],
+        [
+          "mitochondria",
+          9
+        ]
+      ]
+    },
+    "KB #4 Mitochondrie, molekulárny vodík a rozpolenie vody ": {
+      "unique_entities": 33,
+      "total_mentions": 174,
+      "top_entities": [
+        [
+          "mitochondria",
+          24
+        ],
+        [
+          "mitochondrie",
+          21
+        ],
+        [
+          "molybdén",
+          20
+        ],
+        [
+          "molekulárny vodík",
+          19
+        ],
+        [
+          "elektrón",
+          9
+        ]
+      ]
+    },
+    "Hormóny #3 Cholesterol a jeho rozdielny objem, hmotnosť a Energia": {
+      "unique_entities": 33,
+      "total_mentions": 241,
+      "top_entities": [
+        [
+          "vldl",
+          55
+        ],
+        [
+          "cholesterol",
+          43
+        ],
+        [
+          "hdl",
+          39
+        ],
+        [
+          "ldl",
+          34
+        ],
+        [
+          "pečeň",
+          12
+        ]
+      ]
+    }
+  },
+  "entity_co_occurrence_sample": {
+    "kvantová biológia": {
+      "mitochondrie": 252,
+      "chlad": 52,
+      "redox": 60,
+      "žalúdok": 1,
+      "infračervené svetlo": 40,
+      "spánok": 42,
+      "pufa": 6,
+      "pečeň": 10,
+      "železo": 13,
+      "elektrón": 165,
+      "atp": 117,
+      "dha": 175,
+      "mozgomiešny mok": 4,
+      "uv svetlo": 67,
+      "ketóza": 1,
+      "modré svetlo": 26,
+      "docosahexaenoic acid": 1,
+      "teplota": 20,
+      "protón": 37,
+      "fotón": 47,
+      "deutérium": 66,
+      "slnečné svetlo": 21,
+      "epigenetika": 20,
+      "vnútorná membrána": 4,
+      "rakovina": 32,
+      "grounding": 9,
+      "adaptácia na chlad": 6,
+      "uzemnenie": 2,
+      "krebsov cyklus": 20,
+      "mitochondria": 79,
+      "glykolýza": 1,
+      "uva": 14,
+      "cancer": 1,
+      "transcription": 1,
+      "vitamin d3": 1,
+      "30 mg": 1,
+      "jód": 7,
+      "selén": 2,
+      "cholesterol": 16,
+      "adenozín trifosfát": 1,
+      "cvičenie": 1,
+      "ros": 9,
+      "reactive oxygen species": 2,
+      "vitamín a": 20,
+      "vápnik": 45,
+      "kvantovanie": 8,
+      "tlak": 18,
+      "480 nm": 1,
+      "467 nm": 1,
+      "476 nm": 1,
+      "600 nm": 1,
+      "ketóny": 6,
+      "horčík": 25,
+      "cukrovka": 11,
+      "inzulín": 27,
+      "teplo": 68,
+      "leptín": 93,
+      "000 hz": 2,
+      "800 hz": 1,
+      "diabetes": 2,
+      "vitamín d3": 12,
+      "uvb": 17,
+      "nir": 6,
+      "apoptóza": 5,
+      "1530 nm": 1,
+      "290 nm": 1,
+      "6 v": 4,
+      "297 nm": 1,
+      "ldl": 10,
+      "hdl": 9,
+      "300 nm": 3,
+      "fotosyntéza": 9,
+      "5 nm": 1,
+      "200 mv": 8,
+      "polynenasýtené mastné kyseliny": 1,
+      "chloroplast": 3,
+      "4,028 g": 1,
+      "2023 v": 3,
+      "1 khz": 1,
+      "20 hz": 1,
+      "20 khz": 1,
+      "40hz": 1,
+      "10 cm": 1,
+      "rastový hormón": 1,
+      "1 cm": 1,
+      "uvc": 1,
+      "280 nm": 1,
+      "100 g": 8,
+      "negatívna entropia": 8,
+      "dýchanie": 3,
+      "síra": 6,
+      "melatonín": 11,
+      "autofágia": 4,
+      "hypotalamus": 2,
+      "zápal": 3,
+      "10 kg": 1,
+      "kortizol": 7,
+      "oxidácia": 16,
+      "10 km": 1,
+      "crysta": 1,
+      "dopamín": 7,
+      "ozón": 4,
+      "670 nm": 1,
+      "696 nm": 1,
+      "348 nm": 1,
+      "400 mv": 1,
+      "289 v": 1,
+      "autoimunita": 2,
+      "piezoelektrina": 3,
+      "volt": 1,
+      "viditeľné svetlo": 2,
+      "epifýza": 4,
+      "stres": 6,
+      "4°c": 1,
+      "1989 v": 1,
+      "1 v": 1,
+      "elektrónvolt": 1,
+      "watt": 2,
+      "fasting": 2,
+      "autizmus": 1,
+      "meď": 8,
+      "20 km": 1,
+      "2003 k": 1,
+      "alan": 1,
+      "130 cm": 2,
+      "triglyceridy": 1,
+      "molybdén": 3,
+      "zinok": 1,
+      "respiračné komplexy": 1,
+      "250 mv": 2,
+      "0,1 nm": 1,
+      "03.06 v": 2,
+      "30 °c": 1,
+      "cns": 6,
+      "1,24 v": 1,
+      "89 hz": 1,
+      "detoxikácia": 4,
+      "700 nm": 1,
+      "elektromagnetizmus": 2,
+      "sleep": 1,
+      "serotonín": 2,
+      "calcium": 1,
+      "26.10 v": 1,
+      "vlhkosť": 1,
+      "photon": 4,
+      "visible light": 2,
+      "oxidative stress": 1,
+      "21463953 m": 1,
+      "oxidation": 1,
+      "4 °c": 2,
+      "20 °c": 2,
+      "48,3 °c": 2,
+      "72 m": 2,
+      "68 m": 2
+    },
+    "mitochondrie": {
+      "kvantová biológia": 252,
+      "chlad": 1227,
+      "redox": 727,
+      "dopamín": 111,
+      "deutérium": 607,
+      "dha": 1147,
+      "serotonín": 141,
+      "epigenetika": 121,
+      "autizmus": 9,
+      "cukrovka": 190,
+      "rakovina": 278,
+      "zápal": 108,
+      "slnečné svetlo": 252,
+      "tlak": 280,
+      "autofágia": 122,
+      "apoptóza": 144,
+      "železo": 97,
+      "meď": 12,
+      "síra": 83,
+      "melatonín": 350,
+      "uv svetlo": 622,
+      "cholesterol": 480,
+      "cns": 31,
+      "pufa": 177,
+      "pečeň": 248,
+      "žalúdok": 26,
+      "infračervené svetlo": 316,
+      "spánok": 269,
+      "glykolýza": 104,
+      "atp": 2493,
+      "horčík": 146,
+      "vápnik": 116,
+      "nir": 25,
+      "protón": 459,
+      "mitochondria": 1753,
+      "stres": 87,
+      "teplo": 664,
+      "30.08 v": 2,
+      "elektrón": 780,
+      "mozgomiešny mok": 66,
+      "ketóza": 19,
+      "cirkadiálny rytmus": 89,
+      "teplota": 295,
+      "inzulín": 741,
+      "chloroplast": 161,
+      "fotosyntéza": 68,
+      "ozón": 76,
+      "modré svetlo": 213,
+      "fotón": 120,
+      "000 km": 7,
+      "molybdén": 127,
+      "adaptácia na chlad": 124,
+      "melatonin": 20,
+      "elektromagnetizmus": 79,
+      "krebsov cyklus": 239,
+      "vnútorná membrána": 57,
+      "grounding": 90,
+      "uzemnenie": 65,
+      "oxidácia": 200,
+      "glukoneogenéza": 23,
+      "1200 nm": 1,
+      "uvb": 121,
+      "vitamín c": 41,
+      "ros": 207,
+      "watt": 9,
+      "uva": 96,
+      "cancer": 1,
+      "nasýtené mastné kyseliny": 2,
+      "nenasýtené mastné kyseliny": 7,
+      "polynenasýtené mastné kyseliny": 10,
+      "adenozín trifosfát": 9,
+      "cvičenie": 17,
+      "reactive oxygen species": 13,
+      "epifýza": 39,
+      "parkinsonova choroba": 12,
+      "calcium": 15,
+      "depression": 2,
+      "elektrónový transportný reťazec": 5,
+      "fasting": 67,
+      "fir": 6,
+      "2cm": 10,
+      "molekulárny vodík": 128,
+      "ketóny": 137,
+      "leptín": 401,
+      "100 g": 10,
+      "415 nm": 3,
+      "10 hz": 6,
+      "7,83 hz": 14,
+      "45 hz": 3,
+      "0,5 hz": 3,
+      "vldl": 96,
+      "100 hz": 26,
+      "negatívna entropia": 80,
+      "30 v": 17,
+      "vitamín d3": 45,
+      "diabetes": 4,
+      "1530 nm": 2,
+      "290 nm": 2,
+      "6 v": 12,
+      "297 nm": 2,
+      "ldl": 187,
+      "hdl": 63,
+      "300 nm": 2,
+      "serotonin": 23,
+      "autoimunita": 10,
+      "60 mg": 2,
+      "50 mg": 4,
+      "3.3 mg": 2,
+      "3 mg": 2,
+      "vitamín a": 105,
+      "5 nm": 11,
+      "200 mv": 38,
+      "jód": 94,
+      "elektrónvolt": 8,
+      "volt": 21,
+      "proton": 3,
+      "700 °c": 1,
+      "000 °c": 1,
+      "iron": 9,
+      "sulfur": 13,
+      "respiračné komplexy": 159,
+      "molybdenum": 3,
+      "neurodegenerácia": 7,
+      "gibbsova voľná energia": 20,
+      "electron": 5,
+      "4,028 g": 7,
+      "2023 v": 2,
+      "štítna žľaza": 27,
+      "hypotalamus": 11,
+      "10 cm": 16,
+      "3600 v": 1,
+      "folát": 26,
+      "16°c": 1,
+      "16 °c": 1,
+      "20 v": 7,
+      "únava": 13,
+      "depresia": 6,
+      "testosterón": 36,
+      "estrogén": 28,
+      "1 khz": 1,
+      "20 hz": 1,
+      "20 khz": 1,
+      "10 m": 1,
+      "5 m": 1,
+      "60 kg": 15,
+      "100 kg": 3,
+      "40 hz": 6,
+      "meditácia": 4,
+      "1014 hz": 1,
+      "100 ghz": 5,
+      "000 mhz": 5,
+      "štruktúrovaná voda": 6,
+      "dýchanie": 54,
+      "10 kg": 2,
+      "0,5 g": 14,
+      "triglyceridy": 40,
+      "cristae": 12,
+      "kortizol": 86,
+      "10 km": 11,
+      "growth hormone": 14,
+      "rastový hormón": 20,
+      "0,08 mm": 2,
+      "0,6 mm": 2,
+      "320 nm": 8,
+      "315 nm": 4,
+      "crysta": 58,
+      "670 nm": 1,
+      "696 nm": 1,
+      "348 nm": 1,
+      "400 mv": 58,
+      "289 v": 1,
+      "piezoelektrina": 4,
+      "viditeľné svetlo": 19,
+      "uvc": 12,
+      "230 nm": 2,
+      "estrogen": 1,
+      "insulin": 1,
+      "post": 1,
+      "1 v": 7,
+      "transkripcia": 3,
+      "1,24 v": 17,
+      "4°c": 1,
+      "adrenalín": 9,
+      "noradrenalín": 20,
+      "1989 v": 1,
+      "kyselina dokosahexaenová": 3,
+      "endosymbióza": 9,
+      "unsaturated fatty acids": 3,
+      "300 v": 2,
+      "432 hz": 10,
+      "73 hz": 3,
+      "146 hz": 3,
+      "292 hz": 3,
+      "584 hz": 3,
+      "440 hz": 6,
+      "760 nm": 8,
+      "leptin": 30,
+      "pregnenolón": 118,
+      "100km": 1,
+      "200 km": 2,
+      "detoxikácia": 24,
+      "heat": 15,
+      "tsh": 7,
+      "stress": 1,
+      "26.10 v": 15,
+      "8 hz": 2,
+      "1 hz": 2,
+      "bolesť": 22,
+      "50hz": 5,
+      "inzulínová rezistencia": 8,
+      "zinok": 8,
+      "450 nm": 16,
+      "780 nm": 3,
+      "0 hz": 1,
+      "000 hz": 2,
+      "selén": 8,
+      "biohacking": 17,
+      "30 cm": 11,
+      "500 mg": 3,
+      "1 g": 3,
+      "4 mg": 3,
+      "700 nm": 11,
+      "380 nm": 2,
+      "3100 nm": 2,
+      "kelvin": 9,
+      "180 cm": 2,
+      "75 cm": 2,
+      "6 cm": 2,
+      "kvantovanie": 10,
+      "sleep": 2,
+      "280 mv": 15,
+      "800 mv": 15,
+      "20 mv": 11,
+      "80 g": 4,
+      "10°c": 3,
+      "150 mv": 12,
+      "chemiosmóza": 3,
+      "vlhkosť": 3,
+      "25 °c": 1,
+      "alan": 15,
+      "artificial light at night": 4,
+      "umelé svetlo v noci": 4,
+      "20 km": 3,
+      "2003 k": 3,
+      "1947 v": 9,
+      "60kg": 10,
+      "0,12 nm": 4,
+      "1945 v": 1,
+      "130 cm": 1,
+      "120 kg": 11,
+      "00 v": 24,
+      "1,4 nm": 15,
+      "70 kg": 3,
+      "1000 nm": 1,
+      "90 nm": 1,
+      "40 nm": 2,
+      "26 nm": 1,
+      "12,5 nm": 1,
+      "4 m": 1,
+      "19 cm": 1,
+      "0,68 km": 1,
+      "7,1 cm": 1,
+      "0,26 km": 1,
+      "1,8 mm": 2,
+      "4 kg": 1,
+      "180,156 g": 1,
+      "18 mg": 1,
+      "0,18 g": 1,
+      "92,0932 g": 3,
+      "256,43 g": 3,
+      "282,47 g": 2,
+      "278,44 g": 2,
+      "32,051 mg": 2,
+      "3 g": 2,
+      "909,4332 g": 2,
+      "acetylácia histónov": 2,
+      "metylácia dna": 2,
+      "epigenetics": 3,
+      "250 mv": 4,
+      "0,1 nm": 3,
+      "03.06 v": 1,
+      "415nm": 1,
+      "cytoplasm": 1,
+      "liver": 2,
+      "30 °c": 1,
+      "3400 nm": 1,
+      "480 nm": 1,
+      "12,5 cm": 2,
+      "2,99 cm": 2,
+      "2,4 ghz": 2,
+      "10 ghz": 2,
+      "15 °c": 1,
+      "10,5 kg": 10,
+      "89 hz": 2,
+      "100 cm": 2,
+      "20 cm": 2,
+      "200 nm": 1,
+      "1500 nm": 1,
+      "photon": 4,
+      "visible light": 2,
+      "oxidative stress": 1,
+      "21463953 m": 1,
+      "oxidation": 1,
+      "14°c": 1,
+      "2018 v": 1,
+      "40°c": 2,
+      "20°c": 2,
+      "4 °c": 2,
+      "72 m": 2,
+      "68 m": 1,
+      "0 m": 1
+    },
+    "chlad": {
+      "kvantová biológia": 52,
+      "mitochondrie": 1227,
+      "redox": 227,
+      "dha": 451,
+      "síra": 18,
+      "serotonín": 129,
+      "melatonín": 107,
+      "uv svetlo": 273,
+      "cholesterol": 93,
+      "železo": 20,
+      "meď": 6,
+      "cns": 16,
+      "pufa": 98,
+      "pečeň": 52,
+      "žalúdok": 6,
+      "elektrón": 92,
+      "atp": 412,
+      "infračervené svetlo": 95,
+      "mozgomiešny mok": 24,
+      "spánok": 118,
+      "ketóza": 25,
+      "ozón": 3,
+      "jód": 134,
+      "selén": 27,
+      "deutérium": 58,
+      "molekulárny vodík": 13,
+      "uvb": 58,
+      "slnečné svetlo": 69,
+      "nir": 4,
+      "cukrovka": 94,
+      "modré svetlo": 67,
+      "inzulín": 471,
+      "chloroplast": 8,
+      "diabetes": 3,
+      "mitochondria": 342,
+      "protón": 24,
+      "fotón": 22,
+      "teplota": 181,
+      "elektrónový transportný reťazec": 2,
+      "fasting": 42,
+      "elektromagnetizmus": 15,
+      "tlak": 66,
+      "molybdén": 6,
+      "glykolýza": 3,
+      "ros": 43,
+      "teplo": 381,
+      "ketóny": 116,
+      "horčík": 52,
+      "adaptácia na chlad": 156,
+      "leptín": 349,
+      "ldl": 47,
+      "vápnik": 20,
+      "oxidácia": 37,
+      "vitamín d3": 18,
+      "rakovina": 12,
+      "adrenalín": 25,
+      "dopamín": 256,
+      "cvičenie": 2,
+      "uva": 27,
+      "serotonin": 26,
+      "60 mg": 5,
+      "50 mg": 5,
+      "3.3 mg": 5,
+      "3 mg": 5,
+      "stres": 70,
+      "gibbsova voľná energia": 3,
+      "electron": 2,
+      "negatívna entropia": 20,
+      "7 v": 1,
+      "1 μm": 1,
+      "20 μm": 1,
+      "1 mv": 3,
+      "10 mv": 3,
+      "epifýza": 10,
+      "štítna žľaza": 96,
+      "tyroxín": 3,
+      "noradrenalín": 16,
+      "cirkadiálny rytmus": 57,
+      "16°c": 7,
+      "uzemnenie": 19,
+      "20 v": 16,
+      "folát": 2,
+      "únava": 7,
+      "depresia": 10,
+      "uvc": 4,
+      "850 nm": 2,
+      "470 nm": 1,
+      "360 nm": 2,
+      "280 nm": 2,
+      "rastový hormón": 13,
+      "dýchanie": 31,
+      "post": 1,
+      "autofágia": 6,
+      "grounding": 34,
+      "zápal": 47,
+      "10 kg": 4,
+      "epigenetika": 13,
+      "apoptóza": 3,
+      "glukoneogenéza": 2,
+      "growth hormone": 2,
+      "10 km": 1,
+      "krebsov cyklus": 13,
+      "1 v": 4,
+      "transkripcia": 1,
+      "estrogén": 1,
+      "1,24 v": 3,
+      "4°c": 3,
+      "leptin": 57,
+      "pregnenolón": 5,
+      "kortizol": 103,
+      "detoxikácia": 5,
+      "endosymbióza": 1,
+      "sulfur": 2,
+      "vitamín a": 20,
+      "štruktúrovaná voda": 2,
+      "heat": 19,
+      "hdl": 5,
+      "tsh": 12,
+      "stress": 2,
+      "bolesť": 24,
+      "vnútorná membrána": 1,
+      "50hz": 2,
+      "inzulínová rezistencia": 6,
+      "autoimunita": 1,
+      "melatonin": 18,
+      "vldl": 13,
+      "respiračné komplexy": 25,
+      "hypotalamus": 20,
+      "6 v": 14,
+      "biohacking": 1,
+      "400 mv": 25,
+      "700 nm": 8,
+      "780 nm": 3,
+      "380 nm": 3,
+      "3100 nm": 3,
+      "kelvin": 8,
+      "180 cm": 1,
+      "75 cm": 1,
+      "6 cm": 1,
+      "sleep": 2,
+      "800 mv": 2,
+      "200 mv": 7,
+      "280 mv": 2,
+      "20 mv": 3,
+      "10°c": 2,
+      "00 v": 7,
+      "chemiosmóza": 5,
+      "25 °c": 3,
+      "alan": 3,
+      "artificial light at night": 1,
+      "umelé svetlo v noci": 1,
+      "1947 v": 2,
+      "vitamín c": 2,
+      "triglyceridy": 14,
+      "acetylácia histónov": 1,
+      "metylácia dna": 1,
+      "epigenetics": 1,
+      "0,1 nm": 1,
+      "80 g": 2,
+      "vlhkosť": 7,
+      "25 m": 2,
+      "37 °c": 2,
+      "4 °c": 2,
+      "15 °c": 3,
+      "3mm": 3,
+      "10,5 kg": 1,
+      "14°c": 8,
+      "10 cm": 1,
+      "09.047 v": 1,
+      "0,1 mm": 1,
+      "000 °c": 1,
+      "fotosyntéza": 2,
+      "72 m": 2,
+      "0 m": 2
+    },
+    "translácia": {
+      "rakovina": 1,
+      "endosymbióza": 1
+    },
+    "rakovina": {
+      "translácia": 1,
+      "endosymbióza": 2,
+      "dha": 71,
+      "deutérium": 41,
+      "serotonín": 9,
+      "epigenetika": 21,
+      "autizmus": 8,
+      "cukrovka": 5,
+      "zápal": 44,
+      "mitochondrie": 278,
+      "slnečné svetlo": 27,
+      "tlak": 10,
+      "autofágia": 24,
+      "apoptóza": 39,
+      "cirkadiálny rytmus": 9,
+      "cholesterol": 42,
+      "vitamín d3": 17,
+      "hypotalamus": 3,
+      "spánok": 22,
+      "žalúdok": 1,
+      "vnútorná membrána": 1,
+      "uv svetlo": 116,
+      "grounding": 20,
+      "adaptácia na chlad": 5,
+      "modré svetlo": 31,
+      "uzemnenie": 4,
+      "kvantová biológia": 32,
+      "mitochondria": 62,
+      "atp": 116,
+      "ros": 44,
+      "ketóza": 3,
+      "watt": 3,
+      "krebsov cyklus": 16,
+      "uva": 15,
+      "cancer": 5,
+      "pufa": 12,
+      "jód": 5,
+      "selén": 3,
+      "elektrón": 33,
+      "pečeň": 6,
+      "glukoneogenéza": 4,
+      "ketóny": 4,
+      "mozgomiešny mok": 8,
+      "oxidácia": 11,
+      "100 g": 8,
+      "ozón": 4,
+      "000 km": 3,
+      "415 nm": 3,
+      "10 hz": 3,
+      "7,83 hz": 3,
+      "45 hz": 3,
+      "0,5 hz": 3,
+      "chlad": 12,
+      "uvb": 23,
+      "diabetes": 1,
+      "horčík": 4,
+      "ldl": 18,
+      "hdl": 6,
+      "300 nm": 2,
+      "6 v": 1,
+      "40 hz": 2,
+      "100 hz": 2,
+      "60 kg": 2,
+      "meditácia": 4,
+      "stres": 37,
+      "infračervené svetlo": 15,
+      "teplo": 4,
+      "1014 hz": 2,
+      "100 ghz": 2,
+      "000 mhz": 2,
+      "respiračné komplexy": 12,
+      "post": 15,
+      "síra": 4,
+      "redox": 21,
+      "0,5 g": 2,
+      "leptín": 12,
+      "triglyceridy": 1,
+      "cristae": 3,
+      "estrogén": 30,
+      "fotón": 21,
+      "viditeľné svetlo": 6,
+      "uvc": 11,
+      "230 nm": 5,
+      "320 nm": 2,
+      "inzulín": 11,
+      "estrogen": 4,
+      "insulin": 4,
+      "1 v": 4,
+      "transkripcia": 4,
+      "kortizol": 5,
+      "glykolýza": 4,
+      "protón": 4,
+      "elektrónvolt": 1,
+      "000 hz": 1,
+      "fasting": 2,
+      "melatonín": 15,
+      "dopamín": 2,
+      "700 nm": 1,
+      "780 nm": 1,
+      "380 nm": 1,
+      "3100 nm": 1,
+      "epifýza": 6,
+      "elektromagnetizmus": 5,
+      "biohacking": 2,
+      "1971 v": 1,
+      "crysta": 3,
+      "teplota": 2,
+      "vitamin d3": 1,
+      "fotosyntéza": 1,
+      "chloroplast": 3,
+      "piezoelektrina": 2,
+      "vlhkosť": 4,
+      "photon": 8,
+      "visible light": 4,
+      "oxidative stress": 2,
+      "21463953 m": 2,
+      "oxidation": 2
+    },
+    "endosymbióza": {
+      "translácia": 1,
+      "rakovina": 2,
+      "dha": 21,
+      "kyselina dokosahexaenová": 1,
+      "ozón": 2,
+      "mitochondria": 10,
+      "chloroplast": 6,
+      "pufa": 2,
+      "unsaturated fatty acids": 1,
+      "nenasýtené mastné kyseliny": 1,
+      "mitochondrie": 9,
+      "atp": 4,
+      "molybdén": 1,
+      "detoxikácia": 1,
+      "chlad": 1,
+      "sulfur": 1,
+      "fotón": 4,
+      "elektromagnetizmus": 2,
+      "leptín": 1,
+      "uv svetlo": 1,
+      "infračervené svetlo": 1,
+      "epifýza": 1,
+      "mozgomiešny mok": 1,
+      "elektrón": 1,
+      "protón": 1,
+      "volt": 1
+    },
+    "dha": {
+      "rakovina": 71,
+      "endosymbióza": 21,
+      "deutérium": 198,
+      "serotonín": 335,
+      "epigenetika": 42,
+      "autizmus": 5,
+      "cukrovka": 34,
+      "zápal": 81,
+      "mitochondrie": 1147,
+      "slnečné svetlo": 284,
+      "tlak": 62,
+      "autofágia": 58,
+      "apoptóza": 36,
+      "železo": 27,
+      "redox": 221,
+      "meď": 11,
+      "síra": 141,
+      "melatonín": 468,
+      "uv svetlo": 427,
+      "cholesterol": 259,
+      "chlad": 451,
+      "cns": 29,
+      "pufa": 298,
+      "pečeň": 79,
+      "žalúdok": 11,
+      "elektrón": 287,
+      "kvantová biológia": 175,
+      "atp": 419,
+      "infračervené svetlo": 123,
+      "mozgomiešny mok": 27,
+      "spánok": 183,
+      "ketóza": 5,
+      "chloroplast": 180,
+      "fotosyntéza": 59,
+      "ozón": 168,
+      "mitochondria": 451,
+      "modré svetlo": 140,
+      "hypotalamus": 52,
+      "uva": 68,
+      "390 nm": 13,
+      "docosahexaenoic acid": 4,
+      "molybdén": 230,
+      "adaptácia na chlad": 22,
+      "melatonin": 4,
+      "elektromagnetizmus": 2,
+      "fotón": 42,
+      "krebsov cyklus": 19,
+      "vnútorná membrána": 49,
+      "grounding": 72,
+      "uzemnenie": 29,
+      "jód": 153,
+      "selén": 25,
+      "uvb": 83,
+      "kortizol": 84,
+      "adrenalín": 15,
+      "7 v": 2,
+      "molekulárny vodík": 10,
+      "nir": 8,
+      "inzulín": 91,
+      "diabetes": 3,
+      "oxidácia": 31,
+      "nasýtené mastné kyseliny": 5,
+      "nenasýtené mastné kyseliny": 24,
+      "polynenasýtené mastné kyseliny": 18,
+      "epifýza": 60,
+      "dopamín": 116,
+      "467 nm": 3,
+      "476 nm": 3,
+      "600 nm": 3,
+      "vitamín a": 203,
+      "480 nm": 4,
+      "vápnik": 59,
+      "protón": 42,
+      "2cm": 1,
+      "teplo": 90,
+      "horčík": 32,
+      "leptín": 163,
+      "ldl": 117,
+      "ros": 17,
+      "fasting": 6,
+      "vldl": 23,
+      "glykolýza": 4,
+      "vitamín d3": 67,
+      "1530 nm": 2,
+      "290 nm": 2,
+      "6 v": 19,
+      "297 nm": 2,
+      "cvičenie": 2,
+      "proton": 1,
+      "iron": 1,
+      "sulfur": 17,
+      "respiračné komplexy": 7,
+      "4,028 g": 1,
+      "vitamín c": 42,
+      "10 cm": 2,
+      "cirkadiálny rytmus": 51,
+      "serotonin": 39,
+      "folát": 6,
+      "16°c": 2,
+      "16 °c": 2,
+      "teplota": 50,
+      "20 v": 1,
+      "únava": 1,
+      "depresia": 2,
+      "testosterón": 24,
+      "estrogén": 25,
+      "1 khz": 1,
+      "20 hz": 1,
+      "20 khz": 1,
+      "10 m": 1,
+      "5 m": 1,
+      "60 kg": 2,
+      "100 kg": 1,
+      "40 hz": 2,
+      "100 hz": 1,
+      "meditácia": 2,
+      "stres": 44,
+      "1014 hz": 1,
+      "100 ghz": 2,
+      "000 mhz": 2,
+      "štruktúrovaná voda": 1,
+      "dýchanie": 19,
+      "post": 9,
+      "10 kg": 1,
+      "315 nm": 2,
+      "blue light": 1,
+      "420 nm": 2,
+      "430 nm": 1,
+      "465 nm": 1,
+      "450 nm": 2,
+      "570 nm": 1,
+      "580 nm": 1,
+      "negatívna entropia": 16,
+      "670 nm": 15,
+      "400 mv": 19,
+      "289 v": 15,
+      "696 nm": 3,
+      "348 nm": 3,
+      "autoimunita": 2,
+      "piezoelektrina": 1,
+      "volt": 2,
+      "rastový hormón": 4,
+      "noradrenalín": 10,
+      "kyselina dokosahexaenová": 30,
+      "unsaturated fatty acids": 18,
+      "viditeľné svetlo": 38,
+      "300 v": 7,
+      "detoxikácia": 3,
+      "štítna žľaza": 17,
+      "tsh": 7,
+      "stress": 2,
+      "zinok": 5,
+      "pregnenolón": 4,
+      "1 v": 23,
+      "hdl": 18,
+      "leptin": 10,
+      "elektrónvolt": 1,
+      "000 hz": 3,
+      "crysta": 1,
+      "320 nm": 2,
+      "760 nm": 2,
+      "watt": 1,
+      "30 cm": 3,
+      "500 mg": 9,
+      "1 g": 8,
+      "4 mg": 8,
+      "700 nm": 2,
+      "780 nm": 1,
+      "380 nm": 1,
+      "3100 nm": 1,
+      "4 cm": 2,
+      "7 cm": 2,
+      "ketóny": 1,
+      "180 cm": 3,
+      "75 cm": 3,
+      "6 cm": 4,
+      "bolesť": 4,
+      "72 m": 2,
+      "68 m": 2,
+      "inzulínová rezistencia": 1,
+      "00 v": 5,
+      "10 hz": 2,
+      "7,83 hz": 15,
+      "130 cm": 1,
+      "30 v": 3,
+      "1,4 nm": 3,
+      "70 kg": 1,
+      "triglyceridy": 2,
+      "250 mv": 2,
+      "200 mv": 2,
+      "03.06 v": 3,
+      "80 g": 4,
+      "vlhkosť": 5,
+      "25 m": 1,
+      "25 g": 1,
+      "vitamín b6": 1,
+      "1000 mg": 1,
+      "30 °c": 6,
+      "37 °c": 2,
+      "4 °c": 2,
+      "15 °c": 1,
+      "vitamin d3": 2,
+      "calcium": 14,
+      "depression": 2
+    },
+    "19 v": {
+      "409 v": 1,
+      "287 v": 1,
+      "dopamín": 2
+    },
+    "409 v": {
+      "19 v": 1,
+      "287 v": 1
+    },
+    "287 v": {
+      "19 v": 1,
+      "409 v": 1
+    }
+  },
+  "recommendations": {
+    "viable_node_types": [
+      "CHEMICAL_FORMULA",
+      "MEASUREMENT_UNIT",
+      "PHYSICS_CONCEPT",
+      "CELLULAR_COMPONENT",
+      "ENVIRONMENTAL",
+      "MEASUREMENT",
+      "TECHNICAL_TERM",
+      "GENETIC_PROCESS",
+      "DISEASE",
+      "FATTY_ACID",
+      "HORMONE",
+      "SYMPTOM_CONDITION",
+      "LIGHT_ELECTROMAGNETIC",
+      "METABOLIC_PROCESS",
+      "VITAMIN_MINERAL",
+      "ORGAN_SYSTEM",
+      "LIFESTYLE"
+    ],
+    "most_connected_entities": [
+      "mitochondrie",
+      "atp",
+      "dha",
+      "mitochondria",
+      "chlad",
+      "uv svetlo",
+      "cholesterol",
+      "elektrón",
+      "redox",
+      "teplo"
+    ],
+    "richest_articles": [
+      "SOLÁRNY MOZOĽ #FAQ (melasma, akné, znamienka a iné)",
+      "Hormóny #10 inzulínová rezistencia a reverzný flow mitochondrie",
+      "VOZ #12 Irisín, mTOR, NAD a chlad ako druhá barlička",
+      "KB #4 Mitochondrie, molekulárny vodík a rozpolenie vody ",
+      "Hormóny #3 Cholesterol a jeho rozdielny objem, hmotnosť a Energia"
+    ]
+  }
+}
