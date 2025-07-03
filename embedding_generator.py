@@ -82,31 +82,54 @@ class EmbeddingGenerator:
             print(f"❌ Error loading chunks: {e}")
             return []
     
-    def prepare_text_for_embedding(self, text: str) -> str:
+    def prepare_text_for_embedding(self, chunk: Dict[str, Any]) -> str:
         """
-        Prepare text for embedding generation.
+        Prepare text for embedding generation with enhanced context.
         Add query prefix for multilingual-e5 models to improve performance.
         """
-        # For multilingual-e5 models, prefixing with "query: " or "passage: " can improve performance
-        # We use "passage: " since these are document chunks
-        return f"passage: {text.strip()}"
-    
-    def generate_embeddings_batch(self, texts: List[str], batch_size: int = 32) -> np.ndarray:
-        """Generate embeddings for a batch of texts."""
-        embeddings = []
-        total_batches = (len(texts) + batch_size - 1) // batch_size
+        # Get main text
+        main_text = chunk['text'].strip()
         
-        print(f"🔄 Generating embeddings for {len(texts)} texts in {total_batches} batches of {batch_size}...")
+        # Add contextual information to improve embeddings
+        context_parts = []
+        
+        # Add title for better semantic understanding
+        if chunk.get('source_title'):
+            context_parts.append(f"Článok: {chunk['source_title']}")
+        
+        # Add preceding context if available
+        if chunk.get('preceding_context') and len(chunk['preceding_context'].strip()) > 20:
+            context_parts.append(f"Predchádzajúci kontext: {chunk['preceding_context'][:150]}")
+        
+        # Add main content
+        context_parts.append(f"Obsah: {main_text}")
+        
+        # Add following context if available
+        if chunk.get('following_context') and len(chunk['following_context'].strip()) > 20:
+            context_parts.append(f"Nasledujúci kontext: {chunk['following_context'][:150]}")
+        
+        # Combine all parts
+        enhanced_text = " | ".join(context_parts)
+        
+        # For multilingual-e5 models, prefixing with "passage: " can improve performance
+        return f"passage: {enhanced_text}"
+    
+    def generate_embeddings_batch(self, chunks: List[Dict[str, Any]], batch_size: int = 32) -> np.ndarray:
+        """Generate embeddings for a batch of chunks with enhanced context."""
+        embeddings = []
+        total_batches = (len(chunks) + batch_size - 1) // batch_size
+        
+        print(f"🔄 Generating embeddings for {len(chunks)} chunks in {total_batches} batches of {batch_size}...")
         embedding_start = time.time()
         
-        for i in tqdm(range(0, len(texts), batch_size), desc="Processing batches"):
-            batch = texts[i:i + batch_size]
+        for i in tqdm(range(0, len(chunks), batch_size), desc="Processing batches"):
+            batch = chunks[i:i + batch_size]
             batch_num = (i // batch_size) + 1
             
-            print(f"⚡ Processing batch {batch_num}/{total_batches} ({len(batch)} texts)...")
+            print(f"⚡ Processing batch {batch_num}/{total_batches} ({len(batch)} chunks)...")
             batch_start = time.time()
             
-            prepared_batch = [self.prepare_text_for_embedding(text) for text in batch]
+            prepared_batch = [self.prepare_text_for_embedding(chunk) for chunk in batch]
             
             # Generate embeddings for this batch
             batch_embeddings = self.model.encode(
@@ -148,15 +171,38 @@ class EmbeddingGenerator:
             # Document text
             documents.append(chunk['text'])
             
-            # Metadata (Chroma doesn't support nested objects, so flatten)
+            # Enhanced metadata (Chroma doesn't support nested objects, so flatten)
             metadata = {
+                # Core source attribution
                 'source_url': chunk.get('source_url', ''),
                 'source_title': chunk.get('source_title', ''),
                 'source_date': chunk.get('source_date', ''),
+                'source_filename': chunk.get('source_filename', ''),
+                'source_scraped_at': chunk.get('source_scraped_at', ''),
+                
+                # Content metrics
                 'word_count': chunk.get('word_count', 0),
+                'article_word_count': chunk.get('article_word_count', 0),
                 'chunk_id': chunk.get('chunk_id', 0),
                 'global_chunk_id': chunk.get('global_chunk_id', i),
-                'article_excerpt': chunk.get('article_excerpt', '')[:200]  # Truncate long excerpts
+                
+                # Context information
+                'preceding_context_words': chunk.get('preceding_context_words', 0),
+                'following_context_words': chunk.get('following_context_words', 0),
+                'chunk_position': chunk.get('chunk_position', ''),
+                'sentence_start_idx': chunk.get('sentence_start_idx', 0),
+                'sentence_end_idx': chunk.get('sentence_end_idx', 0),
+                'total_sentences_in_article': chunk.get('total_sentences_in_article', 0),
+                'chunk_sentence_count': chunk.get('chunk_sentence_count', 0),
+                
+                # For retrieval and citation
+                'article_excerpt': chunk.get('article_excerpt', '')[:200],  # Truncate long excerpts
+                'chunk_start_sentence': chunk.get('chunk_start_sentence', '')[:200],
+                'chunk_end_sentence': chunk.get('chunk_end_sentence', '')[:200],
+                
+                # Adjacent chunks for context expansion
+                'previous_chunk_id': chunk.get('adjacent_chunk_ids', {}).get('previous'),
+                'next_chunk_id': chunk.get('adjacent_chunk_ids', {}).get('next')
             }
             metadatas.append(metadata)
         
@@ -186,8 +232,9 @@ class EmbeddingGenerator:
         """Test the vector database with a similarity search."""
         print(f"\n🔍 Testing similarity search with query: '{query}'")
         
-        # Prepare query for embedding
-        prepared_query = self.prepare_text_for_embedding(query)
+        # Create a mock chunk for query preparation
+        query_chunk = {'text': query, 'source_title': ''}
+        prepared_query = self.prepare_text_for_embedding(query_chunk)
         
         # Generate query embedding
         query_embedding = self.model.encode([prepared_query], normalize_embeddings=True)[0]
@@ -209,10 +256,20 @@ class EmbeddingGenerator:
         )):
             similarity = 1 - distance  # Convert distance to similarity
             print(f"\n🔹 Result #{i+1} (Similarity: {similarity:.3f})")
-            print(f"📄 Title: {metadata['source_title']}")
+            print(f"📄 Article: {metadata['source_title']}")
             print(f"📅 Date: {metadata['source_date']}")
+            print(f"📍 Position: {metadata.get('chunk_position', 'unknown')} chunk")
+            print(f"📏 Words: {metadata.get('word_count', 0)} (+{metadata.get('preceding_context_words', 0)}+{metadata.get('following_context_words', 0)} context)")
             print(f"🔗 URL: {metadata['source_url']}")
-            print(f"📝 Preview: {doc[:200]}...")
+            print(f"📝 Content: {doc[:200]}...")
+            
+            # Show context if available
+            if metadata.get('chunk_start_sentence'):
+                print(f"🏁 Starts: {metadata['chunk_start_sentence'][:100]}...")
+            if metadata.get('previous_chunk_id') is not None:
+                print(f"⬅️  Previous chunk ID: {metadata['previous_chunk_id']}")
+            if metadata.get('next_chunk_id') is not None:
+                print(f"➡️  Next chunk ID: {metadata['next_chunk_id']}")
             print("-" * 40)
     
     def get_database_stats(self):
@@ -239,12 +296,9 @@ class EmbeddingGenerator:
             print("❌ No chunks to process!")
             return
         
-        # Extract text for embedding
-        texts = [chunk['text'] for chunk in chunks]
-        print(f"📝 Extracted text from {len(texts)} chunks")
-        
-        # Generate embeddings
-        embeddings = self.generate_embeddings_batch(texts, batch_size=16)
+        # Generate embeddings with enhanced context
+        print(f"📝 Processing {len(chunks)} chunks with enhanced context")
+        embeddings = self.generate_embeddings_batch(chunks, batch_size=16)
         
         # Store in vector database
         self.store_in_vector_db(chunks, embeddings)

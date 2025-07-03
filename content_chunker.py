@@ -11,7 +11,8 @@ class ContentChunker:
                  input_dir: str = "./scraped_data/articles",
                  output_dir: str = "./chunked_data",
                  chunk_size: int = 800,
-                 chunk_overlap: int = 100):
+                 chunk_overlap: int = 200,
+                 context_window: int = 300):
         """
         Initialize the content chunker.
         
@@ -20,11 +21,13 @@ class ContentChunker:
             output_dir: Directory to save chunked content
             chunk_size: Target size for each chunk (in tokens/words)
             chunk_overlap: Overlap between consecutive chunks
+            context_window: Additional context words to include before/after each chunk
         """
         self.input_dir = Path(input_dir)
         self.output_dir = Path(output_dir)
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
+        self.context_window = context_window
         
         # Create output directory
         self.output_dir.mkdir(exist_ok=True)
@@ -66,19 +69,82 @@ class ContentChunker:
         
         return sentences
     
+    def get_contextual_window(self, sentences: List[str], start_idx: int, end_idx: int) -> Dict[str, str]:
+        """
+        Extract contextual window around a chunk.
+        
+        Args:
+            sentences: All sentences from the article
+            start_idx: Starting sentence index of the chunk
+            end_idx: Ending sentence index of the chunk
+            
+        Returns:
+            Dictionary with preceding and following context
+        """
+        # Calculate context boundaries
+        context_start = max(0, start_idx - 1)
+        context_end = min(len(sentences), end_idx + 1)
+        
+        # Get preceding context
+        preceding_context = []
+        preceding_words = 0
+        for i in range(start_idx - 1, -1, -1):
+            sent_words = len(sentences[i].split())
+            if preceding_words + sent_words <= self.context_window:
+                preceding_context.insert(0, sentences[i])
+                preceding_words += sent_words
+            else:
+                break
+        
+        # Get following context
+        following_context = []
+        following_words = 0
+        for i in range(end_idx, len(sentences)):
+            sent_words = len(sentences[i].split())
+            if following_words + sent_words <= self.context_window:
+                following_context.append(sentences[i])
+                following_words += sent_words
+            else:
+                break
+        
+        return {
+            'preceding_context': ' '.join(preceding_context),
+            'following_context': ' '.join(following_context),
+            'preceding_word_count': preceding_words,
+            'following_word_count': following_words
+        }
+
+    def extract_section_headers(self, text: str) -> List[str]:
+        """Extract potential section headers from text."""
+        lines = text.split('\n')
+        headers = []
+        
+        for line in lines:
+            line = line.strip()
+            # Check for patterns that might be headers
+            if (len(line) > 0 and len(line) < 100 and 
+                (line.isupper() or 
+                 line.count(':') == 1 and line.endswith(':') or
+                 line.startswith('#') or
+                 len(line.split()) <= 8)):
+                headers.append(line)
+        
+        return headers[:5]  # Limit to first 5 potential headers
+
     def create_chunks(self, text: str, metadata: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
-        Create overlapping chunks from text content.
+        Create overlapping chunks from text content with enhanced context and metadata.
         
         Args:
             text: The text content to chunk
             metadata: Article metadata (title, url, date, etc.)
             
         Returns:
-            List of chunk dictionaries
+            List of chunk dictionaries with enhanced metadata
         """
         cleaned_text = self.clean_text(text)
         sentences = self.split_into_sentences(cleaned_text)
+        section_headers = self.extract_section_headers(text)
         
         if not sentences:
             return []
@@ -86,6 +152,7 @@ class ContentChunker:
         chunks = []
         current_chunk = []
         current_size = 0
+        chunk_start_idx = 0
         
         i = 0
         while i < len(sentences):
@@ -96,16 +163,53 @@ class ContentChunker:
             if current_size + sentence_words > self.chunk_size and current_chunk:
                 # Create chunk from current sentences
                 chunk_text = ' '.join(current_chunk)
+                chunk_end_idx = i
+                
+                # Get contextual window
+                context = self.get_contextual_window(sentences, chunk_start_idx, chunk_end_idx)
+                
+                # Determine chunk position in article
+                chunk_position = "beginning" if len(chunks) == 0 else "middle"
+                if chunk_end_idx >= len(sentences) - 2:
+                    chunk_position = "end"
                 
                 chunk_data = {
                     'text': chunk_text,
                     'word_count': current_size,
                     'chunk_id': len(chunks),
+                    
+                    # Enhanced source attribution
                     'source_url': metadata.get('url', ''),
                     'source_title': metadata.get('title', ''),
                     'source_date': metadata.get('date', ''),
+                    'source_scraped_at': metadata.get('scraped_at', ''),
+                    'source_filename': metadata.get('filename', ''),
                     'article_excerpt': metadata.get('excerpt', ''),
-                    'chunk_start_sentence': current_chunk[0][:100] + '...' if current_chunk[0] else '',
+                    'article_word_count': metadata.get('word_count', 0),
+                    
+                    # Contextual information
+                    'preceding_context': context['preceding_context'],
+                    'following_context': context['following_context'],
+                    'preceding_context_words': context['preceding_word_count'],
+                    'following_context_words': context['following_word_count'],
+                    
+                    # Chunk positioning
+                    'chunk_position': chunk_position,
+                    'chunk_start_sentence': current_chunk[0][:150] + '...' if current_chunk[0] else '',
+                    'chunk_end_sentence': current_chunk[-1][:150] + '...' if current_chunk[-1] else '',
+                    'sentence_start_idx': chunk_start_idx,
+                    'sentence_end_idx': chunk_end_idx - 1,
+                    
+                    # Article structure context
+                    'article_section_headers': section_headers,
+                    'total_sentences_in_article': len(sentences),
+                    'chunk_sentence_count': len(current_chunk),
+                    
+                    # For potential adjacent chunk retrieval
+                    'adjacent_chunk_ids': {
+                        'previous': len(chunks) - 1 if len(chunks) > 0 else None,
+                        'next': len(chunks) + 1  # Will be updated if next chunk exists
+                    }
                 }
                 chunks.append(chunk_data)
                 
@@ -114,6 +218,7 @@ class ContentChunker:
                     # Calculate how many sentences to keep for overlap
                     overlap_words = 0
                     overlap_sentences = []
+                    overlap_start_idx = chunk_end_idx
                     
                     # Start from the end and work backwards
                     for j in range(len(current_chunk) - 1, -1, -1):
@@ -121,14 +226,17 @@ class ContentChunker:
                         if overlap_words + sent_words <= self.chunk_overlap:
                             overlap_sentences.insert(0, current_chunk[j])
                             overlap_words += sent_words
+                            overlap_start_idx = chunk_start_idx + j
                         else:
                             break
                     
                     current_chunk = overlap_sentences
                     current_size = overlap_words
+                    chunk_start_idx = overlap_start_idx
                 else:
                     current_chunk = []
                     current_size = 0
+                    chunk_start_idx = i
             
             # Add current sentence
             current_chunk.append(sentence)
@@ -138,17 +246,55 @@ class ContentChunker:
         # Don't forget the last chunk
         if current_chunk:
             chunk_text = ' '.join(current_chunk)
+            chunk_end_idx = len(sentences)
+            
+            # Get contextual window for last chunk
+            context = self.get_contextual_window(sentences, chunk_start_idx, chunk_end_idx)
+            
             chunk_data = {
                 'text': chunk_text,
                 'word_count': current_size,
                 'chunk_id': len(chunks),
+                
+                # Enhanced source attribution
                 'source_url': metadata.get('url', ''),
                 'source_title': metadata.get('title', ''),
                 'source_date': metadata.get('date', ''),
+                'source_scraped_at': metadata.get('scraped_at', ''),
+                'source_filename': metadata.get('filename', ''),
                 'article_excerpt': metadata.get('excerpt', ''),
-                'chunk_start_sentence': current_chunk[0][:100] + '...' if current_chunk[0] else '',
+                'article_word_count': metadata.get('word_count', 0),
+                
+                # Contextual information
+                'preceding_context': context['preceding_context'],
+                'following_context': context['following_context'],
+                'preceding_context_words': context['preceding_word_count'],
+                'following_context_words': context['following_word_count'],
+                
+                # Chunk positioning
+                'chunk_position': 'end' if len(chunks) > 0 else 'complete',
+                'chunk_start_sentence': current_chunk[0][:150] + '...' if current_chunk[0] else '',
+                'chunk_end_sentence': current_chunk[-1][:150] + '...' if current_chunk[-1] else '',
+                'sentence_start_idx': chunk_start_idx,
+                'sentence_end_idx': chunk_end_idx - 1,
+                
+                # Article structure context
+                'article_section_headers': section_headers,
+                'total_sentences_in_article': len(sentences),
+                'chunk_sentence_count': len(current_chunk),
+                
+                # For potential adjacent chunk retrieval
+                'adjacent_chunk_ids': {
+                    'previous': len(chunks) - 1 if len(chunks) > 0 else None,
+                    'next': None
+                }
             }
             chunks.append(chunk_data)
+        
+        # Update next chunk IDs for all chunks except the last
+        for i, chunk in enumerate(chunks[:-1]):
+            if chunk['adjacent_chunk_ids']['next'] == i + 1:
+                chunk['adjacent_chunk_ids']['next'] = i + 1
         
         return chunks
     
@@ -192,10 +338,11 @@ class ContentChunker:
     
     def process_all_articles(self):
         """Process all articles in the input directory."""
-        print("🚀 Starting content chunking process...")
+        print("🚀 Starting enhanced content chunking process...")
         print(f"📂 Input directory: {self.input_dir}")
         print(f"📂 Output directory: {self.output_dir}")
         print(f"⚙️  Chunk size: {self.chunk_size} words, Overlap: {self.chunk_overlap} words")
+        print(f"🔍 Context window: {self.context_window} words (preceding + following)")
         print("-" * 60)
         
         json_files = list(self.input_dir.glob("*.json"))
@@ -277,11 +424,16 @@ class ContentChunker:
             chunk = self.chunks[i]
             print(f"\n📝 Chunk #{i + 1}")
             print(f"📄 Source: {chunk['source_title'][:60]}...")
-            print(f"📏 Words: {chunk['word_count']}")
+            print(f"📏 Words: {chunk['word_count']} (+ {chunk.get('preceding_context_words', 0)} preceding + {chunk.get('following_context_words', 0)} following context)")
+            print(f"📍 Position: {chunk.get('chunk_position', 'unknown')}")
             print(f"🔗 URL: {chunk['source_url']}")
             print(f"📅 Date: {chunk['source_date']}")
             print(f"📖 Content preview:")
             print(f"   {chunk['text'][:200]}...")
+            if chunk.get('preceding_context'):
+                print(f"⬅️  Preceding context: {chunk['preceding_context'][:100]}...")
+            if chunk.get('following_context'):
+                print(f"➡️  Following context: {chunk['following_context'][:100]}...")
             print("-" * 40)
 
 
@@ -290,12 +442,13 @@ def main():
     print("Slovak Blog Content Chunker")
     print("=" * 40)
     
-    # Initialize chunker with optimized settings for Slovak content
+    # Initialize chunker with enhanced settings for Slovak content
     chunker = ContentChunker(
         input_dir="./scraped_data/articles",
         output_dir="./chunked_data",
-        chunk_size=800,    # Good balance for Slovak text
-        chunk_overlap=100  # Maintain context between chunks
+        chunk_size=800,     # Good balance for Slovak text
+        chunk_overlap=200,  # Larger overlap for better context preservation
+        context_window=300  # Rich contextual information around each chunk
     )
     
     # Process all articles

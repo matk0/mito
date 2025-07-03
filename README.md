@@ -1,21 +1,24 @@
-# Slovak Health & Biology Knowledge Chatbot
+# Slovak Health & Biology Knowledge Graph
 
-An intelligent chatbot that answers questions about health, biology, and wellness topics using content from Slovak health expert Jaroslav Lachky's blog. Built using RAG (Retrieval-Augmented Generation) architecture with vector embeddings and semantic search.
+An advanced knowledge graph and RAG system built from Slovak health expert Jaroslav Lachky's blog content. Features enhanced chunking, entity extraction, Neo4j knowledge graph, and semantic search for exploring interconnected health concepts from quantum biology to practical wellness protocols.
 
-## 🎯 Features
+## 🎯 Key Features
 
-- **Semantic Search**: Find relevant content using multilingual embeddings
-- **Slovak Language Support**: Optimized for Slovak health and biology content
-- **Knowledge Base**: 184 articles covering topics like mitochondria, epigenetics, hormones, nutrition, and quantum biology
-- **Vector Database**: ChromaDB with 868 knowledge chunks for precise retrieval
-- **Advanced Processing**: Content chunking and embedding generation pipeline
+- **Knowledge Graph**: Neo4j graph database with 30K+ health entities and their relationships
+- **Entity Extraction**: Custom NER pipeline for Slovak health terminology (hormones, cellular components, diseases, etc.)
+- **Enhanced RAG**: Contextual chunking with larger overlap and surrounding context windows
+- **Semantic Search**: Multilingual embeddings with improved source attribution
+- **Graph Visualization**: Interactive exploration of health concept relationships
+- **Slovak Language Support**: Optimized for Slovak health and quantum biology content
 
 ## 📊 Knowledge Base Stats
 
 - **184 articles** scraped from jaroslavlachky.sk
-- **868 content chunks** for optimal retrieval
+- **959 enhanced content chunks** with contextual windows (increased from 868)
+- **30,380 meaningful entities** extracted (filtered from 150K+ raw entities)
+- **3,760+ unique health concepts** spanning 17 entity categories
+- **Thousands of relationships** between interconnected health topics
 - **604,509 total words** of health and biology content
-- Topics include: quantum biology, mitochondria, hormones, nutrition, epigenetics, circadian rhythms
 
 ## 🚀 Quick Start
 
@@ -35,63 +38,122 @@ gem install nokogiri
 # Scrape blog content (already done)
 ruby blog_scraper.rb
 
-# Process and chunk content
-python3.12 content_chunker.py
+# Enhanced content chunking with contextual windows
+python content_chunker.py
 
-# Generate embeddings and create vector database
-python3.12 embedding_generator.py
+# Generate embeddings with enhanced context
+python embedding_generator.py
+
+# Extract health entities using custom NER
+python entity_extractor.py
 ```
 
-### 3. Run the Chatbot
+### 3. Set Up Neo4j Knowledge Graph
 
 ```bash
-# Coming soon - chatbot interface
-python3.12 chatbot.py
+# Install Neo4j (choose one option):
+
+# Option A: Docker (recommended)
+docker run --name neo4j-health -p7474:7474 -p7687:7687 \
+  --env NEO4J_AUTH=neo4j/healthgraph123 -d neo4j:5.23
+
+# Option B: Download Neo4j Desktop from https://neo4j.com/download/
+
+# Build the knowledge graph
+python neo4j_graph_builder.py
+
+# Access Neo4j Browser at http://localhost:7474
+```
+
+### 4. Explore the Knowledge Graph
+
+```cypher
+// Find most connected health concepts
+MATCH (e:Entity)-[:CO_OCCURS]-()
+RETURN e.name, e.type, count(*) as connections
+ORDER BY connections DESC LIMIT 10
+
+// Explore mitochondria ecosystem
+MATCH (m:Entity {name: 'mitochondrie'})-[r:CO_OCCURS]-(connected)
+RETURN m, r, connected
+
+// View quantum biology concepts
+MATCH (e:Entity)-[r:CO_OCCURS]-(e2)
+WHERE e.type = 'PHYSICS_CONCEPT'
+RETURN e, r, e2
 ```
 
 ## 🏗️ Architecture
 
+### Enhanced RAG + Knowledge Graph Pipeline
+
 ```
-User Question → Embedding → Vector Search → Retrieved Context → LLM → Response
+User Question → Entity Extraction → Graph Traversal + Vector Search → 
+Enhanced Context → Knowledge Graph Relationships → LLM → Response with Citations
 ```
 
-### Components
+### Core Components
 
-1. **Data Pipeline**:
+1. **Enhanced Data Pipeline**:
    - `blog_scraper.rb` - Scrapes content from jaroslavlachky.sk
-   - `content_chunker.py` - Processes and chunks articles
-   - `embedding_generator.py` - Creates vector embeddings
+   - `content_chunker.py` - Enhanced chunking with 200-word overlap + 300-word context windows
+   - `embedding_generator.py` - Context-aware embeddings with title + surrounding text
+   - `entity_extractor.py` - Custom NER for Slovak health terminology
 
-2. **Knowledge Storage**:
+2. **Knowledge Graph**:
+   - `neo4j_graph_builder.py` - Builds comprehensive health knowledge graph
+   - **Entities**: 30K+ health concepts (hormones, cellular components, diseases, etc.)
+   - **Relationships**: Co-occurrence patterns and semantic connections
+   - **Visualization**: Interactive Neo4j Browser interface
+
+3. **Enhanced Storage**:
    - `scraped_data/` - Raw article data (184 articles)
-   - `chunked_data/` - Processed content chunks (868 chunks)
-   - `vector_db/` - ChromaDB vector database
+   - `chunked_data/` - Enhanced chunks with contextual metadata (959 chunks)
+   - `vector_db/` - ChromaDB vector database with improved embeddings
+   - **Neo4j Database** - Graph representation of health knowledge
 
-3. **Search & Retrieval**:
-   - Multilingual E5-Large embeddings (1024 dimensions)
-   - ChromaDB for fast similarity search
-   - Semantic chunking for optimal context retrieval
+4. **Multi-Modal Retrieval**:
+   - **Vector Search**: Multilingual E5-Large embeddings (1024 dimensions)
+   - **Graph Traversal**: Relationship-based concept discovery
+   - **Hybrid Approach**: Combines semantic similarity with knowledge graph relationships
 
 ## 📁 Project Structure
 
 ```
-├── README.md                 # Project documentation
-├── requirements.txt          # Python dependencies
-├── blog_scraper.rb          # Web scraper for content
-├── content_chunker.py       # Text processing and chunking
-├── embedding_generator.py   # Vector embedding generation
-├── scraped_data/           # Raw scraped articles
-├── chunked_data/           # Processed content chunks
-└── vector_db/              # ChromaDB vector database
+├── README.md                    # Project documentation
+├── requirements.txt             # Python dependencies
+├── NEO4J_SETUP.md              # Neo4j installation guide
+├── blog_scraper.rb             # Web scraper for content
+├── content_chunker.py          # Enhanced chunking with context windows
+├── embedding_generator.py      # Context-aware vector embeddings
+├── entity_extractor.py         # Custom Slovak health NER pipeline
+├── neo4j_graph_builder.py      # Knowledge graph construction
+├── analyze_extracted_entities.py  # Entity analysis and insights
+├── test_entity_*.py            # Testing and validation scripts
+├── run_entity_extraction.py    # Optimized entity extraction runner
+├── scraped_data/               # Raw scraped articles (184 articles)
+├── chunked_data/               # Enhanced chunks + extracted entities
+│   ├── chunked_content.json    # 959 chunks with context windows
+│   ├── extracted_entities.json # 30K+ filtered health entities
+│   └── entity_analysis.json    # Entity relationships and insights
+└── vector_db/                  # ChromaDB vector database
 ```
 
 ## 🔧 Technical Details
 
-- **Embedding Model**: intfloat/multilingual-e5-large (1.1GB)
-- **Vector Database**: ChromaDB with persistent storage
-- **Chunking Strategy**: Semantic chunking with overlap
-- **Languages**: Python 3.12, Ruby for scraping
-- **Content**: Slovak health and biology articles
+### Enhanced Processing
+- **Embedding Model**: intfloat/multilingual-e5-large (1.1GB) with contextual enhancement
+- **Vector Database**: ChromaDB with enhanced metadata and source attribution
+- **Knowledge Graph**: Neo4j with 30K+ entities and relationship mapping
+- **Chunking Strategy**: 800-word chunks + 200-word overlap + 300-word context windows
+- **Entity Extraction**: Custom spaCy pipeline with 15 Slovak health entity types
+- **Filtering**: Advanced noise removal (Slovak stop words, marketing terms)
+
+### Technical Stack
+- **Languages**: Python 3.12, Ruby for scraping, Cypher for graph queries
+- **Databases**: ChromaDB (vector), Neo4j (graph)
+- **NLP**: spaCy, sentence-transformers, custom Slovak health taxonomy
+- **Content**: 184 Slovak health articles covering quantum biology to practical protocols
 
 ## 📖 Content Topics
 
@@ -108,34 +170,62 @@ The knowledge base covers diverse health and biology topics:
 
 ## 🎯 Use Cases
 
-- Get evidence-based answers about health and biology
-- Learn about mitochondrial health and optimization
-- Understand epigenetic factors affecting wellness
-- Explore quantum biology concepts
-- Find protocols for health improvement
-- Research Slovak health and biology content
+### Knowledge Discovery
+- **Explore interconnected health concepts** through graph visualization
+- **Find relationships** between mitochondria, hormones, light therapy, and nutrition
+- **Trace knowledge sources** with enhanced attribution and citations
+- **Discover concept clusters** and thematic connections
 
-## 🔬 Data Processing Pipeline
+### Research & Analysis  
+- **Query complex health relationships** using Cypher graph queries
+- **Analyze entity co-occurrence patterns** across 184 expert articles
+- **Compare different health approaches** and their connections
+- **Research Slovak quantum biology and health optimization content**
 
-1. **Scraping**: Extract 184 articles from jaroslavlachky.sk
-2. **Chunking**: Split content into 868 semantic chunks
-3. **Embedding**: Generate 1024-dimensional vectors
-4. **Indexing**: Store in ChromaDB for fast retrieval
-5. **Querying**: Semantic search for relevant context
+## 🔬 Enhanced Data Processing Pipeline
+
+1. **Content Acquisition**: Extract 184 articles from jaroslavlachky.sk
+2. **Enhanced Chunking**: Create 959 chunks with contextual windows and overlap
+3. **Entity Extraction**: Extract 30K+ health entities using custom Slovak NER
+4. **Relationship Mapping**: Identify co-occurrence patterns and semantic connections
+5. **Knowledge Graph Construction**: Build Neo4j graph with entities and relationships
+6. **Vector Enhancement**: Generate contextual embeddings with source attribution
+7. **Multi-Modal Indexing**: Store in both vector database and graph database
 
 ## 🚧 Development Status
 
-- ✅ Content scraping and processing
-- ✅ Vector database creation
-- ✅ Embedding generation pipeline
-- 🔄 Chatbot interface (in progress)
-- ⏳ Web interface
-- ⏳ Response generation optimization
+- ✅ Enhanced content chunking with contextual windows
+- ✅ Custom Slovak health entity extraction pipeline
+- ✅ Neo4j knowledge graph construction and visualization
+- ✅ Advanced entity filtering and noise removal  
+- ✅ Enhanced vector embeddings with source attribution
+- ✅ Graph-based relationship discovery and analysis
+- 🔄 GraphRAG implementation (hybrid vector + graph retrieval)
+- ⏳ Advanced chatbot interface with graph-enhanced responses
+- ⏳ Web interface for knowledge graph exploration
 
 ## 🤝 Contributing
 
 This project focuses on Slovak health and biology content. Contributions welcome for:
-- Chatbot interface improvements
-- Response quality optimization
-- Additional content sources
-- Translation capabilities
+- GraphRAG implementation and optimization
+- Advanced chatbot interface with graph-enhanced responses
+- Knowledge graph expansion and relationship refinement
+- Entity extraction improvements for Slovak terminology
+- Web interface for interactive graph exploration
+- Additional health content sources and integration
+
+## 📚 Key Resources
+
+- **Neo4j Browser**: http://localhost:7474 (after setup)
+- **Neo4j Setup Guide**: See `NEO4J_SETUP.md`
+- **Entity Analysis**: See `chunked_data/entity_analysis.json`
+- **Original Content**: [Jaroslav Lachky's Blog](https://jaroslavlachky.sk)
+
+## 🏆 Project Achievements
+
+This project successfully demonstrates:
+- **Advanced entity extraction** from specialized Slovak health content
+- **Knowledge graph construction** revealing health concept interconnections  
+- **Enhanced RAG pipeline** with contextual chunking and source attribution
+- **Sophisticated filtering** removing 79.8% of noise while preserving meaningful entities
+- **Interactive visualization** of complex health relationships through Neo4j
