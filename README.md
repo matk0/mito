@@ -126,7 +126,7 @@ rails server
 │
 ├── scripts/                           # Organized Processing Scripts
 │   ├── data_processing/              # Core data pipeline
-│   │   ├── blog_scraper.rb           # Web scraper for Slovak health content
+│   │   ├── blog_scraper.py           # Web scraper for Slovak health content
 │   │   ├── content_chunker.py        # Enhanced chunking with context windows
 │   │   ├── embedding_generator.py    # Context-aware vector embeddings
 │   │   ├── entity_extractor.py       # Custom Slovak health NER pipeline
