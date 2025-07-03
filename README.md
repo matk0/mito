@@ -38,11 +38,12 @@ An advanced knowledge graph and chatbot system built from Slovak health expert J
 ## 📊 Knowledge Base Stats
 
 - **184 articles** scraped from jaroslavlachky.sk
+- **140+ scientific PDFs** from PubMed, Nature, and other sources
 - **959 enhanced content chunks** with contextual windows
 - **30,380 meaningful entities** extracted and normalized
 - **3,178 graph entities** in Neo4j knowledge graph
 - **Thousands of relationships** between interconnected health topics
-- **604,509 total words** of health and biology content
+- **604,509+ total words** of health and biology content
 
 ## 🚀 Quick Start
 
@@ -67,6 +68,9 @@ npm install
 
 # Python dependencies  
 pip install -r requirements.txt
+
+# Additional dependencies for PDF processing
+pip install PyPDF2 pdfplumber requests
 ```
 
 ### 3. Set Up Databases
@@ -125,6 +129,9 @@ rails server
 │
 ├── Data Processing Pipeline/
 │   ├── blog_scraper.rb               # Web scraper for content
+│   ├── pdf_downloader.py             # Scientific PDF downloader
+│   ├── pdf_processor.py              # PDF text extraction and processing
+│   ├── download_and_process_pdfs.py  # Complete PDF pipeline
 │   ├── content_chunker.py            # Enhanced chunking with context windows
 │   ├── embedding_generator.py        # Context-aware vector embeddings
 │   ├── entity_extractor.py           # Custom Slovak health NER pipeline
@@ -132,6 +139,8 @@ rails server
 │
 ├── Data Storage/
 │   ├── scraped_data/                 # Raw scraped articles (184 articles)
+│   │   └── pdfs/                     # Processed scientific PDFs
+│   ├── pdfs/                         # Downloaded PDF files
 │   ├── chunked_data/                 # Enhanced chunks + extracted entities
 │   │   ├── chunked_content.json      # 959 chunks with context windows
 │   │   ├── extracted_entities.json   # 30K+ filtered health entities
@@ -200,13 +209,14 @@ The knowledge base covers diverse health and biology topics:
 ## 🔬 Data Processing Pipeline
 
 1. **Content Acquisition**: Extract 184 articles from jaroslavlachky.sk
-2. **Enhanced Chunking**: Create 959 chunks with contextual windows and overlap
-3. **Entity Extraction**: Extract 30K+ health entities using custom Slovak NER
-4. **Linguistic Normalization**: Merge Slovak variants (mitochondrie → mitochondria)
-5. **Relationship Mapping**: Identify co-occurrence patterns and semantic connections
-6. **Knowledge Graph Construction**: Build Neo4j graph with normalized entities
-7. **Vector Enhancement**: Generate contextual embeddings with source attribution
-8. **GraphRAG Integration**: Combine vector and graph databases for hybrid retrieval
+2. **Scientific PDF Processing**: Download and process 140+ research papers from PubMed/Nature
+3. **Enhanced Chunking**: Create 959 chunks with contextual windows and overlap
+4. **Entity Extraction**: Extract 30K+ health entities using custom Slovak NER
+5. **Linguistic Normalization**: Merge Slovak variants (mitochondrie → mitochondria)
+6. **Relationship Mapping**: Identify co-occurrence patterns and semantic connections
+7. **Knowledge Graph Construction**: Build Neo4j graph with normalized entities
+8. **Vector Enhancement**: Generate contextual embeddings with source attribution
+9. **GraphRAG Integration**: Combine vector and graph databases for hybrid retrieval
 
 ## 🚧 Development Status
 
@@ -244,6 +254,51 @@ SECRET_KEY_BASE=your_secret_key
 - **Username**: neo4j
 - **Password**: healthgraph123
 - **Browser**: http://localhost:7474
+
+## 📄 PDF Processing System
+
+### Scientific Literature Integration
+
+The system includes a comprehensive PDF processing pipeline to augment the Slovak health knowledge base with scientific literature:
+
+#### Features
+- **Multi-Source Support**: Downloads from PubMed, PMC, Nature, and other scientific sources
+- **Intelligent Extraction**: Uses multiple PDF processing libraries (pdfplumber, PyPDF2)
+- **Metadata Preservation**: Extracts titles, authors, DOIs, and publication info
+- **Error Handling**: Graceful fallback mechanisms for corrupted or non-standard PDFs
+- **Integration Ready**: Outputs compatible with existing GraphRAG pipeline
+
+#### Usage
+
+```bash
+# Download and process PDFs from articles.md
+python3.12 download_and_process_pdfs.py
+
+# Individual operations
+python3.12 pdf_downloader.py        # Downloads PDFs to pdfs/
+python3.12 pdf_processor.py         # Processes to scraped_data/pdfs/
+```
+
+#### Input Format (articles.md)
+```
+https://www.ncbi.nlm.nih.gov/pubmed/10788778
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3891634/
+https://www.nature.com/articles/s41598-019-39584-6
+```
+
+#### Output Structure
+```
+pdfs/                              # Downloaded PDF files
+├── pubmed_10788778.pdf
+├── pmc_3891634.pdf
+└── nature_s41598-019-39584-6.pdf
+
+scraped_data/pdfs/                 # Processed articles
+├── pubmed_10788778.json          # Structured article data
+├── extracted_text/               # Clean text files
+├── metadata/                     # PDF metadata
+└── processing_summary.json       # Processing statistics
+```
 
 ## 🎯 Usage Examples
 
