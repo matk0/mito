@@ -1,1 +1,11 @@
 /mito
+# macOS specific
+.DS_Store
+
+# Python specific
+__pycache__/
+*.pyc
+
+# Generated data/database files
+chunked_data/extracted_entities_batch_*.json
+vector_db/

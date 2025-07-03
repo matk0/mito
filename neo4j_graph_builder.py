@@ -148,7 +148,63 @@ class SlovakHealthGraphBuilder:
         # Remove common Slovak prefixes/suffixes for better matching
         normalized = re.sub(r'^(a|the|na|v|o|do|pre|pri|od|za)\s+', '', normalized)
         
+        # Handle Slovak plural/singular forms and common variations
+        normalized = self._normalize_slovak_variants(normalized)
+        
         return normalized
+    
+    def _normalize_slovak_variants(self, text: str) -> str:
+        """Normalize Slovak plural/singular and other linguistic variants."""
+        # Slovak plural to singular mappings
+        singular_mappings = {
+            'mitochondrie': 'mitochondria',  # Slovak plural -> standard form
+            'mitochondrií': 'mitochondria',  # Slovak genitive plural
+            'mitochondriám': 'mitochondria', # Slovak dative plural
+            'mitochondriami': 'mitochondria', # Slovak instrumental plural
+            'mitochondriách': 'mitochondria', # Slovak locative plural
+            
+            # Other common health terms
+            'vitamíny': 'vitamín',
+            'hormóny': 'hormón', 
+            'elektrónov': 'elektrón',
+            'elektrόny': 'elektrón',
+            'protόny': 'protón',
+            'protόnov': 'protón',
+            
+            # English/Slovak variants
+            'dha': 'dha',  # Ensure consistency
+            'atp': 'atp',
+            'dna': 'dna',
+            'rna': 'rna',
+            
+            # Case variations that should be merged
+            'redox': 'redox',
+            'ros': 'ros',
+            
+            # Light/electromagnetic terms
+            'uv svetlo': 'uv svetlo',
+            'infračervené svetlo': 'infračervené svetlo',
+            'modré svetlo': 'modré svetlo',
+            
+            # Remove common Slovak suffixes for better matching
+        }
+        
+        # Apply direct mappings
+        if text in singular_mappings:
+            return singular_mappings[text]
+            
+        # Handle common Slovak suffixes for normalization
+        # Remove case endings for better matching
+        for suffix in ['-mi', '-ách', '-ami', '-ov', '-y', '-ý', '-á', '-é', '-ie']:
+            if text.endswith(suffix) and len(text) > len(suffix) + 3:
+                root = text[:-len(suffix)]
+                # Check if root + common ending exists in mappings
+                for ending in ['', 'a', 'o', 'ý', 'á', 'é']:
+                    candidate = root + ending
+                    if candidate in singular_mappings:
+                        return singular_mappings[candidate]
+        
+        return text
     
     def _is_common_word(self, text: str) -> bool:
         """Check if text is a common Slovak word that should be filtered out."""
@@ -241,29 +297,89 @@ class SlovakHealthGraphBuilder:
         
         for normalized_name, group in entity_groups.items():
             if len(group) == 1:
-                merged_entities.append(group[0])
+                # Single entity, but still add normalized name
+                entity = group[0].copy()
+                entity['normalized_name'] = normalized_name
+                merged_entities.append(entity)
             else:
                 # Merge multiple entities into one
-                main_entity = group[0].copy()
-                
-                # Use the most common text form
-                text_counts = Counter(entity['text'] for entity in group)
-                main_entity['text'] = text_counts.most_common(1)[0][0]
+                # Choose the best representative text
+                main_entity = self._choose_best_representative(group)
                 
                 # Combine all variants
                 all_variants = set()
+                total_confidence = 0
                 for entity in group:
                     all_variants.add(entity['text'])
                     if 'variants' in entity:
                         all_variants.update(entity['variants'])
+                    total_confidence += entity.get('confidence', 1.0)
                 
                 main_entity['variants'] = list(all_variants)
                 main_entity['normalized_name'] = normalized_name
                 main_entity['mention_count'] = len(group)
+                main_entity['confidence'] = total_confidence / len(group)  # Average confidence
+                main_entity['merged_from'] = len(group)  # Track how many were merged
                 
                 merged_entities.append(main_entity)
         
         return merged_entities
+    
+    def _choose_best_representative(self, entity_group: List[Dict]) -> Dict:
+        """Choose the best representative entity from a group of similar entities."""
+        # Prioritization rules:
+        # 1. Prefer standard scientific terms (mitochondria over mitochondrie)
+        # 2. Prefer more frequent mentions
+        # 3. Prefer higher confidence
+        # 4. Prefer English/scientific terms for consistency
+        
+        text_counts = Counter(entity['text'] for entity in entity_group)
+        most_common_text = text_counts.most_common(1)[0][0]
+        
+        # Define preferred forms for common entities
+        preferred_forms = {
+            'mitochondria': ['mitochondria', 'Mitochondria'],  # Prefer over mitochondrie
+            'atp': ['ATP', 'atp'],
+            'dha': ['DHA', 'dha'],
+            'dna': ['DNA', 'dna'],
+            'uv svetlo': ['UV svetlo', 'uv svetlo'],
+            'redox': ['REDOX', 'Redox', 'redox'],
+            'ros': ['ROS', 'ros']
+        }
+        
+        # Find the best entity in the group
+        best_entity = None
+        best_score = -1
+        
+        for entity in entity_group:
+            score = 0
+            text = entity['text']
+            
+            # Check if this text is a preferred form
+            normalized = self.normalize_entity_name(text)
+            if normalized in preferred_forms:
+                for i, preferred in enumerate(preferred_forms[normalized]):
+                    if text == preferred:
+                        score += 1000 - i  # Higher score for earlier in preference list
+                        break
+            
+            # Add frequency score
+            score += text_counts[text] * 10
+            
+            # Add confidence score
+            score += entity.get('confidence', 1.0) * 5
+            
+            # Prefer capitalized scientific terms
+            if text.isupper() and len(text) <= 5:  # Like ATP, DHA, DNA
+                score += 50
+            elif text[0].isupper() and text[1:].islower():  # Like Mitochondria
+                score += 20
+            
+            if score > best_score:
+                best_score = score
+                best_entity = entity.copy()
+        
+        return best_entity if best_entity else entity_group[0].copy()
     
     def load_and_process_entities(self, entities_file: str) -> Dict[str, Any]:
         """Load and process extracted entities."""
