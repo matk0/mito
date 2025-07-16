@@ -1,0 +1,1129 @@
+{
+  "scan_completed_at": "2025-07-16T09:54:01.055799",
+  "paywall_text_searched": "Pre dočítanie článku sa musíte PRIHLÁSIŤ",
+  "total_checked": 186,
+  "paywall_articles_count": 5,
+  "free_articles_count": 181,
+  "failed_urls_count": 0,
+  "paywall_articles": [
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-3-betaoxidacia-verzus-glykolyza/",
+      "title": "MITOCHONDRIE #3 BETAOXIDÁCIA verzus GLYKOLÝZA",
+      "has_paywall": true,
+      "checked_at": "2025-07-16T09:51:19.111786"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-1-dychaci-retazec/",
+      "title": "MITOCHONDRIE #1 DÝCHACÍ REŤAZEC",
+      "has_paywall": true,
+      "checked_at": "2025-07-16T09:52:00.323683"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-7-ros-alias-volne-radikaly/",
+      "title": "MITOCHONDRIE #7 ROS alias VOĽNÉ RADIKÁLY",
+      "has_paywall": true,
+      "checked_at": "2025-07-16T09:52:07.053789"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-9-ketony-a-cholesterol/",
+      "title": "MITOCHONDRIE #9 KETÓNY a CHOLESTEROL",
+      "has_paywall": true,
+      "checked_at": "2025-07-16T09:52:47.453772"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vitamin-c-a-jeho-mnohe-tvare/",
+      "title": "Vitamín C a jeho mnohé „tváre“",
+      "has_paywall": true,
+      "checked_at": "2025-07-16T09:54:00.550329"
+    }
+  ],
+  "free_articles": [
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-17-histamin-a-hit-prakticka-cast/",
+      "title": "Epigenetika #17 Histamín, HIT, voda a zvuk – Praktická časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:04.600819"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/cirkadialny-protokol-1-optimalna-strava/",
+      "title": "CIRKADIÁLNY PROTOKOL #1 OPTIMÁLNA STRAVA",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:06.260400"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb6-fonon-soliton-a-vibracia/",
+      "title": "KB#6 Fonón, solitón a vibrácia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:07.935898"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-11-deuterium-v-potrave/",
+      "title": "MITOCHONDRIE #11 DEUTÉRIUM v POTRAVE",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:09.423657"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-6-leptin-ako-fotoreceptor-a-leptinova-rezistencia/",
+      "title": "Epigenetika #6 Leptín ako Fotoreceptor a Leptínová Rezistencia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:11.030014"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-20-zmena-elektromagnetizmu-a-frakcionacie-protonu-zmena-fenotypu/",
+      "title": "Epigenetika #20 zmena elektromagnetizmu a frakcionácie protónu = zmena fenotypu",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:12.708412"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-2-teplo-verzus-teplota/",
+      "title": "VOZ #2 Teplo verzus Teplota",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:14.277181"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-21-psoriaza-ako-adaptacia-pokozky-a-jej-skutocny-povod/",
+      "title": "Epigenetika #21 Psoriáza ako adaptácia pokožky a jej skutočný pôvod",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:15.805857"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/qaa-verejny-podcast-2024-1-cast/",
+      "title": "QaA verejný podcast 2024 – 1. časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:17.394807"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mrna-vakciny-ekonomika-a-redox/",
+      "title": "mRNA vakcíny, ekonomika a REDOX",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:19.004405"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-4-krebsov-cyklus/",
+      "title": "MITOCHONDRIE #4 Krebsov cyklus",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:20.505383"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/blog-o-mne-co-je-kvantova-biologia/",
+      "title": "ČO JE KVANTOVÁ BIOLÓGIA – 3.časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:21.974715"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/preco-ti-modre-svetlo-tzv-alan-zvacsi-mitochondrie/",
+      "title": "Prečo ti modré svetlo (tzv. ALAN) zväčší mitochondrie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:23.477197"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-7-vplyv-emp-vlnenia-na-biologiu/",
+      "title": "ENERGIA #7 VPLYV EMP (vlnenia) NA BIOLÓGIU",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:25.083223"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-7-strata-elektronov-kortizol-a-vycerpanie-nadobliciek/",
+      "title": "Hormóny #7 Strata elektrónov, kortizol a vyčerpanie nadobličiek",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:26.670136"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-2-elektricka-povaha-vesmiru-vs-elektricka-mitochondria/",
+      "title": "Matrix #2 elektrická povaha vesmíru vs elektrická mitochondria",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:28.276694"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/ekonomika-redox-btc-a-cas-3-cast/",
+      "title": "Ekonomika, Redox, BTC a Čas – 3.časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:29.914991"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-9-aka-je-skutocna-uloha-atp-v-biologii/",
+      "title": "KB #9 Aká je skutočná úloha ATP v biológii",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:31.549941"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-11-co-su-birkelandove-prudy/",
+      "title": "Matrix #11: Čo sú Birkelandové prúdy",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:33.242046"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/su-opalovacie-kremy-naozaj-prospesne/",
+      "title": "Sú opaľovacie krémy naozaj prospešné?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:34.755866"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/neurotransmitery-4-dopamin-a-depresia/",
+      "title": "Neurotransmitery #4 Dopamín a depresia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:36.232595"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-2-redox-cholesterol-statiny-a-glutation/",
+      "title": "Hormóny #2 Redox, Cholesterol, statíny a glutatión",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:37.759749"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-11-asociacno-indukcna-hypoteza-alias-proteiny-ako-polovodice/",
+      "title": "KB #11 Asociačno indukčná hypotéza alias Proteíny ako polovodiče",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:39.244125"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-4-mitochondrie-molekularny-vodik-a-rozpolenie-vody/",
+      "title": "KB #4 Mitochondrie, molekulárny vodík a rozpolenie vody",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:40.745924"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-22-cukrovka-1-a-2-typu-ako-fotoelektricky-verzus-hallov-jav/",
+      "title": "Epigenetika #22 Cukrovka 1. a 2. typu ako fotoelektrický verzus hallov jav",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:42.425343"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-12-irisin-mtor-nad-a-chlad-ako-druha-barlicka/",
+      "title": "VOZ #12 Irisín, mTOR, NAD a chlad ako druhá barlička",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:43.932208"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/tipy-a-recenzie-na-okuliare-proti-modremu-svetlu/",
+      "title": "Okuliare proti modrému svetlu – Tipy a Recenzie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:45.530205"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-15-histamin-hit-a-ich-skutocny-vyznam/",
+      "title": "Epigenetika #15 Histamín, HIT a ich skutočný význam",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:47.038353"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-5-stvrta-faza-vody/",
+      "title": "ENERGIA #5 ŠTVRTÁ FÁZA VODY",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:48.612258"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/politika-virus-vakciny-a-homo-sapiens/",
+      "title": "POLITIKA, VÍRUS, VAKCÍNY a HOMO SAPIENS",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:50.259438"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/novorocne-prianie-10-odporucani-a-tipov-na-rok-2023/",
+      "title": "Novoročné prianie – 10 Odporúčaní a Tipov na rok 2023",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:51.883298"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-9-teplotny-stres-a-hsp/",
+      "title": "Adaptácia na chlad #9 Teplotný stres a HSP",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:53.460752"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-11-cyklotronova-rezonancia-vapnika-uemp-a-ketoza-ako-barlicka/",
+      "title": "VOZ #11 Cyklotrónová rezonancia Vápnika, uEMP a ketóza ako barlička",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:55.031873"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-12-crevo-dpp4-lepok-a-cukrovka/",
+      "title": "Črevo a mozog #12 Črevo, DPP4, lepok a cukrovka",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:56.620380"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-11-leukemia-autizmus-a-tazke-kovy-2-cast/",
+      "title": "Epigenetika #11 Leukémia, autizmus a ťažké kovy – 2. časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:58.228795"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/ako-sa-tvori-vitamin-d-v-pokozke/",
+      "title": "Ako sa tvorí vitamín D v pokožke",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:49:59.781259"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/su-zltacka-a-hypoxia-iba-dosledok-nasich-nespravnych-rozhodnuti/",
+      "title": "SÚ ŽLTAČKA a HYPOXIA IBA DÔSLEDOK NAŠICH NESPRÁVNYCH ROZHODNUTÍ?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:01.407929"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-9-elektricka-rezistencia-verzus-vodivost-v-biologii/",
+      "title": "Matrix #9 Elektrická rezistencia verzus vodivosť v biológii",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:03.095345"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-12-autoimunita-jej-evolucny-vyvoj-a-uv-cervene-svetlo/",
+      "title": "Epigenetika #12 Autoimunita, jej evolučný vývoj a UV/červené svetlo",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:04.756129"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-15-kvantizacia-elektronu-dha-a-bioticke-prvky/",
+      "title": "VOZ #15 Kvantizácia elektrónu, DHA a biotické prvky",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:06.271188"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/neurotransmitery-5-pomc-dopamin-opiaty-a-zavislost/",
+      "title": "Neurotransmitery #5 POMC, dopamín, opiáty a závislosť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:07.983364"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/ako-spravit-z-koze-solarny-pancier-alias-tvoj-solarny-mozol/",
+      "title": "Ako spraviť z KOŽE SOLÁRNY PANCIER alias tvoj SOLÁRNY MOZOĽ",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:09.676201"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/blog-o-mne-ako-som-sa-dostal-k-tomu-co-robim/",
+      "title": "AKO SOM SA DOSTAL K TOMU, ČO ROBÍM-1.časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:11.358507"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-10-deuterium-a-tazka-voda/",
+      "title": "MITOCHONDRIE #10 DEUTÉRIUM a ŤAŽKÁ VODA",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:12.986425"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-15-epifyza-ako-tretie-oko-a-mozgomiesny-mok/",
+      "title": "KB #15 Epifýza ako tretie oko a mozgomiešny mok",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:14.617138"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-3-co-je-negativna-entropia/",
+      "title": "KB #3 Čo je Negatívna Entropia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:16.178173"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-2-preco-existuju-pohlavia/",
+      "title": "MITOCHONDRIE #2 PREČO EXISTUJÚ POHLAVIA",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:17.926292"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/podcast-rozhovor-s-richardom-ozimym-nie-len-o-pohybe-1-cast/",
+      "title": "PODCAST | rozhovor s Richardom Ozimým (nie len) o pohybe -1. časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:19.476130"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-1-elektromagnetizmus/",
+      "title": "ENERGIA #1 ELEKTROMAGNETIZMUS",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:21.067935"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/tuky-a-mastne-kyseliny-sfa-mufa-pufa/",
+      "title": "TUKY a MASTNÉ KYSELINY – SFA, MUFA, PUFA",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:22.683363"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-20-vitamin-d-a-realne-data-kolko-vitaminu-d3-na-slovensku-a-cesku-vytvorime/",
+      "title": "VOZ #20 vitamín D a reálne dáta koľko vitamínu D3 na Slovensku a Česku vytvoríme",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:24.284626"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/je-svetlo-odpoved-pre-lepsie-zdravie-redox-ale-aj-moderne-dogmy/",
+      "title": "Je Svetlo odpoveď pre lepšie Zdravie, Redox, ale aj moderné dogmy?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:25.868053"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-7-mitochondria-ako-maxwellov-demon-ktory-tvori-negativnu-entropiu/",
+      "title": "Matrix #7 Mitochondria ako Maxwellov démon, ktorý tvorí negatívnu entropiu",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:27.475931"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-12-4-sily-vesmiru-verzus-4-fenomeny-biologie/",
+      "title": "KB #12 – 4 Sily Vesmíru verzus 4 fenomény Biológie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:29.014729"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-9-apoptoza-a-autofagia-mtor-a-ampk-basic/",
+      "title": "VOZ #9 Apoptóza a Autofágia, mTOR a AMPK – Basic",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:30.575249"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-1-skutocne-paleo-a-povod-lowcarb/",
+      "title": "Črevo a mozog #1 Skutočné paleo a pôvod lowcarb",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:32.044337"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/zvuk-pulzacia-zlaty-rez-a-deuteria-zbavena-voda/",
+      "title": "Zvuk, pulzácia, zlatý rez a deutéria zbavená voda",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:33.973317"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/preco-dnes-pocitanie-kalorii-nehra-ulohu/",
+      "title": "PREČO DNES POČÍTANIE KALÓRIÍ NEHRÁ ÚLOHU",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:35.738007"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-21-koherentna-domena-vody/",
+      "title": "KB #21 Koherentná doména vody",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:37.368961"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-19-ako-pracuju-kosti-led-kolagen-a-piezoelektrina/",
+      "title": "KB #19 Ako pracujú Kosti (LED, Kolagén a piezoelektrina)",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:39.012645"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/co-je-to-redox-a-preco-na-nom-zalezi/",
+      "title": "Čo je to Redox a prečo na ňom záleží?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:40.477651"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-24-hypotyreoza-riesenia-alternativy-a-prakticky-protokol/",
+      "title": "Epigenetika #24 Hypotyreóza – riešenia, alternatívy a praktický protokol",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:42.309888"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/strukturovana-voda-a-kolagen/",
+      "title": "Štruktúrovaná voda a kolagén",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:43.791543"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-1-chlad-verzus-otuzovanie/",
+      "title": "ADAPTÁCIA NA CHLAD #1 CHLAD verzus OTUŽOVANIE",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:45.320027"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-7-stitna-zlaza-a-kortizol/",
+      "title": "Adaptácia na chlad #7 Štítna žľaza a kortizol",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:46.856800"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-4-ako-dha-spravilo-svetlo-uzitocnym/",
+      "title": "VOZ #4 Ako DHA spravilo Svetlo užitočným",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:48.430635"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/preco-umele-modre-svetlo-dehydratuje-a-znizi-vitamin-d/",
+      "title": "Prečo umelé modré svetlo dehydratuje a zníži vitamín D?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:50.135556"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-3-leaky-gut-celiakia-a-skakajuce-geny/",
+      "title": "Črevo a mozog #3 Leaky gut, celiakia a skákajúce gény",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:51.693947"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-14-jednoduchy-protokol-pre-krvne-testy/",
+      "title": "Hormóny #14 Jednoduchý Protokol pre Krvné Testy",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:53.386641"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-27-ako-slnecne-okuliare-zvysuju-riziko-rakoviny-koze/",
+      "title": "Epigenetika #27 Ako slnečné okuliare zvyšujú riziko rakoviny kože",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:54.962770"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-6-inzulin-a-cukor-v-krvi/",
+      "title": "Adaptácia na chlad #6 Inzulín a cukor v krvi",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:56.556553"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/nizky-vitamin-d-cukrovka-a-uv-svetlo/",
+      "title": "Nízky vitamín D, cukrovka a UV svetlo",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:58.073774"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-5-endosymbioza/",
+      "title": "VZNIK ŽIVOTA #5 Endosymbióza",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:50:59.589843"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/neurotransmitery-3-ako-zvysit-serotonin-a-melatonin/",
+      "title": "NEUROTRANSMITERY #3 AKO ZVÝŠIŤ SEROTONÍN A MELATONÍN",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:01.134540"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-7-skutocna-chemicka-energia-atp-a-voda/",
+      "title": "KB #7 Skutočná chemická energia ATP a Voda",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:02.853540"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-13-crevny-lymfaticky-system-a-autoimunita/",
+      "title": "Črevo a mozog #13 Črevný lymfatický systém a autoimunita",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:04.461331"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/neurotransmitery-1-dopamin-a-serotonin/",
+      "title": "NEUROTRANSMITERY #1 DOPAMÍN a SEROTONÍN",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:06.120479"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-3-hnedy-tuk-a-ucp-rozpojenie/",
+      "title": "Adaptácia na chlad #3 Hnedý tuk a UCP (rozpojenie)",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:07.705328"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-1-co-je-to-plazma-a-ako-plazma-vznika/",
+      "title": "Matrix #1 Čo je to plazma a ako plazma vzniká",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:09.281344"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-14-rayleigh-benardova-konvekcia-a-neustaly-pohyb-vody/",
+      "title": "VOZ #14 Rayleigh Bénardova konvekcia a neustály pohyb vody",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:10.818793"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-10-ako-tvori-kruhovy-pohyb-linearny-flow/",
+      "title": "Matrix #10: Ako tvorí kruhový pohyb lineárny Flow",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:12.546187"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-5-mikrobiom-a-traviaca-sustava/",
+      "title": "Črevo a mozog #5 Mikrobióm a tráviaca sústava",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:14.093114"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-17-sonoluminescencia-sound-healing-a-zvuk-so-svetlom-ako-liek/",
+      "title": "VOZ #17 Sonoluminescencia, sound healing a zvuk so svetlom ako liek",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:15.668399"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/neurotransmitery-2-gaba-a-acetylcholin/",
+      "title": "Neurotransmitery #2 GABA a Acetylcholín",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:17.373120"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-13-tvorba-dha-z-ala-a-bazanov-efekt/",
+      "title": "Hormóny #13 Tvorba DHA z ALA a Bazanov efekt",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:20.672824"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-3-einstein-a-vlnenie/",
+      "title": "ENERGIA #3 EINSTEIN A VLNENIE",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:22.356992"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-2-protokol-ako-sa-adaptovat-na-chlad/",
+      "title": "Adaptácia na chlad #2 Protokol-Ako sa adaptovať na chlad",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:23.925197"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-22-spanok-bdenie-a-regeneracia/",
+      "title": "KB #22 Spánok, Bdenie a Regenerácia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:25.503298"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-5-leptin-a-cirkadianny-rytmus/",
+      "title": "Adaptácia na chlad #5 Leptín a cirkadiánny rytmus",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:27.058474"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/prvy-qaa-podcast-na-temu-svetlo-morske-riasy-tipy-na-vecere-svacinky-a-viac/",
+      "title": "Prvý QaA PODCAST na tému svetlo, morské riasy, tipy na večere, svačinky a viac",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:28.694105"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kvantova-biologia-1-historia-vznik-a-prvi-pionieri/",
+      "title": "Kvantová Biológia #1 História, Vznik a prví Pionieri",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:30.197493"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-11-hnedy-tuk-ako-liek-na-cukrovku/",
+      "title": "Hormóny #11 Hnedý tuk ako liek na cukrovku",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:31.812691"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-8-zenske-telo-porod-vyvoj-mozgu-a-ketoza/",
+      "title": "Črevo a mozog #8 Ženské telo, pôrod, vývoj mozgu a ketóza",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:33.380062"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-8-protokol-pre-vycerpane-nadoblicky/",
+      "title": "Hormóny #8 Protokol pre Vyčerpané nadobličky",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:34.862173"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-18-co-su-biofotony-a-preco-ich-tvorime/",
+      "title": "Epigenetika #18 Čo sú biofotóny a prečo ich tvoríme",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:36.536436"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-4-leptin/",
+      "title": "VZNIK ŽIVOTA #4 LEPTÍN",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:38.166817"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-12-volne-radikaly-ros-a-prepojenie-elektronov-entaglement/",
+      "title": "Hormóny #12 Voľné radikály (ROS) a prepojenie elektrónov (Entaglement)",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:39.756150"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-14-protokol-ako-zlepsit-crevo-leaky-gut/",
+      "title": "Črevo a mozog #14 Protokol ako zlepšiť črevo/ leaky gut",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:41.313486"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-13-nobelova-cena-za-fyziku-2023-a-kvantova-biologia/",
+      "title": "Epigenetika #13 Nobelova cena za fyziku 2023 a kvantová biológia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:42.895463"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-6-co-je-zeta-potencial-a-preco-niekomu-nefunguje-ketogenna-strava/",
+      "title": "VOZ #6 Čo je Zeta potenciál a prečo niekomu nefunguje Ketogénna strava",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:44.497560"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-10-co-su-polovodice-ich-objav-v-biologii/",
+      "title": "KB #10 Čo sú polovodiče – ich objav v Biológii",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:46.049191"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/je-konzumacia-masa-skodliva-sirovodik-sulfat-a-mikrobiom/",
+      "title": "Je konzumácia mäsa škodlivá? Sírovodík, sulfát a mikrobióm.",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:47.627205"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/covid-spolocenska-imunita-a-vitamin-d/",
+      "title": "COVID, SPOLOČENSKÁ IMUNITA A VITAMÍN D",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:49.190438"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/blog-o-mne-mitochondria-a-dychaci-retazec/",
+      "title": "MITOCHONDRIA A DÝCHACÍ REŤAZEC – 2.časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:50.727621"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-20-cns-nervy-neurony-a-ich-regeneracny-elektricky-prud/",
+      "title": "KB #20 CNS, Nervy, Neuróny a ich regeneračný elektrický prúd",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:52.432354"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-8-heteroplazmia/",
+      "title": "MITOCHONDRIE #8 HETEROPLAZMIA",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:53.963471"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-4-cholesterol-a-triglyceridy-v-krvi-moze-byt-zvyseny-cholesterol-dobry/",
+      "title": "Hormóny #4 Cholesterol a Triglyceridy v krvi – Môže byť zvýšený cholesterol dobrý?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:55.549533"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-8-teplo-verzus-zima-a-efektivita/",
+      "title": "Adaptácia na chlad #8 Teplo verzus, zima a efektivita",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:57.211580"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-10-svaly-ubikvitinacia-a-potreningove-ne-jedenie/",
+      "title": "VOZ #10 Svaly, ubikvitinácia a potréningové (ne) jedenie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:51:58.792865"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voda-ohen-zem-1-alias-3-zivly-prirody-a-ich-skutocna-povaha/",
+      "title": "Voda, Oheň, Zem #1 alias 3 Živly Prírody a ich skutočná povaha",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:02.018058"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-14-rozpolenie-vody-supravodivost-a-podchladenie/",
+      "title": "KB #14 Rozpolenie vody, Supravodivosť a podchladenie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:03.758662"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-7-jod-a-vyvoj-mozgu/",
+      "title": "VZNIK ŽIVOTA #7 JÓD a VÝVOJ MOZGU",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:05.361604"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-8-ako-vplyva-deuterium-na-typ-a-prejav-choroby/",
+      "title": "Epigenetika #8 Ako vplýva deutérium na typ a prejav choroby?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:08.718297"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-3-cholesterol-a-jeho-rozdielny-objem-hmotnost-a-energia/",
+      "title": "Hormóny #3 Cholesterol a jeho rozdielny objem, hmotnosť a Energia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:10.258683"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vianocny-blog-a-novorocne-tipy-na-2025-pre-mitochondriak-ov/",
+      "title": "Vianočný blog a novoročné tipy na 2025 pre Mitochondriak-ov",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:11.836689"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-7-ako-a-kde-zacina-transgeneracna-epigenetika/",
+      "title": "Epigenetika #7 Ako a kde začína transgeneračná epigenetika",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:13.448985"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-10-faq/",
+      "title": "Adaptácia na chlad #10 FAQ",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:15.102796"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-24-fosfor-vapnik-deuterium-a-degeneracia-kosti/",
+      "title": "Epigenetika #25 fosfor, vápnik, deutérium a (de)generácia kostí",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:16.847640"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/cirkadialny-rytmus-1-cirkadialne-geny-per/",
+      "title": "Cirkadiánny rytmus #1 Cirkadiálne gény PER",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:18.447192"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-7-co-je-ubikvitinacia-alias-nahradzanie-proteinov/",
+      "title": "VOZ #7 Čo je Ubikvitinácia alias nahrádzanie proteínov",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:20.190014"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-5-koherencia-vody-alias-tekuty-krystal/",
+      "title": "KB #5 Koherencia vody alias tekutý kryštál",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:21.884231"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/qaa-podcast-02-na-temu-sacharidy-uv-svetlo-okuliare-filtracia-vody-a-viac/",
+      "title": "QaA podcast #02 na tému sacharidy, UV svetlo, okuliare, filtrácia vody a viac",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:23.451755"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-10-leukemia-a-autizmus-ako-odlisny-prejav-podobneho-mechanizmu-1-cast/",
+      "title": "Epigenetika #10 Leukémia a autizmus ako odlišný prejav podobného mechanizmu – 1. časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:25.097013"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-8-sodno-draselna-pumpa-alias-dokaz-ze-atp-nie-je-zdrojom-energie/",
+      "title": "KB #8 Sodno-Draselná pumpa alias dôkaz, že ATP nie je zdrojom energie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:26.679166"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-5-etc-elektronovy-transportny-cyklus/",
+      "title": "MITOCHONDRIE #5 ETC (Elektrónový transportný cyklus)",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:28.223304"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-3-teoria-relativity-a-svetlo-ako-strojca-gravitacie-aj-casu/",
+      "title": "VOZ 3 Teória Relativity a Svetlo ako strojca gravitácie aj času",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:29.717224"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-16-potencial-obmedzenia-ludskej-mysle-a-magnetizmus/",
+      "title": "VOZ #16 Potenciál/obmedzenia ľudskej mysle a magnetizmus",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:31.266122"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-2-virusy-a-priepustne-crevo/",
+      "title": "Črevo a mozog #2 Vírusy a priepustné črevo",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:32.870697"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-3-mitochondria-je-pyro-aj-piezoelektricka-a-dha-s-kambrickou-exploziou-su-toho-dokazom/",
+      "title": "MATRIX #3 Mitochondria je pyro aj piezoelektrická a DHA s kambrickou explóziou sú toho dôkazom",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:34.585106"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/adaptacia-na-chlad-4-melatonin-a-magnetizmus/",
+      "title": "Adaptácia na chlad #4 Melatonín a magnetizmus",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:36.143628"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-6-je-oteplovanie-zeme-skutocne/",
+      "title": "ENERGIA #6 JE OTEPĽOVANIE ZEME SKUTOČNÉ?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:37.774164"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-4-inzulin-a-atp-ako-biologicky-polovodic/",
+      "title": "Epigenetika #4 Inzulín a ATP ako Biologický polovodič",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:39.393870"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-3-sacharidy-verzus-tuky/",
+      "title": "VZNIK ŽIVOTA #3 SACHARIDY verzus TUKY",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:40.984024"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-6-vitamin-a-stitna-zlaza-a-ukradnuty-pregnenolon/",
+      "title": "Hormóny #6 Vitamín A, štítna žľaza a ukradnutý pregnenolón",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:42.686421"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-18-magnetizmus-pre-pokrocilych-magneticky-moment-a-pamat-vody/",
+      "title": "VOZ #18 Magnetizmus pre pokročilých – magnetický moment a pamäť vody",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:44.201273"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vakciny-redox-a-ekonomika-2-cast/",
+      "title": "Vakcíny, Redox a ekonomika 2. časť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:45.806302"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-5-sira-cystein-glutation-a-detox-verzus-redox/",
+      "title": "Epigenetika #5 Síra, cysteín, glutatión a Detox verzus Redox",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:49.130434"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-13-pohyb-ako-biofyzikalny-fenomen/",
+      "title": "VOZ #13 Pohyb ako biofyzikálny fenomén",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:50.702503"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/ako-travime-potravu-od-pohladu-a-vone-az-po-elektrony-a-protony/",
+      "title": "Ako trávime potravu – od pohľadu a vône až po elektróny a protóny",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:52.474728"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-18-melanopsin-bistabilita-svetlo-a-vapnik/",
+      "title": "KB #18 Melanopsin, bistabilita, svetlo a vápnik",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:54.052256"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb2-kde-sa-stretli-kvantova-a-cirkadianna-biologia-alias-kvantova-evolucia/",
+      "title": "KB#2 Kde sa stretli Kvantová a Cirkadiánna Biológia alias Kvantová Evolúcia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:55.534482"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-13-zlaty-rez-fibonacciho-postupnost-a-voda/",
+      "title": "KB #13 Zlatý rez, Fibonacciho postupnosť a Voda",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:57.132934"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-5-ako-mitochondrie-tvoria-pregnenolon/",
+      "title": "Hormóny #5 Ako Mitochondrie tvoria Pregnenolón",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:52:58.575571"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-8-ubikvitinacia-a-prakticke-kroky-a-testy-ako-ju-zlepsit/",
+      "title": "VOZ #8 Ubikvitinácia a praktické Kroky a Testy ako ju zlepšiť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:00.124151"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-10-lpl-fiaf-ldl-cholesterol-a-nadvaha/",
+      "title": "Črevo a mozog #10 LPL, FIAF, LDL cholesterol a nadváha",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:01.714765"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-23-kinaza-a-fosfataza-ako-on-off-spinac-endogenneho-uv-svetla/",
+      "title": "KB #23 Kináza a fosfatáza ako ON/OFF spínač endogénneho UV svetla",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:03.332212"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-6-preco-nase-mitochondrie-zaujima-lahky-vodik-a-proton/",
+      "title": "Matrix #6 Prečo naše mitochondrie zaujíma ľahký vodík a protón?",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:04.857670"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-5-mitochondria-voda-a-hydrodynamika/",
+      "title": "MATRIX #5 Mitochondria, voda a hydrodynamika",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:06.513817"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-1-cholesterol-ako-omyl-modernej-spolocnosti/",
+      "title": "Hormóny #1 Cholesterol ako omyl modernej spoločnosti",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:08.445693"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-8-tvar-mitochondrie-urcuje-jej-termodynamiku/",
+      "title": "Matrix #8 Tvar mitochondrie určuje jej termodynamiku",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:10.227502"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-2-proteiny-bielkoviny/",
+      "title": "VZNIK ŽIVOTA #2 Proteíny/bielkoviny",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:11.759557"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-19-akvafotomika-a-infracervene-svetlo-nir/",
+      "title": "VOZ #19 Akvafotomika a infračervené svetlo (NIR)",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:13.269230"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-11-zaludocne-kyseliny-a-ako-pomoct-s-hcl/",
+      "title": "Črevo a mozog #11 Žalúdočné kyseliny a ako pomôcť s HCL",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:14.825957"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-26-stahovanie-ludi-z-rovnika-a-zmena-vyuzivania-horcika/",
+      "title": "Epigenetika #26 Sťahovanie ľudí z rovníka a zmena využívania horčíka",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:16.460174"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/2-cast-januaroveho-qaa-podcastu/",
+      "title": "2. Časť Januárového QaA podcastu",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:18.029403"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/novorocne-tipy-myslienky-na-rok-2024-pre-mitochondriak-ov/",
+      "title": "Novoročné tipy/myšlienky na rok 2024 pre mitochondriak-ov",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:19.846200"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-16-kvantovanie-kvantizacia-a-qed/",
+      "title": "KB #16 Kvantovanie (Kvantizácia) a QED",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:21.340113"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-1-melanopsin-dopamin-a-kratkozrakost/",
+      "title": "Epigenetika #1 Melanopsin, Dopamín a krátkozrakosť",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:22.894758"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-9-skratene-crevo-a-apendix/",
+      "title": "Črevo a mozog #9 Skrátené črevo a apendix",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:24.453502"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-4-bipedalizmus-a-grounding/",
+      "title": "Črevo a mozog #4 Bipedalizmus, pohyb a grounding",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:25.979843"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/solarny-mozol-faq-melasma-akne-znamienka-a-ine/",
+      "title": "SOLÁRNY MOZOĽ #FAQ (melasma, akné, znamienka a iné)",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:27.713135"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-4-shumannova-rezonancia/",
+      "title": "ENERGIA #4 SHUMANNOVA REZONANCIA",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:29.290997"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/voz-5-tvorba-endogenneho-svetla-a-regeneracia/",
+      "title": "VOZ #5 Tvorba endogénneho svetla a regenerácia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:30.859031"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-1-cirkadialny-rytmus/",
+      "title": "VZNIK ŽIVOTA #1 Cirkadiálny rytmus",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:32.434768"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-6-ucp-atp-a-atp-syntaza/",
+      "title": "MITOCHONDRIE #6 UCP, ATP a ATP-syntáza",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:33.946003"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-9-preco-sportovci-ne-potrebuju-sacharidy/",
+      "title": "Hormóny #9 Prečo športovci (ne) potrebujú sacharidy",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:35.528878"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-14-zvlastnosti-etc-a-3-tipy-pre-zdravie-aj-chudnutie/",
+      "title": "Epigenetika #14 Zvláštnosti ETC, a 3 tipy pre zdravie aj chudnutie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:37.102404"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-16-histamin-deuterium-a-ich-detox/",
+      "title": "Epigenetika #16 Histamín, deutérium a ich Detox",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:38.625418"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/matrix-4-krebsov-bi-cyklus/",
+      "title": "Matrix #4 Krebsov bi-cyklus",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:40.171072"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/energia-2-bio-elektromagnetizmus/",
+      "title": "ENERGIA #2 BIO-ELEKTROMAGNETIZMUS",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:41.667066"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-23-hypotyreoza-dopant-jod-a-hormony-stitnej-zlazy/",
+      "title": "Epigenetika #23 Hypotyreóza, dopant jód a hormóny štítnej žľazy",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:43.259734"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/hormony-10-inzulinova-rezistencia-a-reverzny-flow-mitochondrie/",
+      "title": "Hormóny #10 inzulínová rezistencia a reverzný flow mitochondrie",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:44.851203"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/kb-17-vapnik-vgcc-a-umele-emp/",
+      "title": "KB #17 Vápnik, VGCC a umelé EMP",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:46.356842"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-9-imunitny-system-a-serotonin/",
+      "title": "Epigenetika #9 Imunitný systém a serotonín",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:47.956049"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-2-co-je-epigenetika-a-ako-pracuje/",
+      "title": "Epigenetika #2 Čo je Epigenetika a ako pracuje",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:49.747300"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/vznik-zivota-6-dha-alias-kyselina-dokosahexaenova/",
+      "title": "VZNIK ŽIVOTA #6 DHA alias kyselina dokosahexaenová",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:51.271375"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-mozog-6-glutation-pentozovy-cyklus-a-detoxikacia/",
+      "title": "Črevo a mozog #6 Glutatión, Pentózový cyklus a detoxikácia",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:52.837592"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/mitochondrie-12-protokol-pre-pomoc-mitochondriam/",
+      "title": "Mitochondrie #12 Protokol pre pomoc Mitochondriám",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:54.344996"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-3-em-sila-ako-kontrolor-epigenetiky/",
+      "title": "Epigenetika #3 EM sila ako kontrolór Epigenetiky",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:55.902796"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/epigenetika-19-rakovina-prsnika-estrogen-a-uv/",
+      "title": "Epigenetika #19 Rakovina prsníka, Estrogén a UV",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:57.538664"
+    },
+    {
+      "url": "https://jaroslavlachky.sk/crevo-a-mozog-7-skutocny-vyvoj-homosapiens/",
+      "title": "Črevo a mozog #7 Skutočný vývoj homosapiens",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:53:59.035677"
+    }
+  ],
+  "failed_urls": []
+}

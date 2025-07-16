@@ -134,14 +134,14 @@ class BlogScraper:
     def extract_content(self, soup):
         """Extract article content"""
         selectors = [
-            '.pf-content .entry_content',
             '.blog_entry_content',
             '.entry_content',
             '.post-content',
             '.article-content',
             '.content',
             'article .entry-content',
-            'main article'
+            'main article',
+            '.pf-content .entry_content'
         ]
         
         for selector in selectors:
@@ -325,6 +325,47 @@ class BlogScraper:
                 f.write('\n'.join(self.failed_urls))
             logger.info(f"Failed URLs saved to {failed_path}")
     
+    def scrape_specific_urls(self, urls):
+        """Scrape specific URLs provided by the user"""
+        logger.info(f"Starting to scrape {len(urls)} specific URLs")
+        
+        total_scraped = 0
+        
+        for i, url in enumerate(urls, 1):
+            # Normalize URL if needed
+            if not url.startswith('http'):
+                url = self.normalize_url(url)
+            
+            logger.info(f"\n--- Scraping URL {i}/{len(urls)}: {url} ---")
+            
+            try:
+                article_data = self.scrape_article(url)
+                if article_data:
+                    self.scraped_articles.append(article_data)
+                    total_scraped += 1
+                    logger.info(f"✓ Scraped: {article_data['title'][:50]}...")
+                    
+                    # Save individual article
+                    self.save_article_to_file(article_data)
+                    
+                    # Small delay to be respectful
+                    time.sleep(0.5)
+                else:
+                    logger.warning(f"✗ Failed to scrape: {url}")
+                    self.failed_urls.append(url)
+            
+            except Exception as e:
+                logger.error(f"✗ Error scraping {url}: {e}")
+                self.failed_urls.append(url)
+        
+        logger.info("\n=== Scraping Complete ===")
+        logger.info(f"Total articles scraped: {total_scraped}")
+        logger.info(f"Failed URLs: {len(self.failed_urls)}")
+        
+        self.save_summary()
+        if self.failed_urls:
+            self.save_failed_urls()
+    
     def scrape_all(self):
         """Main scraping function"""
         logger.info(f"Starting to scrape {self.BLOG_URL}")
@@ -382,6 +423,8 @@ def main():
     parser = argparse.ArgumentParser(description='Slovak Blog Scraper for jaroslavlachky.sk')
     parser.add_argument('--output', '-o', default='./data/raw/scraped_data', 
                        help='Output directory (default: ./data/raw/scraped_data)')
+    parser.add_argument('urls', nargs='*', 
+                       help='Specific URLs to scrape. If not provided, scrapes entire blog.')
     
     args = parser.parse_args()
     
@@ -394,7 +437,12 @@ def main():
     
     scraper = BlogScraper()
     
-    scraper.scrape_all()
+    if args.urls:
+        # Scrape specific URLs
+        scraper.scrape_specific_urls(args.urls)
+    else:
+        # Scrape entire blog
+        scraper.scrape_all()
 
 if __name__ == "__main__":
     main()

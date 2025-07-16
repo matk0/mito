@@ -1,0 +1,20 @@
+{
+  "scan_completed_at": "2025-07-16T09:08:07.065550",
+  "paywall_text_searched": "Pre dočítanie článku sa musíte PRIHLÁSIŤ",
+  "total_checked": 1,
+  "paywall_articles_count": 0,
+  "free_articles_count": 1,
+  "failed_urls_count": 1,
+  "paywall_articles": [],
+  "free_articles": [
+    {
+      "url": "https://jaroslavlachky.sk/novorocne-prianie-10-odporucani-a-tipov-na-rok-2023/",
+      "title": "Novoročné prianie – 10 Odporúčaní a Tipov na rok 2023",
+      "has_paywall": false,
+      "checked_at": "2025-07-16T09:08:06.340669"
+    }
+  ],
+  "failed_urls": [
+    "https://jaroslavlachky.sk/cholesterol-ako-omyl-modernej-spolocnosti-hormony-1/"
+  ]
+}
