@@ -1,0 +1,55 @@
+{
+  "article_file": "Cirkadinny_rytmus_1_Cirkadilne_gny_PER.json",
+  "article_title": "Cirkadiánny rytmus #1 Cirkadiálne gény PER",
+  "article_url": "https://jaroslavlachky.sk/cirkadialny-rytmus-1-cirkadialne-geny-per/",
+  "article_date": "2020-03-14T00:00:00+01:00",
+  "reference_section": "https://www.space.com/17661-theory-general-relativity.htmlhttps://en.wikipedia.org/wiki/Seymour_Benzerhttps://en.wikipedia.org/wiki/Period_(gene)#Mammalian_homologs_of_perhttps://en.wikipedia.org/wiki/PER3https://www.youtube.com/watch?v=ysa5OBhXz-Qhttps://science.sciencemag.org/content/278/5343/1632/tab-figures-datahttps://www.quora.com/Why-do-GPS-satellites-tick-precisely-38-microseconds-faster-than-clocks-on-Earthhttps://www.nobelprize.org/prizes/medicine/2017/press-release/https://journals.pl...",
+  "total_sources": 17,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4013188/https",
+      "https://www.sciencemag.org/news/2015/09/coffee",
+      "https://science.sciencemag.org/content/278/5343/1632/tab",
+      "https://www.sciencedaily.com/releases/2019/10/191016133015.htmhttps",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5526350/",
+      "https://www.ncbi.nlm.nih.gov/pubmed/31150621",
+      "https://elifesciences.org/articles/24779https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5909328/https",
+      "https://journals.plos.org/plosone/article?id=10.1371"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/PER3https",
+      "https://www.cp24.com/mobile/news/no",
+      "https://www.amazon.com/Vital",
+      "https://www.nobelprize.org/prizes/medicine/2017/press",
+      "https://www.space.com/17661",
+      "https://www.quora.com/Why",
+      "https://www.indiatoday.in/education",
+      "https://en.wikipedia.org/wiki/Seymour_Benzerhttps"
+    ]
+  },
+  "all_sources": [
+    "https://en.wikipedia.org/wiki/PER3https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4013188/https",
+    "https://www.cp24.com/mobile/news/no",
+    "https://www.amazon.com/Vital",
+    "https://www.sciencemag.org/news/2015/09/coffee",
+    "https://science.sciencemag.org/content/278/5343/1632/tab",
+    "https://www.nobelprize.org/prizes/medicine/2017/press",
+    "https://www.sciencedaily.com/releases/2019/10/191016133015.htmhttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5526350/",
+    "https://www.space.com/17661",
+    "https://www.quora.com/Why",
+    "https://www.ncbi.nlm.nih.gov/pubmed/31150621",
+    "https://www.indiatoday.in/education",
+    "https://en.wikipedia.org/wiki/Seymour_Benzerhttps",
+    "https://elifesciences.org/articles/24779https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5909328/https",
+    "https://journals.plos.org/plosone/article?id=10.1371"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.444641"
+}

@@ -1,0 +1,54 @@
+{
+  "article_file": "COVID_SPOLOENSK_IMUNITA_AVITAMN_D.json",
+  "article_title": "COVID, SPOLOČENSKÁ IMUNITA A VITAMÍN D",
+  "article_url": "https://jaroslavlachky.sk/covid-spolocenska-imunita-a-vitamin-d/",
+  "article_date": "2020-08-19T00:00:00+02:00",
+  "reference_section": "https://cs.qwe.wiki/wiki/Herd_immunity\n\n\n\nhttps://www.ncbi.nlm.nih.gov/books/NBK279396/\n\n\n\nhttps://link.springer.com/chapter/10.1007/5584_2018_246?fbclid=IwAR2TTKmExlbEU4bu0_v1u08J_Zc7J1xjEhjqjVxn6oieGXfh827JR6PmkfE\n\n\n\nhttps://www.sciencedaily.com/releases/2010/03/100307215534.htm?fbclid=IwAR2lu2njxO6J-pNpeNTw2XyDsdQWFOyGt5-KXXrtDNq_-RS0Yewygtq2zxc\n\n\n\nhttps://academic.oup.com/jcem/article/101/2/533/2810779\n\n\n\nhttps://www.nature.com/articles/s41586-020-2550-z\n\n\n\nhttps://www.medrxiv.org/content/10...",
+  "total_sources": 16,
+  "sources_by_category": {
+    "academic": [
+      "https://academic.oup.com/jcem/article/101/2/533/2810779",
+      "https://www.sciencedaily.com/releases/2010/03/100307215534.htm?fbclid=IwAR2lu2njxO6J",
+      "https://link.springer.com/chapter/10.1007/5584_2018_246?fbclid=IwAR2TTKmExlbEU4bu0_v1u08J_Zc7J1xjEhjqjVxn6oieGXfh827JR6PmkfE",
+      "https://www.ncbi.nlm.nih.gov/books/NBK279396/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5342627/",
+      "https://www.sciencedirect.com/science/article/pii/S0092867420306103?via%3Dihub",
+      "https://www.nature.com/articles/s41586"
+    ],
+    "news": [
+      "https://www.euronews.com/2020/04/06/coronavirus",
+      "https://edition.cnn.com/2019/11/19/business/heliogen",
+      "https://www.nytimes.com/2020/08/17/health/coronavirus"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://cs.qwe.wiki/wiki/Herd_immunity",
+      "https://www.medrxiv.org/content/10.1101/2020.04.17.20061440v1",
+      "https://fee.org/articles/europes",
+      "https://thehill.com/changing",
+      "https://medicalxpress.com/news/2020",
+      "https://www.cnbc.com/2017/07/06/billionaires"
+    ]
+  },
+  "all_sources": [
+    "https://cs.qwe.wiki/wiki/Herd_immunity",
+    "https://www.euronews.com/2020/04/06/coronavirus",
+    "https://academic.oup.com/jcem/article/101/2/533/2810779",
+    "https://www.sciencedaily.com/releases/2010/03/100307215534.htm?fbclid=IwAR2lu2njxO6J",
+    "https://www.medrxiv.org/content/10.1101/2020.04.17.20061440v1",
+    "https://fee.org/articles/europes",
+    "https://link.springer.com/chapter/10.1007/5584_2018_246?fbclid=IwAR2TTKmExlbEU4bu0_v1u08J_Zc7J1xjEhjqjVxn6oieGXfh827JR6PmkfE",
+    "https://thehill.com/changing",
+    "https://edition.cnn.com/2019/11/19/business/heliogen",
+    "https://www.nytimes.com/2020/08/17/health/coronavirus",
+    "https://www.ncbi.nlm.nih.gov/books/NBK279396/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5342627/",
+    "https://medicalxpress.com/news/2020",
+    "https://www.sciencedirect.com/science/article/pii/S0092867420306103?via%3Dihub",
+    "https://www.nature.com/articles/s41586",
+    "https://www.cnbc.com/2017/07/06/billionaires"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.452750"
+}

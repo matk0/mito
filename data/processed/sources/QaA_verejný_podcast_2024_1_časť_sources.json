@@ -1,0 +1,27 @@
+{
+  "article_file": "QaA_verejn_podcast_2024_1_as.json",
+  "article_title": "QaA verejný podcast 2024 – 1. časť",
+  "article_url": "https://jaroslavlachky.sk/qaa-verejny-podcast-2024-1-cast/",
+  "article_date": "2024-01-09T00:00:00+01:00",
+  "reference_section": "https://smartermeters.blogspot.com/2011/11/zapping-of-america.html?m=1\n\n\n\nAli Masoumi, Narges Karbalaei, S. M. J. Mortazavi & Mohammad Shabani (2018) Radiofrequency radiation emitted from Wi-Fi (2.4 GHz) causes impaired insulin secretion and increased oxidative stress in rat pancreatic islets, International Journal of Radiation Biology, 94:9, 850-857, DOI: 10.1080/09553002.2018.1490039\n\n\n\nAvendaño C, Mata A, Sanchez Sarmiento CA, Doncel GF. Use of laptop computers connected to internet through W...",
+  "total_sources": 3,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/19854628/",
+      "https://www.sciencedirect.com/science/article/pii/S0891061815000599"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [
+      "https://smartermeters.blogspot.com/2011/11/zapping"
+    ],
+    "other": []
+  },
+  "all_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/19854628/",
+    "https://smartermeters.blogspot.com/2011/11/zapping",
+    "https://www.sciencedirect.com/science/article/pii/S0891061815000599"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.667114"
+}

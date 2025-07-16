@@ -1,0 +1,32 @@
+{
+  "article_file": "PREO_DNES_POTANIE_KALRI_NEHR_LOHU.json",
+  "article_title": "PREČO DNES POČÍTANIE KALÓRIÍ NEHRÁ ÚLOHU",
+  "article_url": "https://jaroslavlachky.sk/preco-dnes-pocitanie-kalorii-nehra-ulohu/",
+  "article_date": "2020-02-26T00:00:00+01:00",
+  "reference_section": "https://en.wiktionary.org/wiki/calorific_valuehttps://en.wikipedia.org/wiki/Reactive_oxygen_specieshttps://sk.wikipedia.org/wiki/Z%C3%A1kon_zachovania_energiehttps://sk.wikipedia.org/wiki/Prv%C3%A1_termodynamick%C3%A1_vetahttps://sk.wikipedia.org/wiki/Druh%C3%A1_termodynamick%C3%A1_vetahttps://sk.wikipedia.org/wiki/Tretia_termodynamick%C3%A1_vetahttps://en.wikipedia.org/wiki/Thermodynamics_of_the_universe",
+  "total_sources": 6,
+  "sources_by_category": {
+    "academic": [],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Prv",
+      "https://en.wiktionary.org/wiki/calorific_valuehttps",
+      "https://sk.wikipedia.org/wiki/Druh",
+      "https://sk.wikipedia.org/wiki/Z",
+      "https://en.wikipedia.org/wiki/Thermodynamics_of_the_universe",
+      "https://sk.wikipedia.org/wiki/Tretia_termodynamick"
+    ]
+  },
+  "all_sources": [
+    "https://sk.wikipedia.org/wiki/Prv",
+    "https://en.wiktionary.org/wiki/calorific_valuehttps",
+    "https://sk.wikipedia.org/wiki/Druh",
+    "https://sk.wikipedia.org/wiki/Z",
+    "https://en.wikipedia.org/wiki/Thermodynamics_of_the_universe",
+    "https://sk.wikipedia.org/wiki/Tretia_termodynamick"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.459405"
+}

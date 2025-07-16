@@ -1,0 +1,68 @@
+{
+  "article_file": "Epigenetika_19_Rakovina_prsnka_Estrogn_aUV.json",
+  "article_title": "Epigenetika #19 Rakovina prsníka, Estrogén a UV",
+  "article_url": "https://jaroslavlachky.sk/epigenetika-19-rakovina-prsnika-estrogen-a-uv/",
+  "article_date": "2024-01-31T00:00:00+01:00",
+  "reference_section": "10.1186/s12889-021-10424-5\n\n\n\nhttps://ehp.niehs.nih.gov/doi/10.1289/EHP4861\n\n\n\nhttps://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.25.3.245\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4135458\n\n\n\n\n\nhttps://www.breastcancerfoundation.org.nz/breast-cancer/types-of-breast-cancer/hôrmone-receptor-status\n\n\n\nhttps://en.m.wikipedia.org/wiki/Photodissociation\n\n\n\nSilverberg a Grant 1970\n\n\n\nSiegel, Zou a Jemal 2014\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC1764089/\n\n\n\nhttps://ec.bioscientifica...",
+  "total_sources": 23,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B73",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4135458",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1764089/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B74",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B76",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B85",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B81",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B83",
+      "https://www.nature.com/articles/nature19081",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B80",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B82",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B75",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B63",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B84"
+    ],
+    "news": [],
+    "government": [
+      "https://ec.europa.eu/eurostat/statistics",
+      "https://ehp.niehs.nih.gov/doi/10.1289/EHP4861"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.breastcancerfoundation.org.nz/breast",
+      "https://www.cell.com/fulltext/S0092",
+      "https://en.wikipedia.org/wiki/Peroxynitrite",
+      "https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.25.3.245",
+      "https://ec.bioscientifica.com/view/journals/ec/10/12/EC",
+      "https://en.m.wikipedia.org/wiki/Photodissociation"
+    ]
+  },
+  "all_sources": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B73",
+    "https://www.breastcancerfoundation.org.nz/breast",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4135458",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1764089/",
+    "https://www.cell.com/fulltext/S0092",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B74",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B76",
+    "https://en.wikipedia.org/wiki/Peroxynitrite",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B85",
+    "https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.25.3.245",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B81",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B83",
+    "https://www.nature.com/articles/nature19081",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B80",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B82",
+    "https://ec.europa.eu/eurostat/statistics",
+    "https://ec.bioscientifica.com/view/journals/ec/10/12/EC",
+    "https://ehp.niehs.nih.gov/doi/10.1289/EHP4861",
+    "https://en.m.wikipedia.org/wiki/Photodissociation",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B75",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B63",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10095386/#B84"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.522853"
+}

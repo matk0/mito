@@ -1,0 +1,43 @@
+{
+  "article_file": "SOLRNY_MOZO_FAQ_melasma_akn_znamienka_ain.json",
+  "article_title": "SOLÁRNY MOZOĽ #FAQ (melasma, akné, znamienka a iné)",
+  "article_url": "https://jaroslavlachky.sk/solarny-mozol-faq-melasma-akne-znamienka-a-ine/",
+  "article_date": "2020-09-13T00:00:00+02:00",
+  "reference_section": "https://cs.wikipedia.org/wiki/Mozolhttps://www.zzz.sk/clanok/6873-koza-najvacsi-organ-ludskeho-telahttps://cs.wikipedia.org/wiki/Keratinocythttps://sk.wikipedia.org/wiki/Melan%C3%ADnhttps://www.researchgate.net/profile/Alexander_Wunsch\n\n\n\nhttps://news.berkeley.edu/2018/09/12/gut-bacterias-shocking-secret-they-produce-electricity/https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC38678/pdf/pnas01520-0230.pdf&ved=2ahUKEwi29vWIjNrrAhUKfMAKHePnCgsQFjABe...",
+  "total_sources": 11,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6122858/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5891084/https",
+      "https://news.berkeley.edu/2018/09/12/gut"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.alphamedical.sk/vysetrenie/vitaminhttps",
+      "https://www.google.com/url?sa=t&source=web&rct=j&url=https",
+      "https://cs.wikipedia.org/wiki/Mozolhttps",
+      "https://www.researchgate.net/profile/Alexander_Wunsch",
+      "https://medicalxpress.com/news/2019",
+      "https://m.vysetrenie.zoznam.sk/cl/1001021/1703581/Podcenovane",
+      "https://cs.wikipedia.org/wiki/Keratinocythttps",
+      "https://www.medaprex.sk/sk/magazin"
+    ]
+  },
+  "all_sources": [
+    "https://www.alphamedical.sk/vysetrenie/vitaminhttps",
+    "https://www.google.com/url?sa=t&source=web&rct=j&url=https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6122858/https",
+    "https://cs.wikipedia.org/wiki/Mozolhttps",
+    "https://www.researchgate.net/profile/Alexander_Wunsch",
+    "https://medicalxpress.com/news/2019",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5891084/https",
+    "https://m.vysetrenie.zoznam.sk/cl/1001021/1703581/Podcenovane",
+    "https://cs.wikipedia.org/wiki/Keratinocythttps",
+    "https://news.berkeley.edu/2018/09/12/gut",
+    "https://www.medaprex.sk/sk/magazin"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.583142"
+}

@@ -1,0 +1,30 @@
+{
+  "article_file": "VOZ_19_Akvafotomika_ainfraerven_svetlo_NIR.json",
+  "article_title": "VOZ #19 Akvafotomika a infračervené svetlo (NIR)",
+  "article_url": "https://jaroslavlachky.sk/voz-19-akvafotomika-a-infracervene-svetlo-nir/",
+  "article_date": "2023-07-10T00:00:00+02:00",
+  "reference_section": "Muncan, J.; Tsenkova, R. Aquaphotomics—From Innovative Knowledge to Integrative Platform in Science and Technology. Molecules 2019, 24, 2742. https://doi.org/10.3390/molecules24152742\n\n\n\nAtanassova, S. 2015. “Near Infrared Spectroscopy and aquaphotomics for monitoring changes during yellow cheese ripening.”  Agricultural Science and Technology 7 (2):269-272.\n\n\n\nAtanassova, S., R. Tsenkova, R.M. Vasu, M. Koleva, and M. Dimitrov. 2009. “Identification of mastitis pathogens in raw milk by near infr...",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://doi.org/10.1016/j.foodchem.2015.08.092",
+      "https://doi.org/10.3390/molecules24152742",
+      "https://doi.org/10.1371/journal.pone.0195057.g010",
+      "https://doi.org/10.1515/nanoph",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2790317/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": []
+  },
+  "all_sources": [
+    "https://doi.org/10.1016/j.foodchem.2015.08.092",
+    "https://doi.org/10.3390/molecules24152742",
+    "https://doi.org/10.1371/journal.pone.0195057.g010",
+    "https://doi.org/10.1515/nanoph",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2790317/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.636978"
+}

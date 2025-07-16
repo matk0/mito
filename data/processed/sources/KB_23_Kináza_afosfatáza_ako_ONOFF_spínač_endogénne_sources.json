@@ -1,0 +1,45 @@
+{
+  "article_file": "KB_23_Kinza_afosfatza_ako_ONOFF_spna_endognneho_UV_.json",
+  "article_title": "KB #23 Kináza a fosfatáza ako ON/OFF spínač endogénneho UV svetla",
+  "article_url": "https://jaroslavlachky.sk/kb-23-kinaza-a-fosfataza-ako-on-off-spinac-endogenneho-uv-svetla/",
+  "article_date": "2024-03-18T00:00:00+01:00",
+  "reference_section": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9303666/\n\n\n\nhttps://www.idnes.cz/sport/tenis/zverev-cukrovka-injekce-pri-hre.A230606_174749_tenis_ald\n\n\n\nhttps://drc.bmj.com/content/5/1/e000317\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC1299110/\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/8334306/\n\n\n\nhttps://cs.wikipedia.org/wiki/Exocyt%C3%B3za\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890380/\n\n\n\nhttps://www.health.harvard.edu/blog/psoriasis-and-cancer-whats-the-link-2019120518320\n\n\n\nhttps://my.c...",
+  "total_sources": 12,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1299110/",
+      "https://www.health.harvard.edu/blog/psoriasis",
+      "https://www.nature.com/articles/s41467",
+      "https://pubmed.ncbi.nlm.nih.gov/8334306/",
+      "https://pubmed.ncbi.nlm.nih.gov/11811063/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890380/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9303666/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://my.clevelandclinic.org/health/treatments/24984",
+      "https://drc.bmj.com/content/5/1/e000317",
+      "https://www.idnes.cz/sport/tenis/zverev",
+      "https://jaroslavlachky.sk/epigenetika",
+      "https://cs.wikipedia.org/wiki/Exocyt"
+    ]
+  },
+  "all_sources": [
+    "https://my.clevelandclinic.org/health/treatments/24984",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1299110/",
+    "https://www.health.harvard.edu/blog/psoriasis",
+    "https://www.nature.com/articles/s41467",
+    "https://pubmed.ncbi.nlm.nih.gov/8334306/",
+    "https://drc.bmj.com/content/5/1/e000317",
+    "https://www.idnes.cz/sport/tenis/zverev",
+    "https://pubmed.ncbi.nlm.nih.gov/11811063/",
+    "https://jaroslavlachky.sk/epigenetika",
+    "https://cs.wikipedia.org/wiki/Exocyt",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890380/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9303666/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.502011"
+}

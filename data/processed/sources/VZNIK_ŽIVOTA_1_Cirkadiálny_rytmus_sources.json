@@ -1,0 +1,38 @@
+{
+  "article_file": "VZNIK_IVOTA_1_Cirkadilny_rytmus.json",
+  "article_title": "VZNIK ŽIVOTA #1 Cirkadiálny rytmus",
+  "article_url": "https://jaroslavlachky.sk/vznik-zivota-1-cirkadialny-rytmus/",
+  "article_date": "2020-03-02T00:00:00+01:00",
+  "reference_section": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3774695/https://science.sciencemag.org/content/355/6330/1174https://en.wikipedia.org/wiki/Suprachiasmatic_nucleushttps://en.wikipedia.org/wiki/Schumann_resonanceshttps://iopscience.iop.org/article/10.1088/1757-899X/564/1/012081/pdfhttps://vimeo.com/54189727https://www.scribd.com/document/190184005/Earthing-Body-Voltage-2005https://sk.wikipedia.org/wiki/Fotoelektrick%C3%BD_javhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3265077/https://www.amazon.com/B...",
+  "total_sources": 8,
+  "sources_by_category": {
+    "academic": [
+      "https://www.sciencedaily.com/releases/2018/01/180102153209.htm",
+      "https://iopscience.iop.org/article/10.1088/1757",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3774695/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3265077/https"
+    ],
+    "news": [
+      "https://www.nytimes.com/2019/09/19/science/bird"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Fotoelektrick",
+      "https://vimeo.com/54189727https",
+      "https://en.wikipedia.org/wiki/Suprachiasmatic_nucleushttps"
+    ]
+  },
+  "all_sources": [
+    "https://www.sciencedaily.com/releases/2018/01/180102153209.htm",
+    "https://sk.wikipedia.org/wiki/Fotoelektrick",
+    "https://vimeo.com/54189727https",
+    "https://iopscience.iop.org/article/10.1088/1757",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3774695/https",
+    "https://en.wikipedia.org/wiki/Suprachiasmatic_nucleushttps",
+    "https://www.nytimes.com/2019/09/19/science/bird",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3265077/https"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.552125"
+}

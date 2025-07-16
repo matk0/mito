@@ -1,0 +1,31 @@
+{
+  "article_file": "Matrix_1_o_je_to_plazma_aako_plazma_vznik.json",
+  "article_title": "Matrix #1 Čo je to plazma a ako plazma vzniká",
+  "article_url": "https://jaroslavlachky.sk/matrix-1-co-je-to-plazma-a-ako-plazma-vznika/",
+  "article_date": "2024-10-12T00:00:00+02:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Plasma_(physics)\n\n\n\nhttps://en.wikipedia.org/wiki/Ampere\n\n\n\nhttps://journals.sfu.ca/seemj/index.php/seemj/article/view/111\n\n\n\nhttps://www.amazon.com/Integrative-Biophysics-Biophotonics-Fritz-Albert-Popp/dp/1402011393/ref=sr_1_2?dib=eyJ2IjoiMSJ9.8FySviBttkZiH1jeBm9prNAnMGovCjbmw1hRLKTxHEfelB9gErlcAekvLh-yhig-SI1prE8BArJ3LeiDPxVLyYFZDDt2CysHJEWwl3PD2hK5uJBF-9YUHFI52c2_HX3R.Y_3Lzg0KnhuT4GTUwJFrfoUBdNSTtGl2l1SqN5LH2yc&dib_tag=se&qid=1728673307&refinements=p_27%3AFritz-A...",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [],
+    "news": [
+      "https://journals.sfu.ca/seemj/index.php/seemj/article/view/111"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.amazon.com/Integrative",
+      "http://bigbangneverhappened.org/",
+      "https://en.wikipedia.org/wiki/Plasma_",
+      "https://en.wikipedia.org/wiki/Ampere"
+    ]
+  },
+  "all_sources": [
+    "https://www.amazon.com/Integrative",
+    "http://bigbangneverhappened.org/",
+    "https://en.wikipedia.org/wiki/Plasma_",
+    "https://en.wikipedia.org/wiki/Ampere",
+    "https://journals.sfu.ca/seemj/index.php/seemj/article/view/111"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.550283"
+}

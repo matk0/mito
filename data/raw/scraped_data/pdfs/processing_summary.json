@@ -1,15 +1,75 @@
 {
-  "total_pdfs": 3,
-  "processed_successfully": 3,
+  "total_pdfs": 37,
+  "processed_successfully": 37,
   "failed": 0,
-  "total_words": 71934,
-  "total_chars": 756742,
-  "processing_date": "2025-07-03T19:09:45.142948",
+  "total_words": 661826,
+  "total_chars": 6383363,
+  "processing_date": "2025-07-03T19:36:43.050518",
   "articles": [
     {
       "filename": "pubmed_10788778.pdf",
       "title": "pubmed_10788778",
-      "word_count": 12272
+      "word_count": 12279
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_6264.pdf",
+      "title": "pubmed_ncbi_nlm_nih_gov_6264",
+      "word_count": 11764
+    },
+    {
+      "filename": "nature_s41419-019-1556-7.pdf",
+      "title": "nature_s41419-019-1556-7",
+      "word_count": 63971
+    },
+    {
+      "filename": "www_sciencedaily_com_3643.pdf",
+      "title": "www_sciencedaily_com_3643",
+      "word_count": 5795
+    },
+    {
+      "filename": "nature_s41598-017-16689-4.pdf",
+      "title": "nature_s41598-017-16689-4",
+      "word_count": 35638
+    },
+    {
+      "filename": "pmc_4854800.pdf",
+      "title": "pmc_4854800",
+      "word_count": 36851
+    },
+    {
+      "filename": "pmc_2533804.pdf",
+      "title": "pmc_2533804",
+      "word_count": 24916
+    },
+    {
+      "filename": "pmc_2879406.pdf",
+      "title": "pmc_2879406",
+      "word_count": 22320
+    },
+    {
+      "filename": "pubmed_2084008.pdf",
+      "title": "pubmed_2084008",
+      "word_count": 11223
+    },
+    {
+      "filename": "journals_plos_org_672.pdf",
+      "title": "journals_plos_org_672",
+      "word_count": 24463
+    },
+    {
+      "filename": "pubmed_7854007.pdf",
+      "title": "pubmed_7854007",
+      "word_count": 13461
+    },
+    {
+      "filename": "pubmed_11722751.pdf",
+      "title": "pubmed_11722751",
+      "word_count": 14123
+    },
+    {
+      "filename": "pubmed_22548720.pdf",
+      "title": "pubmed_22548720",
+      "word_count": 13187
     },
     {
       "filename": "nature_s41598-019-39584-6.pdf",
@@ -17,9 +77,119 @@
       "word_count": 44592
     },
     {
+      "filename": "www_meddeviceonline_com_2627.pdf",
+      "title": "www_meddeviceonline_com_2627",
+      "word_count": 4360
+    },
+    {
+      "filename": "sunlightinstitute_org_5291.pdf",
+      "title": "sunlightinstitute_org_5291",
+      "word_count": 4346
+    },
+    {
+      "filename": "link_springer_com_3603.pdf",
+      "title": "link_springer_com_3603",
+      "word_count": 23969
+    },
+    {
+      "filename": "www_sciencedaily_com_12.pdf",
+      "title": "www_sciencedaily_com_12",
+      "word_count": 5795
+    },
+    {
+      "filename": "pmc_4605358.pdf",
+      "title": "pmc_4605358",
+      "word_count": 15328
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_1633.pdf",
+      "title": "pubmed_ncbi_nlm_nih_gov_1633",
+      "word_count": 11764
+    },
+    {
       "filename": "pmc_3891634.pdf",
       "title": "pmc_3891634",
       "word_count": 15070
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_1544.pdf",
+      "title": "pubmed_ncbi_nlm_nih_gov_1544",
+      "word_count": 13823
+    },
+    {
+      "filename": "link_springer_com_230.pdf",
+      "title": "link_springer_com_230",
+      "word_count": 23969
+    },
+    {
+      "filename": "sunlightinstitute_org_5712.pdf",
+      "title": "sunlightinstitute_org_5712",
+      "word_count": 4361
+    },
+    {
+      "filename": "physicsworld_com_5564.pdf",
+      "title": "physicsworld_com_5564",
+      "word_count": 8099
+    },
+    {
+      "filename": "pubmed_26095528.pdf",
+      "title": "pubmed_26095528",
+      "word_count": 13047
+    },
+    {
+      "filename": "www_centreforbrainhealth_ca_2606.pdf",
+      "title": "www_centreforbrainhealth_ca_2606",
+      "word_count": 6337
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_7038.pdf",
+      "title": "pubmed_ncbi_nlm_nih_gov_7038",
+      "word_count": 13808
+    },
+    {
+      "filename": "omlc_org_7888.pdf",
+      "title": "omlc_org_7888",
+      "word_count": 680
+    },
+    {
+      "filename": "pmc_5504780.pdf",
+      "title": "pmc_5504780",
+      "word_count": 25888
+    },
+    {
+      "filename": "pubmed_28831511.pdf",
+      "title": "pubmed_28831511",
+      "word_count": 13678
+    },
+    {
+      "filename": "www_centreforbrainhealth_ca_9497.pdf",
+      "title": "www_centreforbrainhealth_ca_9497",
+      "word_count": 6337
+    },
+    {
+      "filename": "pmc_2739396.pdf",
+      "title": "pmc_2739396",
+      "word_count": 43717
+    },
+    {
+      "filename": "pmc_5793051.pdf",
+      "title": "pmc_5793051",
+      "word_count": 24984
+    },
+    {
+      "filename": "www_light-sources_com_3857.pdf",
+      "title": "www_light-sources_com_3857",
+      "word_count": 16117
+    },
+    {
+      "filename": "pubmed_30945022.pdf",
+      "title": "pubmed_30945022",
+      "word_count": 11873
+    },
+    {
+      "filename": "pubmed_25404319.pdf",
+      "title": "pubmed_25404319",
+      "word_count": 19893
     }
   ]
 }

@@ -55,7 +55,7 @@ class SlovakHealthGraphRAG:
     
     def __init__(self,
                  # Vector database config
-                 chroma_db_path: str = "./vector_db",
+                 chroma_db_path: str = "./data/embeddings/vector_db",
                  chroma_collection: str = "slovak_blog_chunks",
                  embedding_model: str = "intfloat/multilingual-e5-large",
                  

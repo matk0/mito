@@ -1,0 +1,44 @@
+{
+  "article_file": "revo_amozog_11_aldon_kyseliny_aako_pomc_sHCL.json",
+  "article_title": "Črevo a mozog #11 Žalúdočné kyseliny a ako pomôcť s HCL",
+  "article_url": "https://jaroslavlachky.sk/crevo-a-mozog-11-zaludocne-kyseliny-a-ako-pomoct-s-hcl/",
+  "article_date": "2021-12-04T00:00:00+01:00",
+  "reference_section": "https://sk.wikipedia.org/wiki/Kyselina_chlorovod%C3%ADkov%C3%A1https://teachmephysiology.com/gastrointestinal-system/stomach/acid-production/https://pubmed.ncbi.nlm.nih.gov/10421978/https://arxiv.org/abs/1703.00789https://gut.bmj.com/content/gutjnl/48/4/571.full.pdfhttps://cs.wikipedia.org/wiki/Pariet%C3%A1ln%C3%AD_bu%C5%88kahttps://www.wikiskripta.eu/w/Iontov%C3%A9_pumpyhttps://sk.wikipedia.org/wiki/Hydrogenuhli%C4%8Ditan_sodn%C3%BDhttps://journals.physiology.org/doi/full/10.1152/ajpgi.00514.20...",
+  "total_sources": 11,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/10421978/https",
+      "https://pubmed.ncbi.nlm.nih.gov/11246041/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2782876/",
+      "https://pubmed.ncbi.nlm.nih.gov/8420621/https"
+    ],
+    "news": [
+      "https://journals.physiology.org/doi/full/10.1152/ajpgi.00514.2004https"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://gut.bmj.com/content/gutjnl/48/4/571.full.pdfhttps",
+      "https://sk.wikipedia.org/wiki/Kyselina_chlorovod",
+      "https://www.wikiskripta.eu/w/Iontov",
+      "https://en.wikipedia.org/wiki/Cholecystokininhttps",
+      "https://sk.wikipedia.org/wiki/Hydrogenuhli",
+      "https://teachmephysiology.com/gastrointestinal"
+    ]
+  },
+  "all_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/10421978/https",
+    "https://gut.bmj.com/content/gutjnl/48/4/571.full.pdfhttps",
+    "https://sk.wikipedia.org/wiki/Kyselina_chlorovod",
+    "https://pubmed.ncbi.nlm.nih.gov/11246041/https",
+    "https://www.wikiskripta.eu/w/Iontov",
+    "https://en.wikipedia.org/wiki/Cholecystokininhttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2782876/",
+    "https://sk.wikipedia.org/wiki/Hydrogenuhli",
+    "https://pubmed.ncbi.nlm.nih.gov/8420621/https",
+    "https://journals.physiology.org/doi/full/10.1152/ajpgi.00514.2004https",
+    "https://teachmephysiology.com/gastrointestinal"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.627083"
+}

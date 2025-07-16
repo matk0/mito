@@ -1,0 +1,31 @@
+{
+  "article_file": "Epigenetika_26_Sahovanie_ud_zrovnka_azmena_vyuvania.json",
+  "article_title": "Epigenetika #26 Sťahovanie ľudí z rovníka a zmena využívania horčíka",
+  "article_url": "https://jaroslavlachky.sk/epigenetika-26-stahovanie-ludi-z-rovnika-a-zmena-vyuzivania-horcika/",
+  "article_date": "2024-08-18T00:00:00+02:00",
+  "reference_section": "Pilchova I, Klacanova K, Tatarkova Z, Kaplan P, Racay P. The Involvement of Mg2+ in Regulation of Cellular and Mitochondrial Functions. Oxid Med Cell Longev. 2017;2017:6797460. doi: 10.1155/2017/6797460. Epub 2017 Jul 5. PMID: 28757913; PMCID: PMC5516748.\n\n\n\nAnju M, Chacko L, Chettupalli Y, Maiya AG, Saleena Ummer V. Effect of Low Level Laser Therapy on serum vitamin D and magnesium levels in patients with diabetic peripheral neuropathy – A pilot study. Diabetes Metab Syndr. 2019 Mar-Apr;13(2):1...",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/bph.14544",
+      "https://www.sciencedirect.com/topics/medicine",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1121941/",
+      "https://doi.org/10.1038/srep30027"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Allocortex"
+    ]
+  },
+  "all_sources": [
+    "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/bph.14544",
+    "https://www.sciencedirect.com/topics/medicine",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1121941/",
+    "https://en.wikipedia.org/wiki/Allocortex",
+    "https://doi.org/10.1038/srep30027"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.439736"
+}

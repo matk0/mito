@@ -1,0 +1,37 @@
+{
+  "article_file": "S_LTAKA_aHYPOXIA_IBA_DSLEDOK_NAICH_NESPRVNYCH_ROZHO.json",
+  "article_title": "SÚ ŽLTAČKA a HYPOXIA IBA DÔSLEDOK NAŠICH NESPRÁVNYCH ROZHODNUTÍ?",
+  "article_url": "https://jaroslavlachky.sk/su-zltacka-a-hypoxia-iba-dosledok-nasich-nespravnych-rozhodnuti/",
+  "article_date": "2020-10-11T00:00:00+02:00",
+  "reference_section": "https://www.fmed.uniba.sk/uploads/media/Novorodenecka_zltacka_df._dg.pdfhttps://www.sciencedirect.com/science/article/abs/pii/S0306987716304169https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586554/https://webslovnik.zoznam.sk/lekarsky-slovnik/?s=fibroplasiahttps://www.prolekare.cz/casopisy/ceska-slovenska-oftalmologie/2014-2/retinopatia-prematurnych-deti-i-cast-49193https://jamanetwork.com/journals/jamapediatrics/article-abstract/497043https://www.startribune.com/children-s-eyes-let-in-more-light...",
+  "total_sources": 8,
+  "sources_by_category": {
+    "academic": [
+      "https://www.sciencedirect.com/science/article/pii/S0022202X15301160https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586554/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3693189/https"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.fmed.uniba.sk/uploads/media/Novorodenecka_zltacka_df._dg.pdfhttps",
+      "https://www.prolekare.cz/casopisy/ceska",
+      "https://www.researchgate.net/publication/335047500_Abstract_5045_Pineal_gland_volume_and_risk_of_prostate_cancerhttps",
+      "https://jamanetwork.com/journals/jamapediatrics/article",
+      "https://www.startribune.com/children"
+    ]
+  },
+  "all_sources": [
+    "https://www.fmed.uniba.sk/uploads/media/Novorodenecka_zltacka_df._dg.pdfhttps",
+    "https://www.prolekare.cz/casopisy/ceska",
+    "https://www.sciencedirect.com/science/article/pii/S0022202X15301160https",
+    "https://www.researchgate.net/publication/335047500_Abstract_5045_Pineal_gland_volume_and_risk_of_prostate_cancerhttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586554/https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3693189/https",
+    "https://jamanetwork.com/journals/jamapediatrics/article",
+    "https://www.startribune.com/children"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.584656"
+}

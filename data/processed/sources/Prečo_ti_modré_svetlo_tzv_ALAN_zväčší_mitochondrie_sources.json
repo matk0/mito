@@ -1,0 +1,34 @@
+{
+  "article_file": "Preo_ti_modr_svetlo_tzv_ALAN_zv_mitochondrie.json",
+  "article_title": "Prečo ti modré svetlo (tzv. ALAN) zväčší mitochondrie",
+  "article_url": "https://jaroslavlachky.sk/preco-ti-modre-svetlo-tzv-alan-zvacsi-mitochondrie/",
+  "article_date": "2021-04-03T00:00:00+02:00",
+  "reference_section": "https://journals.lww.com/environepidem/fulltext/2019/10001/artificial_light_at_night__alan_,_blue_light.646.aspxhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2954516/https://www.sciencedirect.com/science/article/pii/S000527360400046Xhttps://www.amazon.com/Vital-Question-Evolution-Origins-Complex/dp/1511366540https://www.nytimes.com/2009/06/30/business/energy-environment/30light.htmlSpomínaný list prezidentovi Obamovi: http://www.stayonthetruth.com/resources/Warning_Digital_TV/Open_letter_DVB-T_US...",
+  "total_sources": 6,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2954516/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4069066/https"
+    ],
+    "news": [
+      "https://www.nytimes.com/2009/06/30/business/energy",
+      "https://journals.lww.com/environepidem/fulltext/2019/10001/artificial_light_at_night__alan_"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.amazon.com/Vital",
+      "http://www.stayonthetruth.com/resources/Warning_Digital_TV/Open_letter_DVB"
+    ]
+  },
+  "all_sources": [
+    "https://www.amazon.com/Vital",
+    "https://www.nytimes.com/2009/06/30/business/energy",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2954516/https",
+    "https://journals.lww.com/environepidem/fulltext/2019/10001/artificial_light_at_night__alan_",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4069066/https",
+    "http://www.stayonthetruth.com/resources/Warning_Digital_TV/Open_letter_DVB"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.613908"
+}

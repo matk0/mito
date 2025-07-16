@@ -684,7 +684,7 @@ class SlovakHealthGraphBuilder:
             
             return stats
     
-    def build_complete_graph(self, entities_file: str = "./chunked_data/extracted_entities.json") -> bool:
+    def build_complete_graph(self, entities_file: str = "./data/processed/chunked_data/extracted_entities.json") -> bool:
         """Build the complete knowledge graph."""
         print("🚀 Building Slovak Health Knowledge Graph")
         print("=" * 60)
@@ -746,7 +746,7 @@ def main():
     print("=" * 50)
     
     # Check if entities file exists
-    entities_file = "./chunked_data/extracted_entities.json"
+    entities_file = "./data/processed/chunked_data/extracted_entities.json"
     if not Path(entities_file).exists():
         print(f"❌ Entities file not found: {entities_file}")
         print("Please run entity extraction first!")
@@ -759,20 +759,9 @@ def main():
     print("  Username: neo4j")
     print("  Password: healthgraph123")
     
-    use_defaults = input("\nUse default settings? (y/n): ").lower().strip()
-    
-    if use_defaults == 'y':
-        builder = SlovakHealthGraphBuilder()
-    else:
-        uri = input("Neo4j URI [bolt://localhost:7687]: ").strip() or "bolt://localhost:7687"
-        username = input("Username [neo4j]: ").strip() or "neo4j"
-        password = input("Password: ").strip()
-        
-        if not password:
-            print("❌ Password is required!")
-            return
-        
-        builder = SlovakHealthGraphBuilder(uri, username, password)
+    # Use default settings automatically
+    print("\nUsing default settings for automated build...")
+    builder = SlovakHealthGraphBuilder()
     
     # Connect to database
     if not builder.connect():

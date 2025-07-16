@@ -1,0 +1,29 @@
+{
+  "article_file": "Preo_umel_modr_svetlo_dehydratuje_azni_vitamn_D.json",
+  "article_title": "Prečo umelé modré svetlo dehydratuje a zníži vitamín D?",
+  "article_url": "https://jaroslavlachky.sk/preco-umele-modre-svetlo-dehydratuje-a-znizi-vitamin-d/",
+  "article_date": "2021-03-18T00:00:00+01:00",
+  "reference_section": "https://vimeopro.com/alexanderwunsch/alexander-wunsch-in-english/video/360666535/ https://sunlightinstitute.org/sun-exposure-reduces-obesity-vitamin-d-not/https://www.cookinglight.com/news/sunlight-vitamin-d-obesity-heart-diseasehttps://www.nature.com/articles/150021a0",
+  "total_sources": 4,
+  "sources_by_category": {
+    "academic": [
+      "https://www.nature.com/articles/150021a0"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sunlightinstitute.org/sun",
+      "https://www.cookinglight.com/news/sunlight",
+      "https://vimeopro.com/alexanderwunsch/alexander"
+    ]
+  },
+  "all_sources": [
+    "https://sunlightinstitute.org/sun",
+    "https://www.cookinglight.com/news/sunlight",
+    "https://www.nature.com/articles/150021a0",
+    "https://vimeopro.com/alexanderwunsch/alexander"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.605765"
+}

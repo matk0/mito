@@ -1,0 +1,33 @@
+{
+  "article_file": "Matrix_7_Mitochondria_ako_Maxwellov_dmon_ktor_tvor_.json",
+  "article_title": "Matrix #7 Mitochondria ako Maxwellov démon, ktorý tvorí negatívnu entropiu",
+  "article_url": "https://jaroslavlachky.sk/matrix-7-mitochondria-ako-maxwellov-demon-ktory-tvori-negativnu-entropiu/",
+  "article_date": "2025-03-08T00:00:00+01:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics\n\n\n\nhttps://en.wikipedia.org/wiki/Maxwell%27s_demon\n\n\n\nhttps://en.wikipedia.org/wiki/James_Clerk_Maxwell\n\n\n\nhttps://en.wikipedia.org/wiki/Thermodynamics\n\n\n\nhttps://en.wikipedia.org/wiki/Information_theory\n\n\n\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC1692765/",
+  "total_sources": 6,
+  "sources_by_category": {
+    "academic": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1692765/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Thermodynamics",
+      "https://en.wikipedia.org/wiki/Information_theory",
+      "https://en.wikipedia.org/wiki/Maxwell",
+      "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+    ]
+  },
+  "all_sources": [
+    "https://en.wikipedia.org/wiki/Thermodynamics",
+    "https://en.wikipedia.org/wiki/Information_theory",
+    "https://en.wikipedia.org/wiki/Maxwell",
+    "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+    "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1692765/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.514305"
+}

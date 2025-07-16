@@ -1,0 +1,33 @@
+{
+  "article_file": "MITOCHONDRIE_2_PREO_EXISTUJ_POHLAVIA.json",
+  "article_title": "MITOCHONDRIE #2 PREČO EXISTUJÚ POHLAVIA",
+  "article_url": "https://jaroslavlachky.sk/mitochondrie-2-preco-existuju-pohlavia/",
+  "article_date": "2020-10-25T00:00:00+02:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Percolationhttps://www.martinus.sk/?uItem=695699https://bionumbers.hms.harvard.edu/bionumber.aspx?id=105801&ver=6https://www.sciencedirect.com/science/article/pii/S1476558618300812#:~:text=Within%20a%20single%20cell%2C%20multiple%20copies%20of%20mtDNA,cells%20with%20lower%20energy%20demand%20%28e.g.%2C%20blood%20cells%29.https://en.wikipedia.org/wiki/Mitochondrial_DNA#cite_note-:0-4https://www.scotsman.com/news/size-does-matter-when-it-comes-attraction-2510458https:...",
+  "total_sources": 6,
+  "sources_by_category": {
+    "academic": [
+      "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=105801&ver=6https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5327366/https"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Percolationhttps",
+      "https://listverse.com/2019/03/04/10",
+      "https://www.scotsman.com/news/size",
+      "https://en.wikipedia.org/wiki/Mitochondrial_DNA#cite_note"
+    ]
+  },
+  "all_sources": [
+    "https://en.wikipedia.org/wiki/Percolationhttps",
+    "https://listverse.com/2019/03/04/10",
+    "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=105801&ver=6https",
+    "https://www.scotsman.com/news/size",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5327366/https",
+    "https://en.wikipedia.org/wiki/Mitochondrial_DNA#cite_note"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.478014"
+}

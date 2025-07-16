@@ -1,0 +1,31 @@
+{
+  "article_file": "MITOCHONDRIE_5_ETC_Elektrnov_transportn_cyklus.json",
+  "article_title": "MITOCHONDRIE #5 ETC (Elektrónový transportný cyklus)",
+  "article_url": "https://jaroslavlachky.sk/mitochondrie-5-etc-elektronovy-transportny-cyklus/",
+  "article_date": "2020-12-05T00:00:00+01:00",
+  "reference_section": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4756104/https://badgut.org/information-centre/a-z-digestive-topics/intestinal-gas/#:~:text=Studies%20have%20shown%20that%20the,dioxide%2C%20hydrogen%2C%20and%20methane.https://en.wikipedia.org/wiki/Cristahttps://en.wikipedia.org/wiki/Respiratory_complex_Ihttps://febs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1432-1033.1991.tb15945.xhttps://en.wikipedia.org/wiki/Succinate_dehydrogenasehttps://www.ncbi.nlm.nih.gov/pubmed/239334https://www.ncbi.nlm.nih.g...",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pubmed/6884342Jaroslav",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4756104/https",
+      "https://febs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1432"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Cristahttps",
+      "https://en.wikipedia.org/wiki/Succinate_dehydrogenasehttps"
+    ]
+  },
+  "all_sources": [
+    "https://en.wikipedia.org/wiki/Cristahttps",
+    "https://www.ncbi.nlm.nih.gov/pubmed/6884342Jaroslav",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4756104/https",
+    "https://en.wikipedia.org/wiki/Succinate_dehydrogenasehttps",
+    "https://febs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1432"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.652661"
+}

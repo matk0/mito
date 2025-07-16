@@ -1,0 +1,31 @@
+{
+  "article_file": "Matrix_6_Preo_nae_mitochondrie_zaujma_ahk_vodk_apro.json",
+  "article_title": "Matrix #6 Prečo naše mitochondrie zaujíma ľahký vodík a protón?",
+  "article_url": "https://jaroslavlachky.sk/matrix-6-preco-nase-mitochondrie-zaujima-lahky-vodik-a-proton/",
+  "article_date": "2025-03-04T00:00:00+01:00",
+  "reference_section": "Moja maličkosť a tiež zdroje z mojej knihy Kvantová Biológia\n\n\n\nhttps://jaroslavlachky.sk/mitochondrie-10-deuterium-a-tazka-voda/\n\n\n\nhttps://sk.wikipedia.org/wiki/Kvarkovo-glu%C3%B3nov%C3%A1_plazma\n\n\n\nhttps://sk.wikipedia.org/wiki/Siln%C3%A1_interakcia_hmotn%C3%BDch_objektov \n\n\n\nhttps://profmattstrassler.com/2024/07/22/the-standard-model-more-deeply-how-the-proton-is-greater-than-the-sum-of-its-parts/ \n\n\n\nhttps://arxiv.org/abs/1703.00789",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://arxiv.org/abs/1703.00789"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Kvarkovo",
+      "https://profmattstrassler.com/2024/07/22/the",
+      "https://jaroslavlachky.sk/mitochondrie",
+      "https://sk.wikipedia.org/wiki/Siln"
+    ]
+  },
+  "all_sources": [
+    "https://arxiv.org/abs/1703.00789",
+    "https://sk.wikipedia.org/wiki/Kvarkovo",
+    "https://profmattstrassler.com/2024/07/22/the",
+    "https://jaroslavlachky.sk/mitochondrie",
+    "https://sk.wikipedia.org/wiki/Siln"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.465286"
+}

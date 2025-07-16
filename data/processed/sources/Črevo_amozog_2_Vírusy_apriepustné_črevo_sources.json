@@ -1,0 +1,56 @@
+{
+  "article_file": "revo_amozog_2_Vrusy_apriepustn_revo.json",
+  "article_title": "Črevo a mozog #2 Vírusy a priepustné črevo",
+  "article_url": "https://jaroslavlachky.sk/crevo-a-mozog-2-virusy-a-priepustne-crevo/",
+  "article_date": "2021-09-11T00:00:00+02:00",
+  "reference_section": "https://www.ted.com/talks/craig_venter_sampling_the_ocean_s_dna?quote=14https://en.wikipedia.org/wiki/Endogenous_retrovirushttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3384703/https://www.sciencedaily.com/releases/2013/10/131021162657.htmhttps://www.scientificamerican.com/article/tiny-genetic-differences-between-humans-and-other-primates-pervade-the-genome/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854822/https://www.sciencedirect.com/topics/neuroscience/retroposonhttps://www.ncbi.nlm.nih.gov...",
+  "total_sources": 17,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854822/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC114460/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3384703/https",
+      "https://www.sciencedaily.com/releases/2008/05/080522181527.htmhttps",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8107207/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6177113/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1472034/https"
+    ],
+    "news": [],
+    "government": [
+      "https://www.cdc.gov/epstein",
+      "https://ntp.niehs.nih.gov/whatwestudy/topics/cellphones/index.htmlhttps"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://retrovirology.biomedcentral.com/articles/10.1186/s12977",
+      "https://en.wikipedia.org/wiki/Poliovirushttps",
+      "https://sk.wikipedia.org/wiki/Werner_Karl_Heisenberghttps",
+      "https://www.tvojezdravie.sk/ludsky",
+      "https://en.wikipedia.org/wiki/Lucy_",
+      "https://www.ted.com/talks/craig_venter_sampling_the_ocean_s_dna?quote=14https",
+      "https://www.kamilarlab.org/single",
+      "https://www.scientificamerican.com/article/tiny"
+    ]
+  },
+  "all_sources": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854822/https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC114460/https",
+    "https://www.cdc.gov/epstein",
+    "https://retrovirology.biomedcentral.com/articles/10.1186/s12977",
+    "https://en.wikipedia.org/wiki/Poliovirushttps",
+    "https://sk.wikipedia.org/wiki/Werner_Karl_Heisenberghttps",
+    "https://ntp.niehs.nih.gov/whatwestudy/topics/cellphones/index.htmlhttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3384703/https",
+    "https://www.sciencedaily.com/releases/2008/05/080522181527.htmhttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8107207/https",
+    "https://www.tvojezdravie.sk/ludsky",
+    "https://en.wikipedia.org/wiki/Lucy_",
+    "https://www.ted.com/talks/craig_venter_sampling_the_ocean_s_dna?quote=14https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6177113/https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1472034/https",
+    "https://www.kamilarlab.org/single",
+    "https://www.scientificamerican.com/article/tiny"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.638262"
+}

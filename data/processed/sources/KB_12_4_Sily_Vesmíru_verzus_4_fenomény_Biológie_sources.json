@@ -1,0 +1,27 @@
+{
+  "article_file": "KB_12_4_Sily_Vesmru_verzus_4_fenomny_Biolgie.json",
+  "article_title": "KB #12 – 4 Sily Vesmíru verzus 4 fenomény Biológie",
+  "article_url": "https://jaroslavlachky.sk/kb-12-4-sily-vesmiru-verzus-4-fenomeny-biologie/",
+  "article_date": "2022-07-30T00:00:00+02:00",
+  "reference_section": "James D. Watson, Tania Baker, Stephen P. Bell, Alexander Gann, Michael Levine, and Richardhttps://sk.wikipedia.org/wiki/Z%C3%A1kladn%C3%A1_interakciahttps://www.aboutsmartcities.com/why-quantum-physics-says-that-you-cant-actually-touch-anything/https://www.newscientist.com/article/mg20227122-900-gravity-mysteries-why-is-gravity-so-weak/",
+  "total_sources": 3,
+  "sources_by_category": {
+    "academic": [],
+    "news": [
+      "https://www.newscientist.com/article/mg20227122"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.aboutsmartcities.com/why",
+      "https://sk.wikipedia.org/wiki/Z"
+    ]
+  },
+  "all_sources": [
+    "https://www.aboutsmartcities.com/why",
+    "https://www.newscientist.com/article/mg20227122",
+    "https://sk.wikipedia.org/wiki/Z"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.589281"
+}

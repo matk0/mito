@@ -1,0 +1,73 @@
+{
+  "article_file": "VOZ_4_Ako_DHA_spravilo_Svetlo_uitonm.json",
+  "article_title": "VOZ #4 Ako DHA spravilo Svetlo užitočným",
+  "article_url": "https://jaroslavlachky.sk/voz-4-ako-dha-spravilo-svetlo-uzitocnym/",
+  "article_date": "2023-02-05T00:00:00+01:00",
+  "reference_section": "https://jaroslavlachky.sk/voz-3-teoria-relativity-a-svetlo-ako-strojca-gravitacie-aj-casu/\n\n\n\nhttps://jaroslavlachky.sk/vznik-zivota-6-dha-alias-kyselina-dokosahexaenova/\n\n\n\nhttps://cs.m.wikipedia.org/wiki/Chemiosmotick%C3%A1_teorie\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3961091/\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4477626/\n\n\n\nhttps://surgicallycleanair.com/ultraviolet-light-uv-c-a-highly-effective-way-to-kill-germs-and-viruses/\n\n\n\nhttps://bmcgenomics.biomedcentral.com/artic...",
+  "total_sources": 25,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7849315/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4477626/",
+      "https://link.springer.com/article/10.1023/A",
+      "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983274/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3961091/",
+      "https://www.sciencedirect.com/science/article/pii/S0009254119300373",
+      "https://www.ncbi.nlm.nih.gov/pubmed/24884001"
+    ],
+    "news": [
+      "https://www.bbc.co.uk/bitesize/guides/zg4qfcw/revision/1"
+    ],
+    "government": [
+      "https://www.openaccessgovernment.org/agriculture"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864",
+      "https://jaroslavlachky.sk/vznik",
+      "https://cs.wikipedia.org/wiki/Rhizobium",
+      "https://cs.wikipedia.org/wiki/Rhizosf",
+      "https://cs.wikipedia.org/wiki/Zeta_potenci",
+      "https://conservetorch.org/nitrogen/",
+      "https://europepmc.org/article/med/26528676",
+      "https://sk.wikipedia.org/wiki/Sinice",
+      "https://www.anbarlab.org/",
+      "https://en.wikipedia.org/wiki/Nitrogenase",
+      "https://cs.m.wikipedia.org/wiki/Chemiosmotick",
+      "https://en.wikipedia.org/wiki/Euxinia",
+      "https://surgicallycleanair.com/ultraviolet",
+      "https://en.wikipedia.org/wiki/Rhizosphere",
+      "https://jaroslavlachky.sk/voz"
+    ]
+  },
+  "all_sources": [
+    "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7849315/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4477626/",
+    "https://link.springer.com/article/10.1023/A",
+    "https://www.bbc.co.uk/bitesize/guides/zg4qfcw/revision/1",
+    "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983274/",
+    "https://jaroslavlachky.sk/vznik",
+    "https://cs.wikipedia.org/wiki/Rhizobium",
+    "https://cs.wikipedia.org/wiki/Rhizosf",
+    "https://cs.wikipedia.org/wiki/Zeta_potenci",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3961091/",
+    "https://www.sciencedirect.com/science/article/pii/S0009254119300373",
+    "https://conservetorch.org/nitrogen/",
+    "https://europepmc.org/article/med/26528676",
+    "https://sk.wikipedia.org/wiki/Sinice",
+    "https://www.anbarlab.org/",
+    "https://en.wikipedia.org/wiki/Nitrogenase",
+    "https://www.ncbi.nlm.nih.gov/pubmed/24884001",
+    "https://cs.m.wikipedia.org/wiki/Chemiosmotick",
+    "https://www.openaccessgovernment.org/agriculture",
+    "https://en.wikipedia.org/wiki/Euxinia",
+    "https://surgicallycleanair.com/ultraviolet",
+    "https://en.wikipedia.org/wiki/Rhizosphere",
+    "https://jaroslavlachky.sk/voz"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.633897"
+}

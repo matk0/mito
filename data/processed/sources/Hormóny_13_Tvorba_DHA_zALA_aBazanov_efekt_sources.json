@@ -1,0 +1,41 @@
+{
+  "article_file": "Hormny_13_Tvorba_DHA_zALA_aBazanov_efekt.json",
+  "article_title": "Hormóny #13 Tvorba DHA z ALA a Bazanov efekt",
+  "article_url": "https://jaroslavlachky.sk/hormony-13-tvorba-dha-z-ala-a-bazanov-efekt/",
+  "article_date": "2022-03-26T00:00:00+01:00",
+  "reference_section": "https://pubmed.ncbi.nlm.nih.gov/15912889/\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406932/\n\n\n\nhttps://en.wikipedia.org/wiki/Nicolas_Bazan\n\n\n\nhttps://www.imperial.ac.uk/people/michael.crawford/publications.html\n\n\n\nhttps://cs.m.wikipedia.org/wiki/Peroxizom\n\n\n\nhttps://www.researchgate.net/figure/Metabolic-pathway-leading-to-docosahexaenoic-acid-DHA-synthesis-DHA-C226-n3-is-an_fig1_221735483\n\n\n\nhttps://www.researchgate.net/figure/Metabolic-pathway-leading-to-docosahexaenoic-acid-DHA-synthesi...",
+  "total_sources": 10,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406932/",
+      "https://pubmed.ncbi.nlm.nih.gov/15912889/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.imperial.ac.uk/people/michael.crawford/publications.html",
+      "https://www.researchgate.net/figure/Metabolic",
+      "https://cs.m.wikipedia.org/wiki/Peroxizom",
+      "https://hmn.wiki/sk/Weichselian_glaciation",
+      "https://en.wikipedia.org/wiki/Nicolas_Bazan",
+      "https://en.m.wikipedia.org/wiki/L",
+      "https://sk.m.wikipedia.org/wiki/W",
+      "https://www.wikiskripta.eu/w/Kyselina_mo"
+    ]
+  },
+  "all_sources": [
+    "https://www.imperial.ac.uk/people/michael.crawford/publications.html",
+    "https://www.researchgate.net/figure/Metabolic",
+    "https://cs.m.wikipedia.org/wiki/Peroxizom",
+    "https://hmn.wiki/sk/Weichselian_glaciation",
+    "https://en.wikipedia.org/wiki/Nicolas_Bazan",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406932/",
+    "https://pubmed.ncbi.nlm.nih.gov/15912889/",
+    "https://en.m.wikipedia.org/wiki/L",
+    "https://sk.m.wikipedia.org/wiki/W",
+    "https://www.wikiskripta.eu/w/Kyselina_mo"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.566365"
+}

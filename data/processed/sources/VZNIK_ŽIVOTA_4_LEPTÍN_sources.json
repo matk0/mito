@@ -1,0 +1,52 @@
+{
+  "article_file": "VZNIK_IVOTA_4_LEPTN.json",
+  "article_title": "VZNIK ŽIVOTA #4 LEPTÍN",
+  "article_url": "https://jaroslavlachky.sk/vznik-zivota-4-leptin/",
+  "article_date": "2020-03-29T00:00:00+01:00",
+  "reference_section": "https://link.springer.com/chapter/10.1007/978-0-387-31416-7_1https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829242/https://www.alphamedical.sk/casopis-invitro/nove-vysetrenia-alpha-medical-ich-vyuzitelnost-v-ambulancii-vseobecneho-lekarahttps://www.wikiskripta.eu/w/Vy%C5%A1et%C5%99en%C3%AD_u_chorob_%C5%A1t%C3%ADtn%C3%A9_%C5%BEl%C3%A1zyhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3546623/https://www.washingtonpost.com/news/speaking-of-science/wp/2016/05/12/the-weird-history-of-vitamin-d-and-what-i...",
+  "total_sources": 15,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829242/https",
+      "https://www.ncbi.nlm.nih.gov/pubmed/25153147https",
+      "https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749",
+      "https://www.ncbi.nlm.nih.gov/pubmed/12809738https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4924223/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3546623/https",
+      "https://link.springer.com/chapter/10.1007/978",
+      "https://www.livescience.com/62000",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3654158/https"
+    ],
+    "news": [
+      "https://www.washingtonpost.com/national/health"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/",
+      "https://www.wikiskripta.eu/w/Vy",
+      "https://www.theatlantic.com/notes/2015/09/sun",
+      "https://bigthink.com/surprising",
+      "https://www.amazon.com/Body"
+    ]
+  },
+  "all_sources": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829242/https",
+    "https://www.ncbi.nlm.nih.gov/pubmed/25153147https",
+    "https://sk.wikipedia.org/wiki/",
+    "https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749",
+    "https://www.wikiskripta.eu/w/Vy",
+    "https://www.ncbi.nlm.nih.gov/pubmed/12809738https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4924223/https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3546623/https",
+    "https://link.springer.com/chapter/10.1007/978",
+    "https://www.theatlantic.com/notes/2015/09/sun",
+    "https://bigthink.com/surprising",
+    "https://www.washingtonpost.com/national/health",
+    "https://www.livescience.com/62000",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3654158/https",
+    "https://www.amazon.com/Body"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.490170"
+}

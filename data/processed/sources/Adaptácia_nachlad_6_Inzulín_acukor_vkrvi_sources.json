@@ -1,0 +1,43 @@
+{
+  "article_file": "Adaptcia_nachlad_6_Inzuln_acukor_vkrvi.json",
+  "article_title": "Adaptácia na chlad #6 Inzulín a cukor v krvi",
+  "article_url": "https://jaroslavlachky.sk/adaptacia-na-chlad-6-inzulin-a-cukor-v-krvi/",
+  "article_date": "2021-05-29T00:00:00+02:00",
+  "reference_section": "https://cs.wikipedia.org/wiki/Albuminhttps://info.gbiosciences.com/blog/why-does-tyrosine-and-tryptophan-have-effect-in-protein-determination-and-to-what-degreehttp://lib.tmd.ac.jp/jmd/0504/08_Nakanishi.pdfhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4884208/http://www.biology.arizona.edu/biochemistry/problem_sets/aa/Aromatic.htmlhttps://sk.wikipedia.org/wiki/Tryptof%C3%A1nhttps://arxiv.org/pdf/1710.03684.pdfhttps://cs.wikipedia.org/wiki/Proteinkin%C3%A1zahttps://www.endocrineweb.com/conditions/...",
+  "total_sources": 11,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4011499/http",
+      "https://pubmed.ncbi.nlm.nih.gov/8702395/https",
+      "https://arxiv.org/pdf/1710.03684.pdfhttps",
+      "http://www.biology.arizona.edu/biochemistry/problem_sets/aa/Aromatic.htmlhttps"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://cs.wikipedia.org/wiki/Albuminhttps",
+      "http://lib.tmd.ac.jp/jmd/0504/08_Nakanishi.pdfhttps",
+      "https://www.pianetadessert.com/sugar",
+      "https://medicalxpress.com/news/2019",
+      "https://medicalxpress.com/news/2017",
+      "https://medkoo.com/products/21322?__cf_chl_jschl_tk__=8e79d5a222369c920f702d95670b44f26e33052c",
+      "https://www.endocrineweb.com/conditions/thyroid/how"
+    ]
+  },
+  "all_sources": [
+    "https://cs.wikipedia.org/wiki/Albuminhttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4011499/http",
+    "https://pubmed.ncbi.nlm.nih.gov/8702395/https",
+    "http://lib.tmd.ac.jp/jmd/0504/08_Nakanishi.pdfhttps",
+    "https://www.pianetadessert.com/sugar",
+    "https://medicalxpress.com/news/2019",
+    "https://arxiv.org/pdf/1710.03684.pdfhttps",
+    "https://medicalxpress.com/news/2017",
+    "https://medkoo.com/products/21322?__cf_chl_jschl_tk__=8e79d5a222369c920f702d95670b44f26e33052c",
+    "https://www.endocrineweb.com/conditions/thyroid/how",
+    "http://www.biology.arizona.edu/biochemistry/problem_sets/aa/Aromatic.htmlhttps"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.491464"
+}

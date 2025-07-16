@@ -1,0 +1,31 @@
+{
+  "article_file": "Hormny_11_Hned_tuk_ako_liek_nacukrovku.json",
+  "article_title": "Hormóny #11 Hnedý tuk ako liek na cukrovku",
+  "article_url": "https://jaroslavlachky.sk/hormony-11-hnedy-tuk-ako-liek-na-cukrovku/",
+  "article_date": "2022-03-12T00:00:00+01:00",
+  "reference_section": "https://en.m.wikipedia.org/wiki/Reverse_electron_flowhttps://www.frontiersin.org/articles/10.3389/fphys.2017.00428/fullhttps://olympics.com/en/featured-news/michael-phelps-10000-calories-diet-what-the-american-swimmer-ate-while-training-https://pubmed.ncbi.nlm.nih.gov/2542241/http://www.ncbi.nlm.nih.gov/pubmed/23730255https://pubmed.ncbi.nlm.nih.gov/9609113/https://pubmed.ncbi.nlm.nih.gov/8063203/https://www.endocrinology.org/endocrinologist/126-winter17/features/the-browning-of-white-fat/",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/2542241/http",
+      "https://pubmed.ncbi.nlm.nih.gov/9609113/https"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://olympics.com/en/featured",
+      "https://en.m.wikipedia.org/wiki/Reverse_electron_flowhttps",
+      "https://www.endocrinology.org/endocrinologist/126"
+    ]
+  },
+  "all_sources": [
+    "https://olympics.com/en/featured",
+    "https://pubmed.ncbi.nlm.nih.gov/2542241/http",
+    "https://pubmed.ncbi.nlm.nih.gov/9609113/https",
+    "https://en.m.wikipedia.org/wiki/Reverse_electron_flowhttps",
+    "https://www.endocrinology.org/endocrinologist/126"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.540628"
+}

@@ -1,0 +1,47 @@
+{
+  "article_file": "KB_18_Melanopsin_bistabilita_svetlo_avpnik.json",
+  "article_title": "KB #18 Melanopsin, bistabilita, svetlo a vápnik",
+  "article_url": "https://jaroslavlachky.sk/kb-18-melanopsin-bistabilita-svetlo-a-vapnik/",
+  "article_date": "2022-09-24T00:00:00+02:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Melanopsin\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/22670683/\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/19551136/\n\n\n\nhttps://onlinelibrary.wiley.com/doi/pdf/10.1002/wmts.29\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/16367779/\n\n\n\nhttps://en.wikipedia.org/wiki/Inositol_trisphosphate_receptor\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/27888270/\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC8394685/\n\n\n\nhttps://www.pnas.org/doi/10.1073/pnas.2000148117\n\n\n\nhttps://kids.frontiersin.org/articles/10.33...",
+  "total_sources": 13,
+  "sources_by_category": {
+    "academic": [
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1002/wmts.29",
+      "https://www.sciencedirect.com/science/article/pii/S0960982204008103",
+      "https://pubmed.ncbi.nlm.nih.gov/27888270/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5964042/",
+      "https://pubmed.ncbi.nlm.nih.gov/22670683/",
+      "https://pubmed.ncbi.nlm.nih.gov/19551136/",
+      "https://pubmed.ncbi.nlm.nih.gov/16367779/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8394685/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Inositol_trisphosphate_receptor",
+      "https://en.wikipedia.org/wiki/Melanopsin",
+      "https://www.pnas.org/doi/10.1073/pnas.2000148117",
+      "https://cs.frwiki.wiki/wiki/Excitotoxicit",
+      "https://kids.frontiersin.org/articles/10.3389/frym.2016.00022"
+    ]
+  },
+  "all_sources": [
+    "https://en.wikipedia.org/wiki/Inositol_trisphosphate_receptor",
+    "https://onlinelibrary.wiley.com/doi/pdf/10.1002/wmts.29",
+    "https://www.sciencedirect.com/science/article/pii/S0960982204008103",
+    "https://en.wikipedia.org/wiki/Melanopsin",
+    "https://pubmed.ncbi.nlm.nih.gov/27888270/",
+    "https://www.pnas.org/doi/10.1073/pnas.2000148117",
+    "https://cs.frwiki.wiki/wiki/Excitotoxicit",
+    "https://kids.frontiersin.org/articles/10.3389/frym.2016.00022",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5964042/",
+    "https://pubmed.ncbi.nlm.nih.gov/22670683/",
+    "https://pubmed.ncbi.nlm.nih.gov/19551136/",
+    "https://pubmed.ncbi.nlm.nih.gov/16367779/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8394685/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.461847"
+}

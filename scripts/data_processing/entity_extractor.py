@@ -510,7 +510,7 @@ def main():
     extractor = SlovakHealthEntityExtractor()
     
     # Check if chunked data exists
-    chunked_file = "./chunked_data/chunked_content.json"
+    chunked_file = "./data/processed/chunked_data/chunked_content.json"
     if not Path(chunked_file).exists():
         print(f"❌ Chunked content file not found: {chunked_file}")
         print("Please run content_chunker.py first!")
@@ -520,7 +520,7 @@ def main():
     entities_data = extractor.process_chunked_content(chunked_file)
     
     # Save results
-    output_file = "./chunked_data/extracted_entities.json"
+    output_file = "./data/processed/chunked_data/extracted_entities.json"
     extractor.save_extracted_entities(entities_data, output_file)
     
     # Print summary statistics

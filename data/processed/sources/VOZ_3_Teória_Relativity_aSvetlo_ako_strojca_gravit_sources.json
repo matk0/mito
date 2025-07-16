@@ -1,0 +1,33 @@
+{
+  "article_file": "VOZ_3_Teria_Relativity_aSvetlo_ako_strojca_gravitci.json",
+  "article_title": "VOZ 3 Teória Relativity a Svetlo ako strojca gravitácie aj času",
+  "article_url": "https://jaroslavlachky.sk/voz-3-teoria-relativity-a-svetlo-ako-strojca-gravitacie-aj-casu/",
+  "article_date": "2023-01-28T00:00:00+01:00",
+  "reference_section": "https://sk.wikipedia.org/wiki/Dilat%C3%A1cia_%C4%8Dasu\n\n\n\nhttps://sk.wikipedia.org/wiki/Brownov_pohyb\n\n\n\nhttps://cs.wikipedia.org/wiki/Dualita_%C4%8D%C3%A1stice_a_vln%C4%9Bn%C3%AD\n\n\n\nhttps://sk.wikipedia.org/wiki/James_Clerk_Maxwell\n\n\n\nhttps://manoa.hawaii.edu/exploringourfluidearth/chemical/matter/definition-matter\n\n\n\nhttps://cs.wikipedia.org/wiki/Orbit%C3%A1ln%C3%AD_moment_hybnosti_(z%C3%A1%C5%99en%C3%AD)",
+  "total_sources": 6,
+  "sources_by_category": {
+    "academic": [
+      "https://manoa.hawaii.edu/exploringourfluidearth/chemical/matter/definition"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://cs.wikipedia.org/wiki/Orbit",
+      "https://sk.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "https://cs.wikipedia.org/wiki/Dualita_",
+      "https://sk.wikipedia.org/wiki/Dilat",
+      "https://sk.wikipedia.org/wiki/Brownov_pohyb"
+    ]
+  },
+  "all_sources": [
+    "https://cs.wikipedia.org/wiki/Orbit",
+    "https://sk.wikipedia.org/wiki/James_Clerk_Maxwell",
+    "https://cs.wikipedia.org/wiki/Dualita_",
+    "https://sk.wikipedia.org/wiki/Dilat",
+    "https://manoa.hawaii.edu/exploringourfluidearth/chemical/matter/definition",
+    "https://sk.wikipedia.org/wiki/Brownov_pohyb"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.542641"
+}

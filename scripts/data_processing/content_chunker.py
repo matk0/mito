@@ -8,8 +8,8 @@ from pathlib import Path
 
 class ContentChunker:
     def __init__(self, 
-                 input_dir: str = "./scraped_data/articles",
-                 output_dir: str = "./chunked_data",
+                 input_dirs: List[str] = ["./data/raw/scraped_data/articles", "./data/raw/scraped_data/pdfs"],
+                 output_dir: str = "./data/processed/chunked_data",
                  chunk_size: int = 800,
                  chunk_overlap: int = 200,
                  context_window: int = 300):
@@ -17,13 +17,13 @@ class ContentChunker:
         Initialize the content chunker.
         
         Args:
-            input_dir: Directory containing scraped JSON articles
+            input_dirs: List of directories containing scraped JSON articles
             output_dir: Directory to save chunked content
             chunk_size: Target size for each chunk (in tokens/words)
             chunk_overlap: Overlap between consecutive chunks
             context_window: Additional context words to include before/after each chunk
         """
-        self.input_dir = Path(input_dir)
+        self.input_dirs = [Path(d) for d in input_dirs]
         self.output_dir = Path(output_dir)
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
@@ -337,26 +337,33 @@ class ContentChunker:
             return []
     
     def process_all_articles(self):
-        """Process all articles in the input directory."""
+        """Process all articles in the input directories."""
         print("🚀 Starting enhanced content chunking process...")
-        print(f"📂 Input directory: {self.input_dir}")
+        print(f"📂 Input directories: {[str(d) for d in self.input_dirs]}")
         print(f"📂 Output directory: {self.output_dir}")
         print(f"⚙️  Chunk size: {self.chunk_size} words, Overlap: {self.chunk_overlap} words")
         print(f"🔍 Context window: {self.context_window} words (preceding + following)")
         print("-" * 60)
         
-        json_files = list(self.input_dir.glob("*.json"))
+        all_json_files = []
+        for input_dir in self.input_dirs:
+            if input_dir.exists():
+                json_files = list(input_dir.glob("*.json"))
+                all_json_files.extend(json_files)
+                print(f"📁 Found {len(json_files)} files in {input_dir}")
+            else:
+                print(f"⚠️  Directory not found: {input_dir}")
         
-        if not json_files:
-            print("❌ No JSON files found in input directory!")
+        if not all_json_files:
+            print("❌ No JSON files found in input directories!")
             return
         
-        print(f"📄 Found {len(json_files)} articles to process\n")
+        print(f"📄 Total articles to process: {len(all_json_files)}\n")
         
         all_chunks = []
         
-        for i, file_path in enumerate(json_files, 1):
-            print(f"[{i}/{len(json_files)}] Processing: {file_path.name}")
+        for i, file_path in enumerate(all_json_files, 1):
+            print(f"[{i}/{len(all_json_files)}] Processing: {file_path.name}")
             
             chunks = self.process_article(file_path)
             if chunks:
@@ -364,7 +371,7 @@ class ContentChunker:
             
             # Progress indicator
             if i % 10 == 0:
-                print(f"📊 Progress: {i}/{len(json_files)} files processed, {len(all_chunks)} chunks created so far\n")
+                print(f"📊 Progress: {i}/{len(all_json_files)} files processed, {len(all_chunks)} chunks created so far\n")
         
         # Add chunk global IDs
         for i, chunk in enumerate(all_chunks):
@@ -444,8 +451,8 @@ def main():
     
     # Initialize chunker with enhanced settings for Slovak content
     chunker = ContentChunker(
-        input_dir="./scraped_data/articles",
-        output_dir="./chunked_data",
+        input_dirs=["./data/raw/scraped_data/articles", "./data/raw/scraped_data/pdfs"],
+        output_dir="./data/processed/chunked_data",
         chunk_size=800,     # Good balance for Slovak text
         chunk_overlap=200,  # Larger overlap for better context preservation
         context_window=300  # Rich contextual information around each chunk

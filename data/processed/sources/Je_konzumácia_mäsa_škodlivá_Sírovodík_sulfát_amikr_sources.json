@@ -1,0 +1,40 @@
+{
+  "article_file": "Je_konzumcia_msa_kodliv_Srovodk_sulft_amikrobim.json",
+  "article_title": "Je konzumácia mäsa škodlivá? Sírovodík, sulfát a mikrobióm.",
+  "article_url": "https://jaroslavlachky.sk/je-konzumacia-masa-skodliva-sirovodik-sulfat-a-mikrobiom/",
+  "article_date": "2020-11-12T00:00:00+01:00",
+  "reference_section": "https://sk.wikipedia.org/wiki/Oxid_dusnat%C3%BDhttps://sk.m.wikipedia.org/wiki/S%C3%ADranhttps://en.wikipedia.org/wiki/Thiosulfatehttps://en.m.wikipedia.org/wiki/Sulfation https://journals.physiology.org/doi/full/10.1152/ajpgi.00169.2013https://sk.wikipedia.org/wiki/Met%C3%A1nhttps://ndnr.com/gastrointestinal/sibo-as-an-adaptation-a-proposed-role-for-hydrogen-sulfide/Abe & Kimura, 1996https://www.hindawi.com/journals/omcl/2015/925167/https://www.sciencedaily.com/releases/2007/10/071016131534.htm...",
+  "total_sources": 9,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/12054683/https",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1089860314004510http",
+      "https://pubmed.ncbi.nlm.nih.gov/25725522/https"
+    ],
+    "news": [
+      "https://journals.physiology.org/doi/full/10.1152/ajpgi.00169.2013https"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Thiosulfatehttps",
+      "https://sk.m.wikipedia.org/wiki/S",
+      "https://ndnr.com/gastrointestinal/sibo",
+      "https://www.hindawi.com/journals/omcl/2015/925167/https",
+      "https://sk.wikipedia.org/wiki/Oxid_dusnat"
+    ]
+  },
+  "all_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/12054683/https",
+    "https://en.wikipedia.org/wiki/Thiosulfatehttps",
+    "https://www.sciencedirect.com/science/article/abs/pii/S1089860314004510http",
+    "https://sk.m.wikipedia.org/wiki/S",
+    "https://ndnr.com/gastrointestinal/sibo",
+    "https://www.hindawi.com/journals/omcl/2015/925167/https",
+    "https://pubmed.ncbi.nlm.nih.gov/25725522/https",
+    "https://journals.physiology.org/doi/full/10.1152/ajpgi.00169.2013https",
+    "https://sk.wikipedia.org/wiki/Oxid_dusnat"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.544456"
+}

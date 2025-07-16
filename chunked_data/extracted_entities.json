@@ -1,0 +1,17 @@
+{
+  "chunk_entities": [],
+  "extraction_metadata": {
+    "total_chunks_processed": 0,
+    "total_entities_extracted": 0,
+    "entity_type_counts": {},
+    "entity_statistics": {
+      "total_entities": 0,
+      "unique_entities": 0,
+      "entity_types": 0,
+      "avg_confidence": 0,
+      "top_entities": {},
+      "top_entity_types": {}
+    },
+    "extraction_timestamp": "2025-07-03T19:38:54.973029"
+  }
+}

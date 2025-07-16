@@ -1,0 +1,61 @@
+###### paywalled
+
+- [ ] https://jaroslavlachky.sk/epigenetika-2-co-je-epigenetika-a-ako-pracuje/
+- [ ] https://jaroslavlachky.sk/mrna-vakciny-ekonomika-a-redox/
+- [ ] https://jaroslavlachky.sk/kb-18-melanopsin-bistabilita-svetlo-a-vapnik/
+- [ ] https://jaroslavlachky.sk/matrix-6-preco-nase-mitochondrie-zaujima-lahky-vodik-a-proton/
+- [ ] https://jaroslavlachky.sk/kb-20-cns-nervy-neurony-a-ich-regeneracny-elektricky-prud/
+- [ ] https://jaroslavlachky.sk/matrix-10-ako-tvori-kruhovy-pohyb-linearny-flow/
+- [ ] https://jaroslavlachky.sk/kvantova-biologia-1-historia-vznik-a-prvi-pionieri/
+- [ ] https://jaroslavlachky.sk/matrix-7-mitochondria-ako-maxwellov-demon-ktory-tvori-negativnu-entropiu/
+- [ ] https://jaroslavlachky.sk/epigenetika-6-leptin-ako-fotoreceptor-a-leptinova-rezistencia/
+- [ ] https://jaroslavlachky.sk/ekonomika-redox-btc-a-cas-3-cast/
+- [ ] https://jaroslavlachky.sk/mitochondrie-4-krebsov-cyklus/
+- [ ] https://jaroslavlachky.sk/matrix-8-tvar-mitochondrie-urcuje-jej-termodynamiku/
+- [ ] https://jaroslavlachky.sk/matrix-9-elektricka-rezistencia-verzus-vodivost-v-biologii/
+- [ ] https://jaroslavlachky.sk/kb-21-koherentna-domena-vody/
+- [ ] https://jaroslavlachky.sk/kb-19-ako-pracuju-kosti-led-kolagen-a-piezoelektrina/
+- [ ] https://jaroslavlachky.sk/cirkadialny-protokol-1-optimalna-strava/
+- [ ] https://jaroslavlachky.sk/energia-7-vplyv-emp-vlnenia-na-biologiu/
+- [ ] https://jaroslavlachky.sk/matrix-5-mitochondria-voda-a-hydrodynamika/
+- [ ] https://jaroslavlachky.sk/kb-11-asociacno-indukcna-hypoteza-alias-proteiny-ako-polovodice/
+- [ ] https://jaroslavlachky.sk/epigenetika-1-melanopsin-dopamin-a-kratkozrakost/
+- [ ] https://jaroslavlachky.sk/2-cast-januaroveho-qaa-podcastu/
+- [ ] https://jaroslavlachky.sk/qaa-verejny-podcast-2024-1-cast/
+- [ ] https://jaroslavlachky.sk/matrix-9-elektricka-rezistencia-verzus-vodivost-v-biologii/ (duplicate with different encoding)
+- [ ] https://jaroslavlachky.sk/mitochondria-a-dychaci-retazec-2-cast/
+- [ ] https://jaroslavlachky.sk/epigenetika-3-em-sila-ako-kontrolor-epigenetiky/
+- [ ] https://jaroslavlachky.sk/adaptacia-na-chlad-1-chlad-verzus-otuzovanie/
+
+###### too short
+
+- [ ] https://jaroslavlachky.sk/novorocne-prianie-10-odporucani-a-tipov-na-rok-2023/
+- [ ] https://jaroslavlachky.sk/epigenetika-5-sira-cystein-glutation-a-detox-verzus-redox/
+- [ ] https://jaroslavlachky.sk/epigenetika-23-hypotyreoza-dopant-jod-a-hormony-stitnej-zlazy/
+- [ ] https://jaroslavlachky.sk/matrix-3-mitochondria-je-pyro-aj-piezoelektricka-a-dha-s-kambrickou-exploziou-su-toho-dokazom/
+- [ ] https://jaroslavlachky.sk/epigenetika-22-cukrovka-1-a-2-typu-ako-fotoelektricky-verzus-hallov-jav
+- [ ] https://jaroslavlachky.sk/epigenetika-24-hypotyreoza-riesenia-alternativy-a-prakticky-protokol
+- [ ] https://jaroslavlachky.sk/epigenetika-24-fosfor-vapnik-deuterium-a-degeneracia-kosti
+- [ ] https://jaroslavlachky.sk/kb-22-spanok-bdenie-a-regeneracia
+- [ ] https://jaroslavlachky.sk/crevo-a-mozog-8-zenske-telo-porod-vyvoj-mozgu-a-ketoza
+- [ ] https://jaroslavlachky.sk/vznik-zivota-7-jod-a-vyvoj-mozgu
+- [ ] https://jaroslavlachky.sk/voz-18-magnetizmus-pre-pokrocilych-magneticky-moment-a-paramagnetizmus
+- [ ] https://jaroslavlachky.sk/mitochondrie-1-dychaci-retazec
+- [ ] https://jaroslavlachky.sk/mitochondrie-9-ketony-a-cholesterol
+- [ ] https://jaroslavlachky.sk/mitochondrie-3-betaoxidacia-verzus-glykolyza
+- [ ] https://jaroslavlachky.sk/vitamin-c-a-jeho-mnohe-tvare
+- [ ] https://jaroslavlachky.sk/mitochondrie-7-ros-alias-volne-radikaly
+- [ ] https://jaroslavlachky.sk/kb6-fonon-soliton-a-vibracia
+- [ ] https://jaroslavlachky.sk/kb-7-skutocna-chemicka-energia-atp-a-voda
+- [ ] https://jaroslavlachky.sk/je-svetlo-odpoved-pre-lepsie-zdravie-redox-ale-aj-moderne-choroby
+- [ ] https://jaroslavlachky.sk/hormony-8-protokol-pre-vycerpane-nadobricky
+- [ ] https://jaroslavlachky.sk/voz-11-cyklotronova-rezonancia-vapnika-uemp-a-ketoza-ako-barlicka
+- [ ] https://jaroslavlachky.sk/hormony-6-vitamin-a-stitna-zlaza-a-ukradnuty-pregnenolon
+- [ ] https://jaroslavlachky.sk/hormony-9-preco-sportovci-ne-potrebuju-sacharidy
+- [ ] https://jaroslavlachky.sk/epigenetika-7-ako-a-kde-zacina-transgeneracna-epigenetika
+- [ ] https://jaroslavlachky.sk/hormony-7-strata-elektronov-kortizol-a-vycerpanie-nadobriciek
+- [ ] https://jaroslavlachky.sk/kb-9-aka-je-skutocna-uloha-atp-v-biologii
+- [ ] https://jaroslavlachky.sk/kb-8-sodno-draselna-pumpa-alias-dokaz-ze-atp-nie-je-zdrojom-energie
+- [ ] https://jaroslavlachky.sk/epigenetika-11-leukemia-autizmus-a-tazke-kovy-2-cast
+- [ ] https://jaroslavlachky.sk/prvy-qaa-podcast-na-temu-svetlo-morske-riasy-tipy-na-vecer-a-ine
+- [ ] https://jaroslavlachky.sk/qaa-podcast-02-na-temu-sacharidy-uv-svetlo-okuliare-filtre-a-ine

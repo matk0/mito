@@ -1,0 +1,31 @@
+{
+  "article_file": "VOZ_12_Irisn_mTOR_NAD_achlad_ako_druh_barlika.json",
+  "article_title": "VOZ #12 Irisín, mTOR, NAD a chlad ako druhá barlička",
+  "article_url": "https://jaroslavlachky.sk/voz-12-irisin-mtor-nad-a-chlad-ako-druha-barlicka/",
+  "article_date": "2023-04-09T00:00:00+02:00",
+  "reference_section": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5389071/\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2872223/\n\n\n\nhttps://jaroslavlachky.sk/wp-content/uploads/2022/01/Lipoprint-a-cholesterol-vysledky-a-zaver.png\n\n\n\nhttps://pubmed.ncbi .nlm.nih.gov/26892521/\n\n\n\nSmith, S. D., McLeod, B. R., Liboff, A. R., & Cooksey, K. (1987). Calcium cyclotron resonance and diatom mobility. Bioelectromagnetics, 8(3), 215–227. doi:10.1002/bem.2250080302 \n\n\n\nhttps://onlinelibrary.wiley.com/doi/abs/10.1002/bem.22500...",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/bem.2250080302",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5389071/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2872223/",
+      "https://pubmed.ncbi"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://jaroslavlachky.sk/wp"
+    ]
+  },
+  "all_sources": [
+    "https://onlinelibrary.wiley.com/doi/abs/10.1002/bem.2250080302",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5389071/",
+    "https://jaroslavlachky.sk/wp",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2872223/",
+    "https://pubmed.ncbi"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.468126"
+}

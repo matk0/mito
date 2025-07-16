@@ -15,8 +15,8 @@ from datetime import datetime
 
 class EmbeddingGenerator:
     def __init__(self, 
-                 input_file: str = "./chunked_data/chunked_content.json",
-                 db_path: str = "./vector_db",
+                 input_file: str = "./data/processed/chunked_data/chunked_content.json",
+                 db_path: str = "./data/embeddings/vector_db",
                  model_name: str = "intfloat/multilingual-e5-large",
                  collection_name: str = "slovak_blog_chunks"):
         """
@@ -324,7 +324,7 @@ def main():
     print("=" * 40)
     
     # Check if required files exist
-    input_file = "./chunked_data/chunked_content.json"
+    input_file = "./data/processed/chunked_data/chunked_content.json"
     if not Path(input_file).exists():
         print(f"❌ Input file not found: {input_file}")
         print("Please run content_chunker.py first!")
@@ -333,7 +333,7 @@ def main():
     # Initialize and run embedding generator
     generator = EmbeddingGenerator(
         input_file=input_file,
-        db_path="./vector_db",
+        db_path="./data/embeddings/vector_db",
         model_name="intfloat/multilingual-e5-large",
         collection_name="slovak_blog_chunks"
     )

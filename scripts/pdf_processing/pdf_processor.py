@@ -238,7 +238,7 @@ class PdfProcessor:
 
 def main():
     """Main function to process PDFs"""
-    processor = PdfProcessor(pdf_dir="pdfs", output_dir="scraped_data/pdfs")
+    processor = PdfProcessor(pdf_dir="data/raw/pdfs", output_dir="data/raw/scraped_data/pdfs")
     
     # Process all PDFs
     articles = processor.process_all_pdfs()

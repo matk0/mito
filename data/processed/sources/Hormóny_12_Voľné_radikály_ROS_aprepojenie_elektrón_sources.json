@@ -1,0 +1,31 @@
+{
+  "article_file": "Hormny_12_Von_radikly_ROS_aprepojenie_elektrnov_Ent.json",
+  "article_title": "Hormóny #12 Voľné radikály (ROS) a prepojenie elektrónov (Entaglement)",
+  "article_url": "https://jaroslavlachky.sk/hormony-12-volne-radikaly-ros-a-prepojenie-elektronov-entaglement/",
+  "article_date": "2022-03-19T00:00:00+01:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Hydroxyl_radicalhttps://en.wikipedia.org/wiki/Superoxide_dismutasehttps://en.wikipedia.org/wiki/Catalasehttps://www.wikiskripta.eu/w/Fentonova_reakcehttps://en.m.wikipedia.org/wiki/Quantum_entanglementhttps://erc.europa.eu/projects-figures/stories/how-entangle-two-electrons-%E2%80%93-and-do-it-again-and-againhttps://pubmed.ncbi.nlm.nih.gov/19407826/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670330/https://www.pnas.org/content/116/15/7449https://www.wikiskripta.eu...",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/19407826/https"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.pnas.org/content/116/15/7449https",
+      "https://en.wikipedia.org/wiki/Hydroxyl_radicalhttps",
+      "https://en.m.wikipedia.org/wiki/Quantum_entanglementhttps",
+      "https://en.wikipedia.org/wiki/Catalasehttps"
+    ]
+  },
+  "all_sources": [
+    "https://www.pnas.org/content/116/15/7449https",
+    "https://en.wikipedia.org/wiki/Hydroxyl_radicalhttps",
+    "https://en.m.wikipedia.org/wiki/Quantum_entanglementhttps",
+    "https://pubmed.ncbi.nlm.nih.gov/19407826/https",
+    "https://en.wikipedia.org/wiki/Catalasehttps"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.511501"
+}

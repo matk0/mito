@@ -1,0 +1,38 @@
+{
+  "article_file": "MITOCHONDRIE_8_HETEROPLAZMIA.json",
+  "article_title": "MITOCHONDRIE #8 HETEROPLAZMIA",
+  "article_url": "https://jaroslavlachky.sk/mitochondrie-8-heteroplazmia/",
+  "article_date": "2021-01-25T00:00:00+01:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Heteroplasmy/https://en.wikipedia.org/wiki/Mitochondrial_DNAhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799321https://youtu.be/KwbIR2yUziwhttps://cs.wikipedia.org/wiki/Warburg%C5%AFv_efekt_(onkologie)https://www.nature.com/articles/ncomms7259https://en.wikipedia.org/wiki/Phononhttps://www.whoop.com/thelocker/heart-rate-variability-hrvhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670330/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4076149/https://pubmed.ncbi.nlm.ni...",
+  "total_sources": 8,
+  "sources_by_category": {
+    "academic": [
+      "https://www.nature.com/articles/ncomms7259https",
+      "https://pubmed.ncbi.nlm.nih.gov/11943784/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174263/https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799321https",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670330/https"
+    ],
+    "news": [],
+    "government": [
+      "https://www.whoop.com/thelocker/heart"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/Heteroplasmy/https",
+      "https://cs.wikipedia.org/wiki/Warburg"
+    ]
+  },
+  "all_sources": [
+    "https://www.nature.com/articles/ncomms7259https",
+    "https://pubmed.ncbi.nlm.nih.gov/11943784/https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174263/https",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799321https",
+    "https://en.wikipedia.org/wiki/Heteroplasmy/https",
+    "https://www.whoop.com/thelocker/heart",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670330/https",
+    "https://cs.wikipedia.org/wiki/Warburg"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.629683"
+}

@@ -1,0 +1,47 @@
+{
+  "article_file": "Epigenetika_21_Psoriza_ako_adaptcia_pokoky_ajej_sku.json",
+  "article_title": "Epigenetika #21 Psoriáza ako adaptácia pokožky a jej skutočný pôvod",
+  "article_url": "https://jaroslavlachky.sk/epigenetika-21-psoriaza-ako-adaptacia-pokozky-a-jej-skutocny-povod/",
+  "article_date": "2024-04-10T00:00:00+02:00",
+  "reference_section": "https://www.webmd.com/skin-problems-and-treatments/psoriasis/diabetes-psoriasis\n\n\n\nhttps://diatribe.org/psoriasis-and-diabetes-what%E2%80%99s-connection\n\n\n\nhttps://karger.com/spp/article/35/6/305/826941/Direct-and-Indirect-Effects-of-Blue-Light-Exposure\n\n\n\nhttps://www.researchgate.net/figure/Light-penetration-into-skin-illustrating-the-depth-to-which-wavelengths-penetrate-human_fig1_319652066\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124793/\n\n\n\nhttps://www.sciencedirect.com/science/articl...",
+  "total_sources": 13,
+  "sources_by_category": {
+    "academic": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0306453016301895",
+      "https://pubmed.ncbi.nlm.nih.gov/36575836/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8714744/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124793/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK435696/",
+      "https://pubmed.ncbi.nlm.nih.gov/21457072/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.eurekalert.org/news",
+      "https://karger.com/spp/article/35/6/305/826941/Direct",
+      "https://www.researchgate.net/figure/Epidermal",
+      "https://diatribe.org/psoriasis",
+      "https://www.webmd.com/skin",
+      "https://jaroslavlachky.sk/voz",
+      "https://www.researchgate.net/figure/Light"
+    ]
+  },
+  "all_sources": [
+    "https://www.sciencedirect.com/science/article/abs/pii/S0306453016301895",
+    "https://www.eurekalert.org/news",
+    "https://pubmed.ncbi.nlm.nih.gov/36575836/",
+    "https://karger.com/spp/article/35/6/305/826941/Direct",
+    "https://www.researchgate.net/figure/Epidermal",
+    "https://diatribe.org/psoriasis",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8714744/",
+    "https://www.webmd.com/skin",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124793/",
+    "https://jaroslavlachky.sk/voz",
+    "https://www.ncbi.nlm.nih.gov/books/NBK435696/",
+    "https://pubmed.ncbi.nlm.nih.gov/21457072/",
+    "https://www.researchgate.net/figure/Light"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.456579"
+}

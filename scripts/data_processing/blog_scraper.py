@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Slovak Blog Scraper
-Scrapes articles from jaroslavlachky.sk blog with authentication support.
+Scrapes articles from jaroslavlachky.sk blog.
 """
 
 import requests
@@ -23,15 +23,11 @@ logger = logging.getLogger(__name__)
 class BlogScraper:
     BASE_URL = 'https://jaroslavlachky.sk'
     BLOG_URL = f'{BASE_URL}/blog/'
-    LOGIN_URL = f'{BASE_URL}/sign-in/'
     OUTPUT_DIR = './data/raw/scraped_data'
     
-    def __init__(self, username=None, password=None):
+    def __init__(self):
         self.scraped_articles = []
         self.failed_urls = []
-        self.username = username
-        self.password = password
-        self.authenticated = False
         
         # Setup session with proper headers
         self.session = requests.Session()
@@ -45,65 +41,6 @@ class BlogScraper:
         """Create output directories"""
         Path(self.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
         Path(f"{self.OUTPUT_DIR}/articles").mkdir(parents=True, exist_ok=True)
-    
-    def login(self):
-        """Attempt to login to the website"""
-        try:
-            logger.info("Attempting to login...")
-            
-            # Get login page to extract form details
-            response = self.session.get(self.LOGIN_URL)
-            if response.status_code != 200:
-                logger.error(f"Failed to access login page: {response.status_code}")
-                return False
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Look for WordPress login form
-            form = soup.find('form', {'id': 'loginform'}) or \
-                   soup.find('form', {'action': lambda x: x and 'wp-login' in x}) or \
-                   soup.find('form', {'action': lambda x: x and 'sign-in' in x})
-            
-            if form:
-                action_url = form.get('action')
-                if action_url and action_url.startswith('/'):
-                    action_url = f"{self.BASE_URL}{action_url}"
-                elif not action_url:
-                    action_url = f"{self.BASE_URL}/wp-login.php"
-            else:
-                # Fallback to standard WordPress login
-                action_url = f"{self.BASE_URL}/wp-login.php"
-            
-            # Prepare login data
-            login_data = {
-                'log': self.username,
-                'pwd': self.password,
-                'wp-submit': 'Log In',
-                'redirect_to': self.BLOG_URL,
-                'testcookie': '1'
-            }
-            
-            # Submit login form
-            response = self.session.post(
-                action_url,
-                data=login_data,
-                headers={'Referer': self.LOGIN_URL}
-            )
-            
-            # Check if login was successful
-            if response.status_code in [200, 302]:
-                # Verify authentication by checking a protected page
-                test_response = self.session.get(self.BLOG_URL)
-                if test_response.status_code == 200 and 'PLATENÝCH ČLENOV' not in test_response.text:
-                    logger.info("✓ Successfully logged in")
-                    return True
-            
-            logger.warning("✗ Login failed")
-            return False
-            
-        except Exception as e:
-            logger.error(f"Login error: {e}")
-            return False
     
     def fetch_url(self, url):
         """Fetch URL content with error handling"""
@@ -392,15 +329,6 @@ class BlogScraper:
         """Main scraping function"""
         logger.info(f"Starting to scrape {self.BLOG_URL}")
         
-        # Login if credentials provided
-        if self.username and self.password:
-            if self.login():
-                self.authenticated = True
-            else:
-                logger.warning("Login failed, continuing without authentication")
-        else:
-            logger.info("No credentials provided, scraping public content only")
-        
         page = 1
         total_scraped = 0
         
@@ -452,8 +380,6 @@ class BlogScraper:
 def main():
     """CLI interface"""
     parser = argparse.ArgumentParser(description='Slovak Blog Scraper for jaroslavlachky.sk')
-    parser.add_argument('--username', '-u', help='Username for authentication')
-    parser.add_argument('--password', '-p', help='Password for authentication')
     parser.add_argument('--output', '-o', default='./data/raw/scraped_data', 
                        help='Output directory (default: ./data/raw/scraped_data)')
     
@@ -466,25 +392,7 @@ def main():
     if args.output:
         BlogScraper.OUTPUT_DIR = args.output
     
-    if args.username and args.password:
-        print("Using provided credentials for authentication")
-        scraper = BlogScraper(args.username, args.password)
-    else:
-        if len(sys.argv) > 1 and not sys.argv[1].startswith('-'):
-            # Legacy support: python blog_scraper.py username password
-            username = sys.argv[1] if len(sys.argv) > 1 else None
-            password = sys.argv[2] if len(sys.argv) > 2 else None
-            if username and password:
-                print("Using provided credentials for authentication")
-                scraper = BlogScraper(username, password)
-            else:
-                print("No credentials provided. Use --username and --password flags")
-                print("Continuing without authentication (public content only)")
-                scraper = BlogScraper()
-        else:
-            print("No credentials provided. Use --username and --password flags")
-            print("Continuing without authentication (public content only)")
-            scraper = BlogScraper()
+    scraper = BlogScraper()
     
     scraper.scrape_all()
 

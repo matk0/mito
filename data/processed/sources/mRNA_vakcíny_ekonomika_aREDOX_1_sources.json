@@ -1,0 +1,69 @@
+{
+  "article_file": "mRNA_vakcny_ekonomika_aREDOX.json",
+  "article_title": "mRNA vakcíny, ekonomika a REDOX",
+  "article_url": "https://jaroslavlachky.sk/mrna-vakciny-ekonomika-a-redox/",
+  "article_date": "2021-07-11T00:00:00+02:00",
+  "reference_section": "Vypočítali sme počet potrebných na očkovanie (skratka NNTV, z angličtiny number needed to vaccinated) z veľkej izraelskej terénnej štúdie, aby sa zabránilo jednému úmrtiu. Pristúpili sme k databáze ADR (European Adverse Drug Reactions) Európskej liekovej agentúry a holandského národného registra (lareb.nl), aby sme získali počet prípadov hlásených závažných vedľajších účinkov a počet prípadov so smrteľnými vedľajšími účinkami.\n\n\n\nVýsledok: Hodnota NNTV je medzi 200–700, aby sa zabránilo jednému ...",
+  "total_sources": 23,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pubmed/25057632https",
+      "https://gumc.georgetown.edu/news",
+      "https://onlinelibrary.wiley.com/doi/10.1111/eci.13554https",
+      "https://pubmed.ncbi.nlm.nih.gov/33330870/https"
+    ],
+    "news": [
+      "https://www.theepochtimes.com/fauci",
+      "https://www.news-medical.net/health/What",
+      "https://www.israelnationalnews.com/News/News.aspx/297051https",
+      "https://www.newsweek.com/jim"
+    ],
+    "government": [
+      "https://www.fda.gov/media/144245/downloadhttps",
+      "https://cdn.who.int/media/docs/default",
+      "https://www.cdc.gov/coronavirus/2019"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.google.com/search?q=vakc%C3%ADny",
+      "https://www.mdpi.com/2076",
+      "https://www.ted.com/talks/craig_venter_sampling_the_ocean_s_dna?quote=14https",
+      "https://docplayer.net/16455344",
+      "https://www.weforum.org/focus/the",
+      "https://en.wikipedia.org/wiki/Great_Resethttps",
+      "https://www.zerohedge.com/covid",
+      "https://www.oxfordgoldgroup.com/news/strategist",
+      "https://www.irozhlas.cz/veda",
+      "https://www.aktuality.sk/clanok/897865/vakcina",
+      "https://www.dnaera.sk/blog/mrna",
+      "https://www.the-scientist.com/news"
+    ]
+  },
+  "all_sources": [
+    "https://www.google.com/search?q=vakc%C3%ADny",
+    "https://www.mdpi.com/2076",
+    "https://www.theepochtimes.com/fauci",
+    "https://www.news-medical.net/health/What",
+    "https://www.fda.gov/media/144245/downloadhttps",
+    "https://www.ted.com/talks/craig_venter_sampling_the_ocean_s_dna?quote=14https",
+    "https://docplayer.net/16455344",
+    "https://www.weforum.org/focus/the",
+    "https://en.wikipedia.org/wiki/Great_Resethttps",
+    "https://www.zerohedge.com/covid",
+    "https://www.oxfordgoldgroup.com/news/strategist",
+    "https://cdn.who.int/media/docs/default",
+    "https://www.israelnationalnews.com/News/News.aspx/297051https",
+    "https://www.irozhlas.cz/veda",
+    "https://www.cdc.gov/coronavirus/2019",
+    "https://www.aktuality.sk/clanok/897865/vakcina",
+    "https://www.ncbi.nlm.nih.gov/pubmed/25057632https",
+    "https://gumc.georgetown.edu/news",
+    "https://www.dnaera.sk/blog/mrna",
+    "https://onlinelibrary.wiley.com/doi/10.1111/eci.13554https",
+    "https://www.the-scientist.com/news",
+    "https://www.newsweek.com/jim",
+    "https://pubmed.ncbi.nlm.nih.gov/33330870/https"
+  ],
+  "extracted_at": "2025-07-15T15:58:29.318517"
+}

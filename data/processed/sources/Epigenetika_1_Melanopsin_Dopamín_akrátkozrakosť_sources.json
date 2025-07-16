@@ -1,0 +1,40 @@
+{
+  "article_file": "Epigenetika_1_Melanopsin_Dopamn_akrtkozrakos.json",
+  "article_title": "Epigenetika #1 Melanopsin, Dopamín a krátkozrakosť",
+  "article_url": "https://jaroslavlachky.sk/epigenetika-1-melanopsin-dopamin-a-kratkozrakost/",
+  "article_date": "2022-09-30T00:00:00+02:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Pseudohypoxia\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4076149/\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/26023239/\n\n\n\nWilliamson DH, Lund P, Krebs HA. The redox state of free nicotinamide-adenine dinucleotide in the cytoplasm and mitochondria of rat liver. The Biochemical journal. 1967;103:514–527.\n\n\n\nVeech RL, Guynn R, Veloso D. The time-course of the effects of ethanol on the redox and phosphorylation states of rat liver. The Biochemical journal. 1972;127:387–397...",
+  "total_sources": 9,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4076149/",
+      "https://pubmed.ncbi.nlm.nih.gov/26023239/",
+      "https://www.nature.com/articles/s41598",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5905393/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6122858/",
+      "https://pubmed.ncbi.nlm.nih.gov/21653722/"
+    ],
+    "news": [
+      "https://www.theguardian.com/society/2021/nov/14/eyeballs"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://phys.org/news/2016",
+      "https://en.wikipedia.org/wiki/Pseudohypoxia"
+    ]
+  },
+  "all_sources": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4076149/",
+    "https://pubmed.ncbi.nlm.nih.gov/26023239/",
+    "https://phys.org/news/2016",
+    "https://www.nature.com/articles/s41598",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5905393/",
+    "https://www.theguardian.com/society/2021/nov/14/eyeballs",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6122858/",
+    "https://en.wikipedia.org/wiki/Pseudohypoxia",
+    "https://pubmed.ncbi.nlm.nih.gov/21653722/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.655942"
+}

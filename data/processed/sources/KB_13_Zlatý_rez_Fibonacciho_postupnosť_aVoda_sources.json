@@ -1,0 +1,47 @@
+{
+  "article_file": "KB_13_Zlat_rez_Fibonacciho_postupnos_aVoda.json",
+  "article_title": "KB #13 Zlatý rez, Fibonacciho postupnosť a Voda",
+  "article_url": "https://jaroslavlachky.sk/kb-13-zlaty-rez-fibonacciho-postupnost-a-voda/",
+  "article_date": "2022-08-14T00:00:00+02:00",
+  "reference_section": "https://sk.wikipedia.org/wiki/Daniel_%C5%A0echtmanhttps://water.lsbu.ac.uk/water/https://sk.wikipedia.org/wiki/Heisenbergov_princ%C3%ADp_neur%C4%8Ditostihttps://water.lsbu.ac.uk/water/water_methods.html#nmrhttps://sk.wikipedia.org/wiki/Fibonacciho_postupnos%C5%A5https://sk.wikipedia.org/wiki/Zlat%C3%BD_rezhttps://www.nature.com/articles/ncomms9384https://convert.impopen.com/index.phphttps://www.testing.com/tests/cerebrospinal-fluid-csf-testing/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6723318...",
+  "total_sources": 13,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6723318/https",
+      "https://www.sciencedaily.com/releases/2011/10/111005080232.htmhttps",
+      "https://www.nature.com/articles/ncomms9384https"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Daniel_",
+      "https://cs.wikipedia.org/wiki/Kvantov",
+      "https://sk.wikipedia.org/wiki/Heisenbergov_princ",
+      "https://www.investopedia.com/articles/technical/04/033104.asphttps",
+      "https://sk.wikipedia.org/wiki/Zlat",
+      "https://www.testing.com/tests/cerebrospinal",
+      "https://mathworld.wolfram.com/PlatonicSolid.html",
+      "https://water.lsbu.ac.uk/water/https",
+      "https://water.lsbu.ac.uk/water/water_methods.html#nmrhttps",
+      "https://www.goldennumber.net/penrose"
+    ]
+  },
+  "all_sources": [
+    "https://sk.wikipedia.org/wiki/Daniel_",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6723318/https",
+    "https://cs.wikipedia.org/wiki/Kvantov",
+    "https://sk.wikipedia.org/wiki/Heisenbergov_princ",
+    "https://www.investopedia.com/articles/technical/04/033104.asphttps",
+    "https://www.sciencedaily.com/releases/2011/10/111005080232.htmhttps",
+    "https://sk.wikipedia.org/wiki/Zlat",
+    "https://www.testing.com/tests/cerebrospinal",
+    "https://mathworld.wolfram.com/PlatonicSolid.html",
+    "https://www.nature.com/articles/ncomms9384https",
+    "https://water.lsbu.ac.uk/water/https",
+    "https://water.lsbu.ac.uk/water/water_methods.html#nmrhttps",
+    "https://www.goldennumber.net/penrose"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.666305"
+}

@@ -1,0 +1,37 @@
+{
+  "article_file": "Hormny_5_Ako_Mitochondrie_tvoria_Pregnenoln.json",
+  "article_title": "Hormóny #5 Ako Mitochondrie tvoria Pregnenolón",
+  "article_url": "https://jaroslavlachky.sk/hormony-5-ako-mitochondrie-tvoria-pregnenolon/",
+  "article_date": "2022-01-29T00:00:00+01:00",
+  "reference_section": "https://pubmed.ncbi.nlm.nih.gov/23628605/\n\n\n\nhttps://cs.m.wikipedia.org/wiki/Cytochrom_P450\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4583817/\n\n\n\nhttps://www.nature.com/articles/355441a0\n\n\n\nhttps://en.wikipedia.org/wiki/Retinoid_X_receptor_alpha\n\n\n\nhttps://www.zrtlab.com/blog/archive/reassessing-pregnenolone-steal/\n\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4762097/\n\n\n\nhttps://www.researchgate.net/figure/Calculated-ground-state-absorption-spectra-for-the-five-DNA-RNA-nucleobases-Each-...",
+  "total_sources": 8,
+  "sources_by_category": {
+    "academic": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4762097/",
+      "https://www.nature.com/articles/355441a0",
+      "https://pubmed.ncbi.nlm.nih.gov/23628605/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4583817/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.zrtlab.com/blog/archive/reassessing",
+      "https://cs.m.wikipedia.org/wiki/Cytochrom_P450",
+      "https://en.wikipedia.org/wiki/Retinoid_X_receptor_alpha",
+      "https://www.researchgate.net/figure/Calculated"
+    ]
+  },
+  "all_sources": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4762097/",
+    "https://www.zrtlab.com/blog/archive/reassessing",
+    "https://www.nature.com/articles/355441a0",
+    "https://cs.m.wikipedia.org/wiki/Cytochrom_P450",
+    "https://pubmed.ncbi.nlm.nih.gov/23628605/",
+    "https://en.wikipedia.org/wiki/Retinoid_X_receptor_alpha",
+    "https://www.researchgate.net/figure/Calculated",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4583817/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.560011"
+}

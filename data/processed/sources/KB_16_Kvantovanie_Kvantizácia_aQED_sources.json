@@ -1,0 +1,32 @@
+{
+  "article_file": "KB_16_Kvantovanie_Kvantizcia_aQED.json",
+  "article_title": "KB #16 Kvantovanie (Kvantizácia) a QED",
+  "article_url": "https://jaroslavlachky.sk/kb-16-kvantovanie-kvantizacia-a-qed/",
+  "article_date": "2022-09-09T00:00:00+02:00",
+  "reference_section": "https://en.wikipedia.org/wiki/Quantization_(physics)https://sk.wikipedia.org/wiki/Kvantov%C3%A9_%C4%8D%C3%ADslohttps://sk.m.wikipedia.org/wiki/Kvantov%C3%A1_elektrodynamikahttps://qr.ae/pvgcyOhttps://www.pantarhei.sk/28724-qed-nezvycajna-teoria-svetla-a-latky-feynman-richard-phillipshttps://jaroslavlachky.sk/energia-3-einstein-a-vlnenie/https://physics.stackexchange.com/questions/435858/is-it-a-coincidence-that-quarks-have-exactly-1-3-or-2-3-the-electrons-charge",
+  "total_sources": 6,
+  "sources_by_category": {
+    "academic": [],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://physics.stackexchange.com/questions/435858/is",
+      "https://jaroslavlachky.sk/energia",
+      "https://qr.ae/pvgcyOhttps",
+      "https://sk.wikipedia.org/wiki/Kvantov",
+      "https://en.wikipedia.org/wiki/Quantization_",
+      "https://sk.m.wikipedia.org/wiki/Kvantov"
+    ]
+  },
+  "all_sources": [
+    "https://physics.stackexchange.com/questions/435858/is",
+    "https://jaroslavlachky.sk/energia",
+    "https://qr.ae/pvgcyOhttps",
+    "https://sk.wikipedia.org/wiki/Kvantov",
+    "https://en.wikipedia.org/wiki/Quantization_",
+    "https://sk.m.wikipedia.org/wiki/Kvantov"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.599657"
+}

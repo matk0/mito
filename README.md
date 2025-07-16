@@ -38,7 +38,7 @@ An advanced knowledge graph and chatbot system built from Slovak health expert J
 ## 📊 Knowledge Base Stats
 
 - **184 articles** scraped from jaroslavlachky.sk
-- **140+ scientific PDFs** from PubMed, Nature, and other sources
+- **175+ scientific PDFs** from PubMed, Nature, PMC, and other sources
 - **959 enhanced content chunks** with contextual windows
 - **30,380 meaningful entities** extracted and normalized
 - **3,178 graph entities** in Neo4j knowledge graph
@@ -126,7 +126,7 @@ rails server
 │
 ├── scripts/                           # Organized Processing Scripts
 │   ├── data_processing/              # Core data pipeline
-│   │   ├── blog_scraper.py           # Web scraper for Slovak health content
+│   │   ├── blog_scraper.py           # Web scraper for Slovak health content (simplified)
 │   │   ├── content_chunker.py        # Enhanced chunking with context windows
 │   │   ├── embedding_generator.py    # Context-aware vector embeddings
 │   │   ├── entity_extractor.py       # Custom Slovak health NER pipeline
@@ -135,7 +135,7 @@ rails server
 │   │   └── graphrag_chat.py          # GraphRAG chat interface
 │   │
 │   ├── pdf_processing/               # Scientific literature pipeline
-│   │   ├── pdf_downloader.py         # Downloads from PubMed, PMC, Nature
+│   │   ├── pdf_downloader.py         # Enhanced downloader with detailed reporting
 │   │   ├── pdf_processor.py          # Text extraction and processing
 │   │   └── download_and_process_pdfs.py  # Complete PDF pipeline
 │   │
@@ -286,6 +286,8 @@ The system includes a comprehensive PDF processing pipeline to augment the Slova
 - **Intelligent Extraction**: Uses multiple PDF processing libraries (pdfplumber, PyPDF2)
 - **Metadata Preservation**: Extracts titles, authors, DOIs, and publication info
 - **Error Handling**: Graceful fallback mechanisms for corrupted or non-standard PDFs
+- **Detailed Reporting**: Generates comprehensive download reports with failure analysis
+- **Source Categorization**: Automatically identifies paywall, format, and other issues
 - **Integration Ready**: Outputs compatible with existing GraphRAG pipeline
 
 #### Usage
@@ -317,7 +319,8 @@ data/raw/scraped_data/pdfs/        # Processed articles
 ├── pubmed_10788778.json          # Structured article data
 ├── extracted_text/               # Clean text files
 ├── metadata/                     # PDF metadata
-└── processing_summary.json       # Processing statistics
+├── processing_summary.json       # Processing statistics
+└── download_report.md            # Detailed download analysis report
 ```
 
 ## 🎯 Usage Examples

@@ -1,0 +1,57 @@
+{
+  "article_file": "VOZ_7_o_je_Ubikvitincia_alias_nahrdzanie_protenov.json",
+  "article_title": "VOZ #7 Čo je Ubikvitinácia alias nahrádzanie proteínov",
+  "article_url": "https://jaroslavlachky.sk/voz-7-co-je-ubikvitinacia-alias-nahradzanie-proteinov/",
+  "article_date": "2023-02-27T00:00:00+01:00",
+  "reference_section": "https://www.jpmorganchase.com/about/our-history\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/12213820/\n\n\n\nhttps://pubmed.ncbi.nlm.nih.gov/21784079/\n\n\n\nATP requirement for the addition of an amino – Generic – BNID 107782 (harvard.edu)\n\n\n\nhttps://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=6&id=106158\n\n\n\nhttps://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=1&id=109468\n\n\n\nhttps://www.wikiskripta.eu/w/Ubikvitinace\n\n\n\nhttps://sk.wikipedia.org/wiki/Proteaz%C3%B3m\n\n\n\nhttps://sk.wikipedia.org/wiki/Tioester...",
+  "total_sources": 18,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/32776612/",
+      "https://pubmed.ncbi.nlm.nih.gov/24558199/",
+      "https://pubmed.ncbi.nlm.nih.gov/12213820/",
+      "https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=6&id=106158",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2538947/",
+      "https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=1&id=109468",
+      "https://www.sciencedaily.com/releases/2015/02/150225094109.htm",
+      "https://pubmed.ncbi.nlm.nih.gov/16826551/",
+      "https://pubmed.ncbi.nlm.nih.gov/24920061/",
+      "https://pubmed.ncbi.nlm.nih.gov/20957397/",
+      "https://pubmed.ncbi.nlm.nih.gov/20519362/",
+      "https://doi.org/10.1515/cclm",
+      "https://pubmed.ncbi.nlm.nih.gov/21784079/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.wikiskripta.eu/w/Ubikvitinace",
+      "https://www.fmed.uniba.sk/fileadmin/lf/sluzby/akademicka_kniznica/PDF/Elektronicke_knihy_LF_UK/OxidacnyStres_Ateroskleroza.pdf",
+      "https://sk.wikipedia.org/wiki/Tioester",
+      "https://www.jpmorganchase.com/about/our",
+      "https://sk.wikipedia.org/wiki/Proteaz"
+    ]
+  },
+  "all_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/32776612/",
+    "https://pubmed.ncbi.nlm.nih.gov/24558199/",
+    "https://pubmed.ncbi.nlm.nih.gov/12213820/",
+    "https://www.wikiskripta.eu/w/Ubikvitinace",
+    "https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=6&id=106158",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2538947/",
+    "https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=1&id=109468",
+    "https://www.fmed.uniba.sk/fileadmin/lf/sluzby/akademicka_kniznica/PDF/Elektronicke_knihy_LF_UK/OxidacnyStres_Ateroskleroza.pdf",
+    "https://www.sciencedaily.com/releases/2015/02/150225094109.htm",
+    "https://pubmed.ncbi.nlm.nih.gov/16826551/",
+    "https://pubmed.ncbi.nlm.nih.gov/24920061/",
+    "https://pubmed.ncbi.nlm.nih.gov/20957397/",
+    "https://pubmed.ncbi.nlm.nih.gov/20519362/",
+    "https://doi.org/10.1515/cclm",
+    "https://sk.wikipedia.org/wiki/Tioester",
+    "https://www.jpmorganchase.com/about/our",
+    "https://sk.wikipedia.org/wiki/Proteaz",
+    "https://pubmed.ncbi.nlm.nih.gov/21784079/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.506767"
+}

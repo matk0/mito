@@ -1,0 +1,30 @@
+{
+  "article_file": "Matrix_8_Tvar_mitochondrie_uruje_jej_termodynamiku.json",
+  "article_title": "Matrix #8 Tvar mitochondrie určuje jej termodynamiku",
+  "article_url": "https://jaroslavlachky.sk/matrix-8-tvar-mitochondrie-urcuje-jej-termodynamiku/",
+  "article_date": "2025-03-19T00:00:00+01:00",
+  "reference_section": "moje knihy Spoznaj svoju biológiu a všetky referencie vzadu\n\n\n\nhttps://en.wikipedia.org/wiki/M._C._Escher\n\n\n\nhttps://en.wikipedia.org/wiki/Noether%27s_theorem\n\n\n\nhttps://en.wikipedia.org/wiki/John_Archibald_Wheeler\n\n\n\nhttps://en.wikipedia.org/wiki/Phase_transition\n\n\n\nhttps://en.wikipedia.org/wiki/Topology",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://en.wikipedia.org/wiki/John_Archibald_Wheeler",
+      "https://en.wikipedia.org/wiki/M._C._Escher",
+      "https://en.wikipedia.org/wiki/Phase_transition",
+      "https://en.wikipedia.org/wiki/Topology",
+      "https://en.wikipedia.org/wiki/Noether"
+    ]
+  },
+  "all_sources": [
+    "https://en.wikipedia.org/wiki/John_Archibald_Wheeler",
+    "https://en.wikipedia.org/wiki/M._C._Escher",
+    "https://en.wikipedia.org/wiki/Phase_transition",
+    "https://en.wikipedia.org/wiki/Topology",
+    "https://en.wikipedia.org/wiki/Noether"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.557740"
+}

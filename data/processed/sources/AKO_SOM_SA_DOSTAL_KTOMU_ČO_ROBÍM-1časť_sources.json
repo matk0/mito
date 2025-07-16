@@ -1,0 +1,22 @@
+{
+  "article_file": "AKO_SOM_SA_DOSTAL_KTOMU_O_ROBM-1as.json",
+  "article_title": "AKO SOM SA DOSTAL K TOMU, ČO ROBÍM-1.časť",
+  "article_url": "https://jaroslavlachky.sk/blog-o-mne-ako-som-sa-dostal-k-tomu-co-robim/",
+  "article_date": "2019-12-29T00:00:00+01:00",
+  "reference_section": "http://gamapserver.who.int/gho/interactive_charts/ncd/risk_factors/obesity/atlas.htmlhttps://www.preventivne.sk/aktuality/narodna-studia-zdravi-skolakov-trpia-obezitou-caste-su-aj-urazy.html",
+  "total_sources": 1,
+  "sources_by_category": {
+    "academic": [],
+    "news": [],
+    "government": [
+      "http://gamapserver.who.int/gho/interactive_charts/ncd/risk_factors/obesity/atlas.htmlhttps"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": []
+  },
+  "all_sources": [
+    "http://gamapserver.who.int/gho/interactive_charts/ncd/risk_factors/obesity/atlas.htmlhttps"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.663714"
+}

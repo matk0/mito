@@ -1,0 +1,38 @@
+{
+  "article_file": "VOZ_14_Rayleigh_Bnardova_konvekcia_aneustly_pohyb_v.json",
+  "article_title": "VOZ #14 Rayleigh Bénardova konvekcia a neustály pohyb vody",
+  "article_url": "https://jaroslavlachky.sk/voz-14-rayleigh-benardova-konvekcia-a-neustaly-pohyb-vody/",
+  "article_date": "2023-05-11T00:00:00+02:00",
+  "reference_section": "https://hmn.wiki/sk/Rayleigh%E2%80%93B%C3%A9nard_convection#cite_note-getling-1\n\n\n\nhttps://hmn.wiki/sk/Rayleigh%E2%80%93B%C3%A9nard_convection#cite_note-koschmieder-2\n\n\n\nhttps://hmn.wiki/sk/Rayleigh%E2%80%93B%C3%A9nard_convection\n\n\n\nhttps://hmn.wiki/sk/Nonlinear_system\n\n\n\nhttps://hmn.wiki/sk/Henri_B%C3%A9nard\n\n\n\nhttps://www.feynmanlectures.caltech.edu/II_09.html\n\n\n\nhttps://beliana.sav.sk/heslo/katodove-luce\n\n\n\nhttps://www.nasa.gov/mission_pages/sunearth/news/ace-electron-strahl.html\n\n\n\nhttps://s...",
+  "total_sources": 8,
+  "sources_by_category": {
+    "academic": [
+      "https://www.feynmanlectures.caltech.edu/II_09.html"
+    ],
+    "news": [],
+    "government": [
+      "https://www.nasa.gov/mission_pages/sunearth/news/ace"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Ilya_Prigogine",
+      "https://hmn.wiki/sk/Henri_B",
+      "https://sk.wikipedia.org/wiki/Disipat",
+      "https://hmn.wiki/sk/Nonlinear_system",
+      "https://beliana.sav.sk/heslo/katodove",
+      "https://hmn.wiki/sk/Rayleigh"
+    ]
+  },
+  "all_sources": [
+    "https://www.feynmanlectures.caltech.edu/II_09.html",
+    "https://sk.wikipedia.org/wiki/Ilya_Prigogine",
+    "https://hmn.wiki/sk/Henri_B",
+    "https://sk.wikipedia.org/wiki/Disipat",
+    "https://hmn.wiki/sk/Nonlinear_system",
+    "https://beliana.sav.sk/heslo/katodove",
+    "https://hmn.wiki/sk/Rayleigh",
+    "https://www.nasa.gov/mission_pages/sunearth/news/ace"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.612769"
+}

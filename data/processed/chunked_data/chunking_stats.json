@@ -1,7 +1,7 @@
 {
-  "total_articles": 184,
-  "total_chunks": 959,
-  "avg_chunk_size": 719.6631908237748,
+  "total_articles": 38,
+  "total_chunks": 1869,
+  "avg_chunk_size": 779.7843766720172,
   "articles_processed": [
     {
       "filename": "Novoron_prianie_10_Odporan_aTipov_narok_2023.json",
@@ -254,6 +254,12 @@
       "title": "Črevo a mozog #12 Črevo, DPP4, lepok a cukrovka",
       "chunks_created": 8,
       "original_words": 3940
+    },
+    {
+      "filename": "Matrix_10_Ako_tvor_kruhov_pohyb_linerny_Flow.json",
+      "title": "Matrix #10: Ako tvorí kruhový pohyb lineárny Flow",
+      "chunks_created": 5,
+      "original_words": 2368
     },
     {
       "filename": "revo_amozog_3_Leaky_gut_celiakia_askkajce_gny.json",
@@ -1106,6 +1112,228 @@
       "title": "Epigenetika #11 Leukémia, autizmus a ťažké kovy – ...",
       "chunks_created": 1,
       "original_words": 34
+    },
+    {
+      "filename": "pubmed_28831511.json",
+      "title": "pubmed_28831511",
+      "chunks_created": 17,
+      "original_words": 13678
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_6264.json",
+      "title": "pubmed_ncbi_nlm_nih_gov_6264",
+      "chunks_created": 16,
+      "original_words": 11764
+    },
+    {
+      "filename": "pubmed_30945022.json",
+      "title": "pubmed_30945022",
+      "chunks_created": 16,
+      "original_words": 11873
+    },
+    {
+      "filename": "pubmed_11722751.json",
+      "title": "pubmed_11722751",
+      "chunks_created": 14,
+      "original_words": 14123
+    },
+    {
+      "filename": "nature_s41598-017-16689-4.json",
+      "title": "nature_s41598-017-16689-4",
+      "chunks_created": 48,
+      "original_words": 35638
+    },
+    {
+      "filename": "www_light-sources_com_3857.json",
+      "title": "www_light-sources_com_3857",
+      "chunks_created": 12,
+      "original_words": 16117
+    },
+    {
+      "filename": "pubmed_26095528.json",
+      "title": "pubmed_26095528",
+      "chunks_created": 16,
+      "original_words": 13047
+    },
+    {
+      "filename": "www_sciencedaily_com_3643.json",
+      "title": "www_sciencedaily_com_3643",
+      "chunks_created": 10,
+      "original_words": 5795
+    },
+    {
+      "filename": "pmc_3891634.json",
+      "title": "pmc_3891634",
+      "chunks_created": 22,
+      "original_words": 15070
+    },
+    {
+      "filename": "www_sciencedaily_com_12.json",
+      "title": "www_sciencedaily_com_12",
+      "chunks_created": 10,
+      "original_words": 5795
+    },
+    {
+      "filename": "pmc_4605358.json",
+      "title": "pmc_4605358",
+      "chunks_created": 23,
+      "original_words": 15328
+    },
+    {
+      "filename": "physicsworld_com_5564.json",
+      "title": "physicsworld_com_5564",
+      "chunks_created": 11,
+      "original_words": 8099
+    },
+    {
+      "filename": "pmc_4854800.json",
+      "title": "pmc_4854800",
+      "chunks_created": 56,
+      "original_words": 36851
+    },
+    {
+      "filename": "omlc_org_7888.json",
+      "title": "omlc_org_7888",
+      "chunks_created": 1,
+      "original_words": 680
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_1544.json",
+      "title": "pubmed_ncbi_nlm_nih_gov_1544",
+      "chunks_created": 17,
+      "original_words": 13823
+    },
+    {
+      "filename": "www_meddeviceonline_com_2627.json",
+      "title": "www_meddeviceonline_com_2627",
+      "chunks_created": 8,
+      "original_words": 4360
+    },
+    {
+      "filename": "sunlightinstitute_org_5291.json",
+      "title": "sunlightinstitute_org_5291",
+      "chunks_created": 7,
+      "original_words": 4346
+    },
+    {
+      "filename": "pmc_5504780.json",
+      "title": "pmc_5504780",
+      "chunks_created": 40,
+      "original_words": 25888
+    },
+    {
+      "filename": "pubmed_22548720.json",
+      "title": "pubmed_22548720",
+      "chunks_created": 15,
+      "original_words": 13187
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_7038.json",
+      "title": "pubmed_ncbi_nlm_nih_gov_7038",
+      "chunks_created": 17,
+      "original_words": 13808
+    },
+    {
+      "filename": "pubmed_10788778.json",
+      "title": "pubmed_10788778",
+      "chunks_created": 16,
+      "original_words": 12279
+    },
+    {
+      "filename": "www_centreforbrainhealth_ca_9497.json",
+      "title": "www_centreforbrainhealth_ca_9497",
+      "chunks_created": 8,
+      "original_words": 6337
+    },
+    {
+      "filename": "link_springer_com_3603.json",
+      "title": "link_springer_com_3603",
+      "chunks_created": 22,
+      "original_words": 23969
+    },
+    {
+      "filename": "link_springer_com_230.json",
+      "title": "link_springer_com_230",
+      "chunks_created": 22,
+      "original_words": 23969
+    },
+    {
+      "filename": "sunlightinstitute_org_5712.json",
+      "title": "sunlightinstitute_org_5712",
+      "chunks_created": 7,
+      "original_words": 4361
+    },
+    {
+      "filename": "www_centreforbrainhealth_ca_2606.json",
+      "title": "www_centreforbrainhealth_ca_2606",
+      "chunks_created": 8,
+      "original_words": 6337
+    },
+    {
+      "filename": "nature_s41598-019-39584-6.json",
+      "title": "nature_s41598-019-39584-6",
+      "chunks_created": 65,
+      "original_words": 44592
+    },
+    {
+      "filename": "pmc_2739396.json",
+      "title": "pmc_2739396",
+      "chunks_created": 70,
+      "original_words": 43717
+    },
+    {
+      "filename": "pubmed_7854007.json",
+      "title": "pubmed_7854007",
+      "chunks_created": 15,
+      "original_words": 13461
+    },
+    {
+      "filename": "pmc_2879406.json",
+      "title": "pmc_2879406",
+      "chunks_created": 34,
+      "original_words": 22320
+    },
+    {
+      "filename": "pmc_5793051.json",
+      "title": "pmc_5793051",
+      "chunks_created": 36,
+      "original_words": 24984
+    },
+    {
+      "filename": "pubmed_25404319.json",
+      "title": "pubmed_25404319",
+      "chunks_created": 23,
+      "original_words": 19893
+    },
+    {
+      "filename": "nature_s41419-019-1556-7.json",
+      "title": "nature_s41419-019-1556-7",
+      "chunks_created": 94,
+      "original_words": 63971
+    },
+    {
+      "filename": "journals_plos_org_672.json",
+      "title": "journals_plos_org_672",
+      "chunks_created": 39,
+      "original_words": 24463
+    },
+    {
+      "filename": "pubmed_ncbi_nlm_nih_gov_1633.json",
+      "title": "pubmed_ncbi_nlm_nih_gov_1633",
+      "chunks_created": 16,
+      "original_words": 11764
+    },
+    {
+      "filename": "pubmed_2084008.json",
+      "title": "pubmed_2084008",
+      "chunks_created": 15,
+      "original_words": 11223
+    },
+    {
+      "filename": "pmc_2533804.json",
+      "title": "pmc_2533804",
+      "chunks_created": 39,
+      "original_words": 24916
     }
   ]
 }

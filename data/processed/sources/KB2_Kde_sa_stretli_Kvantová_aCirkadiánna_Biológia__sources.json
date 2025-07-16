@@ -1,0 +1,55 @@
+{
+  "article_file": "KB2_Kde_sa_stretli_Kvantov_aCirkadinna_Biolgia_alia.json",
+  "article_title": "KB#2 Kde sa stretli Kvantová a Cirkadiánna Biológia alias Kvantová Evolúcia",
+  "article_url": "https://jaroslavlachky.sk/kb2-kde-sa-stretli-kvantova-a-cirkadianna-biologia-alias-kvantova-evolucia/",
+  "article_date": "2022-04-23T00:00:00+02:00",
+  "reference_section": "https://phys.org/news/2016-11-universe.htmlhttps://www.forbes.com/sites/startswithabang/2019/05/10/when-did-the-universe-become-transparent-to-light/?sh=45d8a6591924https://www.pbs.org/wgbh/aso/databank/entries/dp29hu.htmlhttps://en.wikipedia.org/wiki/Extreme_ultraviolethttps://www.discovermagazine.com/the-sciences/earths-water-is-older-than-the-sunhttps://www.popsci.com/technology/article/2011-06/herschel-spots-young-star-spewing-water-jets-interstellar-space/https://www.nhm.ac.uk/discover/how-...",
+  "total_sources": 16,
+  "sources_by_category": {
+    "academic": [
+      "https://www.sciencealert.com/earth",
+      "https://pubmed.ncbi.nlm.nih.gov/8274767/"
+    ],
+    "news": [
+      "https://www.discovermagazine.com/the",
+      "https://edition.cnn.com/2019/11/13/world/earth"
+    ],
+    "government": [
+      "https://earthobservatory.nasa.gov/features/Milankovitch/milankovitch_2.phphttps"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Te",
+      "https://www.nhm.ac.uk/discover/how",
+      "https://www.popsci.com/technology/article/2011",
+      "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915",
+      "https://www.pbs.org/wgbh/aso/databank/entries/dp29hu.htmlhttps",
+      "https://phys.org/news/2016",
+      "https://www.britannica.com/science/G",
+      "https://en.wikipedia.org/wiki/Earth",
+      "https://sk.wikipedia.org/wiki/Lynn_Margulisov",
+      "https://www.forbes.com/sites/startswithabang/2019/05/10/when",
+      "https://en.wikipedia.org/wiki/G"
+    ]
+  },
+  "all_sources": [
+    "https://sk.wikipedia.org/wiki/Te",
+    "https://www.nhm.ac.uk/discover/how",
+    "https://www.popsci.com/technology/article/2011",
+    "https://earthobservatory.nasa.gov/features/Milankovitch/milankovitch_2.phphttps",
+    "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915",
+    "https://www.discovermagazine.com/the",
+    "https://www.pbs.org/wgbh/aso/databank/entries/dp29hu.htmlhttps",
+    "https://phys.org/news/2016",
+    "https://www.sciencealert.com/earth",
+    "https://www.britannica.com/science/G",
+    "https://pubmed.ncbi.nlm.nih.gov/8274767/",
+    "https://en.wikipedia.org/wiki/Earth",
+    "https://edition.cnn.com/2019/11/13/world/earth",
+    "https://sk.wikipedia.org/wiki/Lynn_Margulisov",
+    "https://www.forbes.com/sites/startswithabang/2019/05/10/when",
+    "https://en.wikipedia.org/wiki/G"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.447695"
+}

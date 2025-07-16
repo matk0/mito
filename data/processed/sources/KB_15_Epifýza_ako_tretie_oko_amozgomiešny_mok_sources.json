@@ -1,0 +1,55 @@
+{
+  "article_file": "KB_15_Epifza_ako_tretie_oko_amozgomieny_mok.json",
+  "article_title": "KB #15 Epifýza ako tretie oko a mozgomiešny mok",
+  "article_url": "https://jaroslavlachky.sk/kb-15-epifyza-ako-tretie-oko-a-mozgomiesny-mok/",
+  "article_date": "2022-09-01T00:00:00+02:00",
+  "reference_section": "https://sk.wikipedia.org/wiki/Curieho_teplotahttps://sk.wikipedia.org/wiki/Hallov_javhttps://cs.wikipedia.org/wiki/Mozkom%C3%AD%C5%A1n%C3%AD_mokhttps://www.wikiskripta.eu/w/Epif%C3%BDzahttps://sk.wikipedia.org/wiki/Neur%C3%B3nhttps://headaches.org/light-and-sensitivity/https://pubmed.ncbi.nlm.nih.gov/29390108/https://radiopaedia.org/articles/pineal-recesshttps://en.wikipedia.org/wiki/Suprapineal_recesshttps://www.britannica.com/science/pineal-glandhttps://www.wikiskripta.eu/w/Diencephalonhttps:/...",
+  "total_sources": 17,
+  "sources_by_category": {
+    "academic": [
+      "https://pubmed.ncbi.nlm.nih.gov/6324543/https",
+      "https://pubmed.ncbi.nlm.nih.gov/29390108/https",
+      "https://pubmed.ncbi.nlm.nih.gov/1715400/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5880743/https",
+      "https://academic.oup.com/endo/article/143/1/84/2988986Róbert"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Neur",
+      "https://cs.m.wikipedia.org/wiki/Pom",
+      "https://cs.wikipedia.org/wiki/Mozkom",
+      "https://cs.wikipedia.org/wiki/Kalcithttps",
+      "https://en.wikipedia.org/wiki/Aquaporin",
+      "https://headaches.org/light",
+      "https://www.wikiskripta.eu/w/Epif",
+      "https://www.wikiskripta.eu/w/Diencephalonhttps",
+      "https://www.webmd.com/sleep",
+      "https://sk.wikipedia.org/wiki/Curieho_teplotahttps",
+      "https://sk.wikipedia.org/wiki/Faradayova_klietkaHASSELL",
+      "https://en.wikipedia.org/wiki/Suprapineal_recesshttps"
+    ]
+  },
+  "all_sources": [
+    "https://sk.wikipedia.org/wiki/Neur",
+    "https://cs.m.wikipedia.org/wiki/Pom",
+    "https://cs.wikipedia.org/wiki/Mozkom",
+    "https://cs.wikipedia.org/wiki/Kalcithttps",
+    "https://en.wikipedia.org/wiki/Aquaporin",
+    "https://headaches.org/light",
+    "https://pubmed.ncbi.nlm.nih.gov/6324543/https",
+    "https://www.wikiskripta.eu/w/Epif",
+    "https://pubmed.ncbi.nlm.nih.gov/29390108/https",
+    "https://www.wikiskripta.eu/w/Diencephalonhttps",
+    "https://www.webmd.com/sleep",
+    "https://pubmed.ncbi.nlm.nih.gov/1715400/",
+    "https://sk.wikipedia.org/wiki/Curieho_teplotahttps",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5880743/https",
+    "https://sk.wikipedia.org/wiki/Faradayova_klietkaHASSELL",
+    "https://academic.oup.com/endo/article/143/1/84/2988986Róbert",
+    "https://en.wikipedia.org/wiki/Suprapineal_recesshttps"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.649605"
+}

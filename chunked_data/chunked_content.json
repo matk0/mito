@@ -1,0 +1,15 @@
+{
+  "chunks": [],
+  "metadata": {
+    "total_chunks": 0,
+    "chunk_size": 800,
+    "chunk_overlap": 200,
+    "created_at": "2025-07-03T19:37:02.575784",
+    "statistics": {
+      "total_articles": 0,
+      "total_chunks": 0,
+      "avg_chunk_size": 0,
+      "articles_processed": []
+    }
+  }
+}

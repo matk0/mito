@@ -1,0 +1,31 @@
+{
+  "article_file": "Adaptcia_nachlad_8_Teplo_verzus_zima_aefektivita.json",
+  "article_title": "Adaptácia na chlad #8 Teplo verzus, zima a efektivita",
+  "article_url": "https://jaroslavlachky.sk/adaptacia-na-chlad-8-teplo-verzus-zima-a-efektivita/",
+  "article_date": "2021-07-03T00:00:00+02:00",
+  "reference_section": "https://sk.wikipedia.org/wiki/Z%C3%A1kon_zachovania_energiehttps://sk.wikipedia.org/wiki/Druh%C3%A1_termodynamick%C3%A1_vetahttps://sk.wikipedia.org/wiki/Carnotov_cyklushttps://sk.wikipedia.org/wiki/Tepeln%C3%BD_strojhttps://sk.wikipedia.org/wiki/Rudolf_Clausiushttps://sk.wikipedia.org/wiki/Spa%C4%BEovac%C3%AD_motorhttps://bionumbers.hms.harvard.edu/bionumber.aspx?id=105801&ver=6",
+  "total_sources": 5,
+  "sources_by_category": {
+    "academic": [
+      "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=105801&ver=6"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://sk.wikipedia.org/wiki/Rudolf_Clausiushttps",
+      "https://sk.wikipedia.org/wiki/Druh",
+      "https://sk.wikipedia.org/wiki/Z",
+      "https://sk.wikipedia.org/wiki/Carnotov_cyklushttps"
+    ]
+  },
+  "all_sources": [
+    "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=105801&ver=6",
+    "https://sk.wikipedia.org/wiki/Rudolf_Clausiushttps",
+    "https://sk.wikipedia.org/wiki/Druh",
+    "https://sk.wikipedia.org/wiki/Z",
+    "https://sk.wikipedia.org/wiki/Carnotov_cyklushttps"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.664431"
+}

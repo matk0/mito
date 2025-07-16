@@ -1,0 +1,35 @@
+{
+  "article_file": "Matrix_4_Krebsov_bi-cyklus.json",
+  "article_title": "Matrix #4 Krebsov bi-cyklus",
+  "article_url": "https://jaroslavlachky.sk/matrix-4-krebsov-bi-cyklus/",
+  "article_date": "2024-12-20T00:00:00+01:00",
+  "reference_section": "Maruyama R, Aoki F, Toyota M, Sasaki Y, Akashi H, et al. (2006) Comparative genome analysis identifies the vitamin D receptor gene as a direct target of p53- mediated transcriptional activation. Cancer Res 66: 4574–4583.\n\n\n\nThorne JL, Maguire O, Doig CL, Battaglia S, Fehr L, et al. (2011) Epigenetic control of a VDR-governed feed-forward loop that regulates p21(waf1/cip1) expression and function in non-malignant prostate cells. Nucleic Acids Res 39: 2045–2056.\n\n\n\nGavrilova-Jordan LP, Price TM (2...",
+  "total_sources": 7,
+  "sources_by_category": {
+    "academic": [
+      "https://med.stanford.edu/news/all",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4278832/",
+      "https://pubmed.ncbi.nlm.nih.gov/20107497/"
+    ],
+    "news": [],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "http://www.jbc.org/content/277/34/30409.full.html",
+      "https://en.wikipedia.org/wiki/Pyruvate_carboxylase",
+      "https://www.researchgate.net/figure/Analysis",
+      "https://www.jbc.org/article/S0021"
+    ]
+  },
+  "all_sources": [
+    "https://med.stanford.edu/news/all",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4278832/",
+    "http://www.jbc.org/content/277/34/30409.full.html",
+    "https://en.wikipedia.org/wiki/Pyruvate_carboxylase",
+    "https://www.researchgate.net/figure/Analysis",
+    "https://www.jbc.org/article/S0021",
+    "https://pubmed.ncbi.nlm.nih.gov/20107497/"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.451035"
+}

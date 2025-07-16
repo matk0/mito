@@ -1,0 +1,36 @@
+{
+  "article_file": "Matrix_10_Ako_tvor_kruhov_pohyb_linerny_Flow.json",
+  "article_title": "Matrix #10: Ako tvorí kruhový pohyb lineárny Flow",
+  "article_url": "https://jaroslavlachky.sk/matrix-10-ako-tvori-kruhovy-pohyb-linearny-flow/",
+  "article_date": "2025-06-27T00:00:00+02:00",
+  "reference_section": "Moja kniha – Kvantový Biológia by Jaroslav Lachký\n\n\n\nhttps://jaroslavlachky.sk/voz-18-magnetizmus-pre-pokrocilych-magneticky-moment-a-pamat-vody/\n\n\n\nhttps://en.wikipedia.org/wiki/Birkeland_current\n\n\n\nhttps://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.051602\n\n\n\nhttps://www.i-sis.org.uk/Continuous_Creation_from_Electric_Plasma.php#google_vignette\n\n\n\nBlas Cabrera (1982-05-17). “First Results from a Superconductive Detector for Moving Magnetic Monopoles”. Physical Review Letters (American...",
+  "total_sources": 7,
+  "sources_by_category": {
+    "academic": [
+      "https://doi.org/10.1098/rspa.1931.0130"
+    ],
+    "news": [
+      "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.051602"
+    ],
+    "government": [],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://www.i-sis.org.uk/Continuous_Creation_from_Electric_Plasma.php#google_vignette",
+      "https://home.cern/news/news/physics/quest",
+      "https://jaroslavlachky.sk/voz",
+      "https://en.wikipedia.org/wiki/Birkeland_current",
+      "https://www.diva-portal.org/smash/get/diva2"
+    ]
+  },
+  "all_sources": [
+    "https://doi.org/10.1098/rspa.1931.0130",
+    "https://www.i-sis.org.uk/Continuous_Creation_from_Electric_Plasma.php#google_vignette",
+    "https://home.cern/news/news/physics/quest",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.051602",
+    "https://jaroslavlachky.sk/voz",
+    "https://en.wikipedia.org/wiki/Birkeland_current",
+    "https://www.diva-portal.org/smash/get/diva2"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.499143"
+}

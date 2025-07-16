@@ -1,0 +1,28 @@
+{
+  "article_file": "MITOCHONDRIE_10_DEUTRIUM_aAK_VODA.json",
+  "article_title": "MITOCHONDRIE #10 DEUTÉRIUM a ŤAŽKÁ VODA",
+  "article_url": "https://jaroslavlachky.sk/mitochondrie-10-deuterium-a-tazka-voda/",
+  "article_date": "2021-02-13T00:00:00+01:00",
+  "reference_section": "https://spaceplace.nasa.gov/mars-adventure2/en/https://cs.wikipedia.org/wiki/Izotopy_vodíkuhttps://onlinelibrary.wiley.com/doi/full/10.1046/j.1365-3040.1999.00440.xhttps://www.nature.com/articles/150021a0https://www.amazon.com/Defeating-Cancer-Biological-Deuterium-Depletion/dp/0759692610",
+  "total_sources": 3,
+  "sources_by_category": {
+    "academic": [
+      "https://www.nature.com/articles/150021a0https"
+    ],
+    "news": [],
+    "government": [
+      "https://spaceplace.nasa.gov/mars"
+    ],
+    "social_media": [],
+    "blog": [],
+    "other": [
+      "https://cs.wikipedia.org/wiki/Izotopy_vodíkuhttps"
+    ]
+  },
+  "all_sources": [
+    "https://www.nature.com/articles/150021a0https",
+    "https://spaceplace.nasa.gov/mars",
+    "https://cs.wikipedia.org/wiki/Izotopy_vodíkuhttps"
+  ],
+  "extracted_at": "2025-07-15T15:55:29.616867"
+}
