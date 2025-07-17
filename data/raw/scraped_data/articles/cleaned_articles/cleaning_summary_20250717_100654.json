@@ -1,0 +1,1269 @@
+{
+  "total_articles": 179,
+  "cleaning_stats": {
+    "total_articles": 179,
+    "successfully_cleaned": 179,
+    "failed_cleaning": 0,
+    "total_words_removed": 25262,
+    "patterns_removed": {
+      "marketing": 2077,
+      "urls": 2134,
+      "footer": 8
+    }
+  },
+  "articles_summary": [
+    {
+      "title": "ČO JE KVANTOVÁ BIOLÓGIA – 3.časť",
+      "source_file": "O_JE_KVANTOV_BIOLGIA_3as.json",
+      "original_words": 1906,
+      "cleaned_words": 2012,
+      "reduction_percentage": 7.51
+    },
+    {
+      "title": "mRNA vakcíny, ekonomika a REDOX",
+      "source_file": "mRNA_vakcny_ekonomika_aREDOX.json",
+      "original_words": 4634,
+      "cleaned_words": 5111,
+      "reduction_percentage": 11.14
+    },
+    {
+      "title": "Hormóny #8 Protokol pre Vyčerpané nadobličky",
+      "source_file": "Hormóny_8_Protokol_pre_Vyčerpané_nadobličky.json",
+      "original_words": 3293,
+      "cleaned_words": 3084,
+      "reduction_percentage": 8.93
+    },
+    {
+      "title": "Epigenetika #9 Imunitný systém a serotonín",
+      "source_file": "Epigenetika_9_Imunitn_systm_aserotonn.json",
+      "original_words": 2644,
+      "cleaned_words": 2842,
+      "reduction_percentage": 18.74
+    },
+    {
+      "title": "Epigenetika #26 Sťahovanie ľudí z rovníka a zmena využívania horčíka",
+      "source_file": "Epigenetika_26_Sahovanie_ud_zrovnka_azmena_vyuvania.json",
+      "original_words": 2139,
+      "cleaned_words": 2278,
+      "reduction_percentage": 9.38
+    },
+    {
+      "title": "VOZ #16 Potenciál/obmedzenia ľudskej mysle a magnetizmus",
+      "source_file": "VOZ_16_Potencilobmedzenia_udskej_mysle_amagnetizmus.json",
+      "original_words": 2499,
+      "cleaned_words": 2680,
+      "reduction_percentage": 11.34
+    },
+    {
+      "title": "Cirkadiánny rytmus #1 Cirkadiálne gény PER",
+      "source_file": "Cirkadinny_rytmus_1_Cirkadilne_gny_PER.json",
+      "original_words": 6473,
+      "cleaned_words": 7181,
+      "reduction_percentage": 4.87
+    },
+    {
+      "title": "Epigenetika #16 Histamín, deutérium a ich Detox",
+      "source_file": "Epigenetika_16_Histamn_deutrium_aich_Detox.json",
+      "original_words": 2351,
+      "cleaned_words": 2330,
+      "reduction_percentage": 16.32
+    },
+    {
+      "title": "KB#2 Kde sa stretli Kvantová a Cirkadiánna Biológia alias Kvantová Evolúcia",
+      "source_file": "KB2_Kde_sa_stretli_Kvantov_aCirkadinna_Biolgia_alia.json",
+      "original_words": 2681,
+      "cleaned_words": 2897,
+      "reduction_percentage": 10.71
+    },
+    {
+      "title": "Epigenetika #17 Histamín, HIT, voda a zvuk – Praktická časť",
+      "source_file": "Epigenetika_17_Histamn_HIT_voda_azvuk_Praktick_as.json",
+      "original_words": 1964,
+      "cleaned_words": 2043,
+      "reduction_percentage": 16.44
+    },
+    {
+      "title": "Matrix #4 Krebsov bi-cyklus",
+      "source_file": "Matrix_4_Krebsov_bi-cyklus.json",
+      "original_words": 4419,
+      "cleaned_words": 4658,
+      "reduction_percentage": 9.42
+    },
+    {
+      "title": "COVID, SPOLOČENSKÁ IMUNITA A VITAMÍN D",
+      "source_file": "COVID_SPOLOENSK_IMUNITA_AVITAMN_D.json",
+      "original_words": 1532,
+      "cleaned_words": 1674,
+      "reduction_percentage": 17.09
+    },
+    {
+      "title": "Črevo a mozog #7 Skutočný vývoj homosapiens",
+      "source_file": "revo_amozog_7_Skuton_vvoj_homosapiens.json",
+      "original_words": 2416,
+      "cleaned_words": 2692,
+      "reduction_percentage": 11.86
+    },
+    {
+      "title": "Epigenetika #21 Psoriáza ako adaptácia pokožky a jej skutočný pôvod",
+      "source_file": "Epigenetika_21_Psoriza_ako_adaptcia_pokoky_ajej_sku.json",
+      "original_words": 3918,
+      "cleaned_words": 4283,
+      "reduction_percentage": 8.71
+    },
+    {
+      "title": "TUKY a MASTNÉ KYSELINY – SFA, MUFA, PUFA",
+      "source_file": "TUKY_aMASTN_KYSELINY_SFA_MUFA_PUFA.json",
+      "original_words": 2570,
+      "cleaned_words": 2805,
+      "reduction_percentage": 2.83
+    },
+    {
+      "title": "PREČO DNES POČÍTANIE KALÓRIÍ NEHRÁ ÚLOHU",
+      "source_file": "PREO_DNES_POTANIE_KALRI_NEHR_LOHU.json",
+      "original_words": 2748,
+      "cleaned_words": 3028,
+      "reduction_percentage": 4.36
+    },
+    {
+      "title": "KB #18 Melanopsin, bistabilita, svetlo a vápnik",
+      "source_file": "KB_18_Melanopsin_bistabilita_svetlo_avpnik.json",
+      "original_words": 4444,
+      "cleaned_words": 4763,
+      "reduction_percentage": 8.91
+    },
+    {
+      "title": "Epigenetika #4 Inzulín a ATP ako Biologický polovodič",
+      "source_file": "Epigenetika_4_Inzuln_aATP_ako_Biologick_polovodi.json",
+      "original_words": 3110,
+      "cleaned_words": 3291,
+      "reduction_percentage": 12.83
+    },
+    {
+      "title": "Matrix #6 Prečo naše mitochondrie zaujíma ľahký vodík a protón?",
+      "source_file": "Matrix_6_Preo_nae_mitochondrie_zaujma_ahk_vodk_apro.json",
+      "original_words": 2411,
+      "cleaned_words": 2488,
+      "reduction_percentage": 14.22
+    },
+    {
+      "title": "VOZ #12 Irisín, mTOR, NAD a chlad ako druhá barlička",
+      "source_file": "VOZ_12_Irisn_mTOR_NAD_achlad_ako_druh_barlika.json",
+      "original_words": 5744,
+      "cleaned_words": 5909,
+      "reduction_percentage": 9.93
+    },
+    {
+      "title": "ENERGIA #4 SHUMANNOVA REZONANCIA",
+      "source_file": "ENERGIA_4_SHUMANNOVA_REZONANCIA.json",
+      "original_words": 2796,
+      "cleaned_words": 3050,
+      "reduction_percentage": 7.85
+    },
+    {
+      "title": "Ako trávime potravu – od pohľadu a vône až po elektróny a protóny",
+      "source_file": "Ako_trvime_potravu_od_pohadu_avne_a_poelektrny_apro.json",
+      "original_words": 3793,
+      "cleaned_words": 4092,
+      "reduction_percentage": 7.93
+    },
+    {
+      "title": "Epigenetika #25 fosfor, vápnik, deutérium a (de)generácia kostí",
+      "source_file": "Epigenetika_25_fosfor_vápnik_deutérium_adegeneráci.json",
+      "original_words": 3091,
+      "cleaned_words": 2920,
+      "reduction_percentage": 6.9
+    },
+    {
+      "title": "Nízky vitamín D, cukrovka a UV svetlo",
+      "source_file": "Nzky_vitamn_D_cukrovka_aUV_svetlo.json",
+      "original_words": 1645,
+      "cleaned_words": 1763,
+      "reduction_percentage": 11.05
+    },
+    {
+      "title": "VOZ #20 vitamín D a reálne dáta koľko vitamínu D3 na Slovensku a Česku vytvoríme",
+      "source_file": "VOZ_20_vitamn_D_arelne_dta_koko_vitamnu_D3_naSloven.json",
+      "original_words": 2559,
+      "cleaned_words": 2709,
+      "reduction_percentage": 10.84
+    },
+    {
+      "title": "Neurotransmitery #5 POMC, dopamín, opiáty a závislosť",
+      "source_file": "Neurotransmitery_5_POMC_dopamn_opity_azvislos.json",
+      "original_words": 3095,
+      "cleaned_words": 3485,
+      "reduction_percentage": 8.73
+    },
+    {
+      "title": "MITOCHONDRIE #2 PREČO EXISTUJÚ POHLAVIA",
+      "source_file": "MITOCHONDRIE_2_PREO_EXISTUJ_POHLAVIA.json",
+      "original_words": 2707,
+      "cleaned_words": 2937,
+      "reduction_percentage": 7.58
+    },
+    {
+      "title": "KB #4 Mitochondrie, molekulárny vodík a rozpolenie vody ",
+      "source_file": "KB_4_Mitochondrie_molekulrny_vodk_arozpolenie_vody.json",
+      "original_words": 3816,
+      "cleaned_words": 4373,
+      "reduction_percentage": 11.5
+    },
+    {
+      "title": "KB #10 Čo sú polovodiče – ich objav v Biológii",
+      "source_file": "KB_10_o_s_polovodie_ich_objav_vBiolgii.json",
+      "original_words": 2589,
+      "cleaned_words": 2869,
+      "reduction_percentage": 7.9
+    },
+    {
+      "title": "MITOCHONDRIE #11 DEUTÉRIUM v POTRAVE",
+      "source_file": "MITOCHONDRIE_11_DEUTRIUM_vPOTRAVE.json",
+      "original_words": 2870,
+      "cleaned_words": 3211,
+      "reduction_percentage": 4.24
+    },
+    {
+      "title": "Epigenetika #13 Nobelova cena za fyziku 2023 a kvantová biológia",
+      "source_file": "Epigenetika_13_Nobelova_cena_zafyziku_2023_akvantov.json",
+      "original_words": 1463,
+      "cleaned_words": 1606,
+      "reduction_percentage": 9.44
+    },
+    {
+      "title": "KB #20 CNS, Nervy, Neuróny a ich regeneračný elektrický prúd",
+      "source_file": "KB_20_CNS_Nervy_Neurny_aich_regeneran_elektrick_prd.json",
+      "original_words": 3391,
+      "cleaned_words": 3452,
+      "reduction_percentage": 16.4
+    },
+    {
+      "title": "VZNIK ŽIVOTA #4 LEPTÍN",
+      "source_file": "VZNIK_IVOTA_4_LEPTN.json",
+      "original_words": 5806,
+      "cleaned_words": 6413,
+      "reduction_percentage": 6.07
+    },
+    {
+      "title": "Adaptácia na chlad #6 Inzulín a cukor v krvi",
+      "source_file": "Adaptcia_nachlad_6_Inzuln_acukor_vkrvi.json",
+      "original_words": 1907,
+      "cleaned_words": 2072,
+      "reduction_percentage": 14.4
+    },
+    {
+      "title": "MATRIX #3 Mitochondria je pyro aj piezoelektrická a DHA s kambrickou explóziou sú toho dôkazom",
+      "source_file": "MATRIX_3_Mitochondria_je_pyro_aj_piezoelektrická_a.json",
+      "original_words": 3584,
+      "cleaned_words": 3315,
+      "reduction_percentage": 10.24
+    },
+    {
+      "title": "KB #8 Sodno-Draselná pumpa alias dôkaz, že ATP nie je zdrojom energie",
+      "source_file": "KB_8_Sodno-Draselná_pumpa_alias_dôkaz_že_ATP_nie_j.json",
+      "original_words": 2413,
+      "cleaned_words": 2326,
+      "reduction_percentage": 4.39
+    },
+    {
+      "title": "NEUROTRANSMITERY #3 AKO ZVÝŠIŤ SEROTONÍN A MELATONÍN",
+      "source_file": "NEUROTRANSMITERY_3_AKO_ZVI_SEROTONN_AMELATONN.json",
+      "original_words": 3085,
+      "cleaned_words": 3487,
+      "reduction_percentage": 7.62
+    },
+    {
+      "title": "VOZ #17 Sonoluminescencia, sound healing a zvuk so svetlom ako liek",
+      "source_file": "VOZ_17_Sonoluminescencia_sound_healing_azvuk_so_sve.json",
+      "original_words": 3642,
+      "cleaned_words": 3932,
+      "reduction_percentage": 12.17
+    },
+    {
+      "title": "Matrix #11: Čo sú Birkelandové prúdy",
+      "source_file": "Matrix_11_Čo_sú_Birkelandové_prúdy.json",
+      "original_words": 3845,
+      "cleaned_words": 3684,
+      "reduction_percentage": 7.49
+    },
+    {
+      "title": "Črevo a mozog #12 Črevo, DPP4, lepok a cukrovka",
+      "source_file": "revo_amozog_12_revo_DPP4_lepok_acukrovka.json",
+      "original_words": 3940,
+      "cleaned_words": 4327,
+      "reduction_percentage": 10.87
+    },
+    {
+      "title": "Matrix #10: Ako tvorí kruhový pohyb lineárny Flow",
+      "source_file": "Matrix_10_Ako_tvor_kruhov_pohyb_linerny_Flow.json",
+      "original_words": 2368,
+      "cleaned_words": 2393,
+      "reduction_percentage": 15.54
+    },
+    {
+      "title": "Črevo a mozog #3 Leaky gut, celiakia a skákajúce gény",
+      "source_file": "revo_amozog_3_Leaky_gut_celiakia_askkajce_gny.json",
+      "original_words": 1691,
+      "cleaned_words": 1805,
+      "reduction_percentage": 11.06
+    },
+    {
+      "title": "KB #23 Kináza a fosfatáza ako ON/OFF spínač endogénneho UV svetla",
+      "source_file": "KB_23_Kinza_afosfatza_ako_ONOFF_spna_endognneho_UV_.json",
+      "original_words": 3029,
+      "cleaned_words": 3190,
+      "reduction_percentage": 10.62
+    },
+    {
+      "title": "Adaptácia na chlad #4 Melatonín a magnetizmus",
+      "source_file": "Adaptcia_nachlad_4_Melatonn_amagnetizmus.json",
+      "original_words": 2064,
+      "cleaned_words": 1936,
+      "reduction_percentage": 19.7
+    },
+    {
+      "title": "Kvantová Biológia #1 História, Vznik a prví Pionieri",
+      "source_file": "Kvantov_Biolgia_1_Histria_Vznik_aprv_Pionieri.json",
+      "original_words": 2198,
+      "cleaned_words": 2279,
+      "reduction_percentage": 15.06
+    },
+    {
+      "title": "VOZ #7 Čo je Ubikvitinácia alias nahrádzanie proteínov",
+      "source_file": "VOZ_7_o_je_Ubikvitincia_alias_nahrdzanie_protenov.json",
+      "original_words": 3790,
+      "cleaned_words": 4183,
+      "reduction_percentage": 8.72
+    },
+    {
+      "title": "VOZ #18 Magnetizmus pre pokročilých – magnetický moment a pamäť vody",
+      "source_file": "VOZ_18_Magnetizmus_pre_pokročilých_magnetický_mome.json",
+      "original_words": 2994,
+      "cleaned_words": 2624,
+      "reduction_percentage": 15.16
+    },
+    {
+      "title": "VOZ #2 Teplo verzus Teplota",
+      "source_file": "VOZ_2_Teplo_verzus_Teplota.json",
+      "original_words": 2487,
+      "cleaned_words": 2636,
+      "reduction_percentage": 7.75
+    },
+    {
+      "title": "MITOCHONDRIE #7 ROS alias VOĽNÉ RADIKÁLY",
+      "source_file": "MITOCHONDRIE_7_ROS_alias_VOĽNÉ_RADIKÁLY.json",
+      "original_words": 4919,
+      "cleaned_words": 4862,
+      "reduction_percentage": 3.33
+    },
+    {
+      "title": "VOZ #9 Apoptóza a Autofágia, mTOR a AMPK – Basic",
+      "source_file": "VOZ_9_Apoptza_aAutofgia_mTOR_aAMPK_Basic.json",
+      "original_words": 2488,
+      "cleaned_words": 2678,
+      "reduction_percentage": 6.93
+    },
+    {
+      "title": "Hormóny #12 Voľné radikály (ROS) a prepojenie elektrónov (Entaglement)",
+      "source_file": "Hormny_12_Von_radikly_ROS_aprepojenie_elektrnov_Ent.json",
+      "original_words": 3648,
+      "cleaned_words": 4094,
+      "reduction_percentage": 6.83
+    },
+    {
+      "title": "Ako sa tvorí vitamín D v pokožke",
+      "source_file": "Ako_sa_tvor_vitamn_D_vpokoke.json",
+      "original_words": 1668,
+      "cleaned_words": 1900,
+      "reduction_percentage": 8.31
+    },
+    {
+      "title": "Matrix #7 Mitochondria ako Maxwellov démon, ktorý tvorí negatívnu entropiu",
+      "source_file": "Matrix_7_Mitochondria_ako_Maxwellov_dmon_ktor_tvor_.json",
+      "original_words": 2288,
+      "cleaned_words": 2338,
+      "reduction_percentage": 13.26
+    },
+    {
+      "title": "Okuliare proti modrému svetlu – Tipy a Recenzie",
+      "source_file": "Okuliare_proti_modrmu_svetlu_Tipy_aRecenzie.json",
+      "original_words": 8301,
+      "cleaned_words": 8898,
+      "reduction_percentage": 8.93
+    },
+    {
+      "title": "Epigenetika #12 Autoimunita, jej evolučný vývoj a UV/červené svetlo",
+      "source_file": "Epigenetika_12_Autoimunita_jej_evolun_vvoj_aUVerven.json",
+      "original_words": 2459,
+      "cleaned_words": 2609,
+      "reduction_percentage": 22.06
+    },
+    {
+      "title": "Epigenetika #19 Rakovina prsníka, Estrogén a UV",
+      "source_file": "Epigenetika_19_Rakovina_prsnka_Estrogn_aUV.json",
+      "original_words": 4638,
+      "cleaned_words": 4940,
+      "reduction_percentage": 11.87
+    },
+    {
+      "title": "Epigenetika #14 Zvláštnosti ETC, a 3 tipy pre zdravie aj chudnutie",
+      "source_file": "Epigenetika_14_Zvltnosti_ETC_a3_tipy_pre_zdravie_aj.json",
+      "original_words": 3023,
+      "cleaned_words": 3335,
+      "reduction_percentage": 3.34
+    },
+    {
+      "title": "Epigenetika #6 Leptín ako Fotoreceptor a Leptínová Rezistencia",
+      "source_file": "Epigenetika_6_Leptn_ako_Fotoreceptor_aLeptnov_Rezis.json",
+      "original_words": 3664,
+      "cleaned_words": 3748,
+      "reduction_percentage": 14.93
+    },
+    {
+      "title": "Mitochondrie #12 Protokol pre pomoc Mitochondriám",
+      "source_file": "Mitochondrie_12_Protokol_pre_pomoc_Mitochondrim.json",
+      "original_words": 1732,
+      "cleaned_words": 1880,
+      "reduction_percentage": 7.89
+    },
+    {
+      "title": "Neurotransmitery #2 GABA a Acetylcholín",
+      "source_file": "Neurotransmitery_2_GABA_aAcetylcholn.json",
+      "original_words": 2150,
+      "cleaned_words": 2410,
+      "reduction_percentage": 2.38
+    },
+    {
+      "title": "Hormóny #1 Cholesterol ako omyl modernej spoločnosti",
+      "source_file": "Hormny_1_Cholesterol_ako_omyl_modernej_spolonosti.json",
+      "original_words": 2059,
+      "cleaned_words": 2228,
+      "reduction_percentage": 8.4
+    },
+    {
+      "title": "Ekonomika, Redox, BTC a Čas – 3.časť",
+      "source_file": "Ekonomika_Redox_BTC_aas_3as.json",
+      "original_words": 10794,
+      "cleaned_words": 11761,
+      "reduction_percentage": 9.23
+    },
+    {
+      "title": "VZNIK ŽIVOTA #6 DHA alias kyselina dokosahexaenová",
+      "source_file": "VZNIK_IVOTA_6_DHA_alias_kyselina_dokosahexaenov.json",
+      "original_words": 2656,
+      "cleaned_words": 2961,
+      "reduction_percentage": 2.42
+    },
+    {
+      "title": "Epigenetika #11 Leukémia, autizmus a ťažké kovy – 2. časť",
+      "source_file": "Epigenetika_11_Leukémiaautizmus_aťažké_kovy_2_časť.json",
+      "original_words": 4584,
+      "cleaned_words": 4362,
+      "reduction_percentage": 13.36
+    },
+    {
+      "title": "Zvuk, pulzácia, zlatý rez a deutéria zbavená voda",
+      "source_file": "Zvuk_pulzcia_zlat_rez_adeutria_zbaven_voda.json",
+      "original_words": 1946,
+      "cleaned_words": 2142,
+      "reduction_percentage": 3.69
+    },
+    {
+      "title": "Hormóny #11 Hnedý tuk ako liek na cukrovku",
+      "source_file": "Hormny_11_Hned_tuk_ako_liek_nacukrovku.json",
+      "original_words": 4100,
+      "cleaned_words": 4531,
+      "reduction_percentage": 6.3
+    },
+    {
+      "title": "VOZ 3 Teória Relativity a Svetlo ako strojca gravitácie aj času",
+      "source_file": "VOZ_3_Teria_Relativity_aSvetlo_ako_strojca_gravitci.json",
+      "original_words": 4078,
+      "cleaned_words": 4313,
+      "reduction_percentage": 8.88
+    },
+    {
+      "title": "Je konzumácia mäsa škodlivá? Sírovodík, sulfát a mikrobióm.",
+      "source_file": "Je_konzumcia_msa_kodliv_Srovodk_sulft_amikrobim.json",
+      "original_words": 3242,
+      "cleaned_words": 3704,
+      "reduction_percentage": 6.03
+    },
+    {
+      "title": "MITOCHONDRIE #4 Krebsov cyklus",
+      "source_file": "MITOCHONDRIE_4_Krebsov_cyklus.json",
+      "original_words": 3122,
+      "cleaned_words": 3344,
+      "reduction_percentage": 4.95
+    },
+    {
+      "title": "Adaptácia na chlad #9 Teplotný stres a HSP",
+      "source_file": "Adaptcia_nachlad_9_Teplotn_stres_aHSP.json",
+      "original_words": 1842,
+      "cleaned_words": 2133,
+      "reduction_percentage": 7.13
+    },
+    {
+      "title": "Hormóny #14 Jednoduchý Protokol pre Krvné Testy",
+      "source_file": "Hormny_14_Jednoduch_Protokol_pre_Krvn_Testy.json",
+      "original_words": 3574,
+      "cleaned_words": 3659,
+      "reduction_percentage": 11.75
+    },
+    {
+      "title": "Matrix #1 Čo je to plazma a ako plazma vzniká",
+      "source_file": "Matrix_1_o_je_to_plazma_aako_plazma_vznik.json",
+      "original_words": 2092,
+      "cleaned_words": 2261,
+      "reduction_percentage": 10.45
+    },
+    {
+      "title": "VZNIK ŽIVOTA #1 Cirkadiálny rytmus",
+      "source_file": "VZNIK_IVOTA_1_Cirkadilny_rytmus.json",
+      "original_words": 3184,
+      "cleaned_words": 3483,
+      "reduction_percentage": 4.87
+    },
+    {
+      "title": "ENERGIA #6 JE OTEPĽOVANIE ZEME SKUTOČNÉ?",
+      "source_file": "ENERGIA_6_JE_OTEPOVANIE_ZEME_SKUTON.json",
+      "original_words": 4048,
+      "cleaned_words": 4513,
+      "reduction_percentage": 11.26
+    },
+    {
+      "title": "Črevo a mozog #6 Glutatión, Pentózový cyklus a detoxikácia",
+      "source_file": "revo_amozog_6_Glutatin_Pentzov_cyklus_adetoxikcia.json",
+      "original_words": 3220,
+      "cleaned_words": 3520,
+      "reduction_percentage": 10.14
+    },
+    {
+      "title": "Matrix #8 Tvar mitochondrie určuje jej termodynamiku",
+      "source_file": "Matrix_8_Tvar_mitochondrie_uruje_jej_termodynamiku.json",
+      "original_words": 3954,
+      "cleaned_words": 4259,
+      "reduction_percentage": 7.83
+    },
+    {
+      "title": "Vianočný blog a novoročné tipy na 2025 pre Mitochondriak-ov",
+      "source_file": "Vianon_blog_anovoron_tipy_na2025_pre_Mitochondriak-.json",
+      "original_words": 2034,
+      "cleaned_words": 2166,
+      "reduction_percentage": 8.59
+    },
+    {
+      "title": "MITOCHONDRIE #9 KETÓNY a CHOLESTEROL",
+      "source_file": "MITOCHONDRIE_9_KETÓNY_aCHOLESTEROL.json",
+      "original_words": 3692,
+      "cleaned_words": 3645,
+      "reduction_percentage": 5.23
+    },
+    {
+      "title": "Hormóny #5 Ako Mitochondrie tvoria Pregnenolón",
+      "source_file": "Hormny_5_Ako_Mitochondrie_tvoria_Pregnenoln.json",
+      "original_words": 1913,
+      "cleaned_words": 2037,
+      "reduction_percentage": 9.8
+    },
+    {
+      "title": "VZNIK ŽIVOTA #2 Proteíny/bielkoviny",
+      "source_file": "VZNIK_IVOTA_2_Protenybielkoviny.json",
+      "original_words": 2777,
+      "cleaned_words": 3077,
+      "reduction_percentage": 2.41
+    },
+    {
+      "title": "Črevo a mozog #13 Črevný lymfatický systém a autoimunita",
+      "source_file": "revo_amozog_13_revn_lymfatick_systm_aautoimunita.json",
+      "original_words": 5361,
+      "cleaned_words": 5875,
+      "reduction_percentage": 7.15
+    },
+    {
+      "title": "Hormóny #13 Tvorba DHA z ALA a Bazanov efekt",
+      "source_file": "Hormny_13_Tvorba_DHA_zALA_aBazanov_efekt.json",
+      "original_words": 3647,
+      "cleaned_words": 4163,
+      "reduction_percentage": 8.49
+    },
+    {
+      "title": "Črevo a mozog #10 LPL, FIAF, LDL cholesterol a nadváha",
+      "source_file": "revo_amozog_10_LPL_FIAF_LDL_cholesterol_anadvha.json",
+      "original_words": 3582,
+      "cleaned_words": 3859,
+      "reduction_percentage": 8.54
+    },
+    {
+      "title": "Epigenetika #20 zmena elektromagnetizmu a frakcionácie protónu = zmena fenotypu",
+      "source_file": "Epigenetika_20_zmena_elektromagnetizmu_afrakcioncie.json",
+      "original_words": 2581,
+      "cleaned_words": 2650,
+      "reduction_percentage": 9.81
+    },
+    {
+      "title": "Adaptácia na chlad #7 Štítna žľaza a kortizol",
+      "source_file": "Adaptcia_nachlad_7_ttna_aza_akortizol.json",
+      "original_words": 2771,
+      "cleaned_words": 3109,
+      "reduction_percentage": 6.26
+    },
+    {
+      "title": "Adaptácia na chlad #5 Leptín a cirkadiánny rytmus",
+      "source_file": "Adaptcia_nachlad_5_Leptn_acirkadinny_rytmus.json",
+      "original_words": 3918,
+      "cleaned_words": 4303,
+      "reduction_percentage": 11.65
+    },
+    {
+      "title": "KB #9 Aká je skutočná úloha ATP v biológii",
+      "source_file": "KB_9_Aká_je_skutočná_úloha_ATP_vbiológii.json",
+      "original_words": 2275,
+      "cleaned_words": 2128,
+      "reduction_percentage": 8.44
+    },
+    {
+      "title": "Ako spraviť z KOŽE SOLÁRNY PANCIER alias tvoj SOLÁRNY MOZOĽ",
+      "source_file": "Ako_spravi_zKOE_SOLRNY_PANCIER_alias_tvoj_SOLRNY_MO.json",
+      "original_words": 6211,
+      "cleaned_words": 6837,
+      "reduction_percentage": 8.65
+    },
+    {
+      "title": "SOLÁRNY MOZOĽ #FAQ (melasma, akné, znamienka a iné)",
+      "source_file": "SOLRNY_MOZO_FAQ_melasma_akn_znamienka_ain.json",
+      "original_words": 8990,
+      "cleaned_words": 10174,
+      "reduction_percentage": 4.25
+    },
+    {
+      "title": "Epigenetika #23 Hypotyreóza, dopant jód a hormóny štítnej žľazy",
+      "source_file": "Epigenetika_23_Hypotyreóza_dopant_jód_ahormóny_ští.json",
+      "original_words": 4772,
+      "cleaned_words": 4549,
+      "reduction_percentage": 7.09
+    },
+    {
+      "title": "SÚ ŽLTAČKA a HYPOXIA IBA DÔSLEDOK NAŠICH NESPRÁVNYCH ROZHODNUTÍ?",
+      "source_file": "S_LTAKA_aHYPOXIA_IBA_DSLEDOK_NAICH_NESPRVNYCH_ROZHO.json",
+      "original_words": 2520,
+      "cleaned_words": 2733,
+      "reduction_percentage": 9.95
+    },
+    {
+      "title": "VOZ #5 Tvorba endogénneho svetla a regenerácia",
+      "source_file": "VOZ_5_Tvorba_endognneho_svetla_aregenercia.json",
+      "original_words": 2482,
+      "cleaned_words": 2661,
+      "reduction_percentage": 9.13
+    },
+    {
+      "title": "ENERGIA #1 ELEKTROMAGNETIZMUS",
+      "source_file": "ENERGIA_1_ELEKTROMAGNETIZMUS.json",
+      "original_words": 3427,
+      "cleaned_words": 3738,
+      "reduction_percentage": 5.05
+    },
+    {
+      "title": "KB #12 – 4 Sily Vesmíru verzus 4 fenomény Biológie",
+      "source_file": "KB_12_4_Sily_Vesmru_verzus_4_fenomny_Biolgie.json",
+      "original_words": 2623,
+      "cleaned_words": 2846,
+      "reduction_percentage": 6.91
+    },
+    {
+      "title": "Epigenetika #10 Leukémia a autizmus ako odlišný prejav podobného mechanizmu – 1. časť",
+      "source_file": "Epigenetika_10_Leukmia_aautizmus_ako_odlin_prejav_p.json",
+      "original_words": 3468,
+      "cleaned_words": 3562,
+      "reduction_percentage": 19.59
+    },
+    {
+      "title": "KB #3 Čo je Negatívna Entropia",
+      "source_file": "KB_3_o_je_Negatvna_Entropia.json",
+      "original_words": 1969,
+      "cleaned_words": 2209,
+      "reduction_percentage": 2.97
+    },
+    {
+      "title": "Črevo a mozog #9 Skrátené črevo a apendix",
+      "source_file": "revo_amozog_9_Skrten_revo_aapendix.json",
+      "original_words": 3903,
+      "cleaned_words": 4362,
+      "reduction_percentage": 7.52
+    },
+    {
+      "title": "Hormóny #7 Strata elektrónov, kortizol a vyčerpanie nadobličiek",
+      "source_file": "Hormóny_7_Strata_elektrónov_kortizol_avyčerpanie_n.json",
+      "original_words": 3292,
+      "cleaned_words": 3048,
+      "reduction_percentage": 9.89
+    },
+    {
+      "title": "KB #21 Koherentná doména vody",
+      "source_file": "KB_21_Koherentn_domna_vody.json",
+      "original_words": 2141,
+      "cleaned_words": 2098,
+      "reduction_percentage": 16.77
+    },
+    {
+      "title": "KB #19 Ako pracujú Kosti (LED, Kolagén a piezoelektrina)",
+      "source_file": "KB_19_Ako_pracuj_Kosti_LED_Kolagn_apiezoelektrina.json",
+      "original_words": 4433,
+      "cleaned_words": 4742,
+      "reduction_percentage": 7.47
+    },
+    {
+      "title": "KB #16 Kvantovanie (Kvantizácia) a QED",
+      "source_file": "KB_16_Kvantovanie_Kvantizcia_aQED.json",
+      "original_words": 1747,
+      "cleaned_words": 1926,
+      "reduction_percentage": 9.83
+    },
+    {
+      "title": "VOZ #13 Pohyb ako biofyzikálny fenomén",
+      "source_file": "VOZ_13_Pohyb_ako_biofyziklny_fenomn.json",
+      "original_words": 3084,
+      "cleaned_words": 3236,
+      "reduction_percentage": 10.82
+    },
+    {
+      "title": "Hormóny #10 inzulínová rezistencia a reverzný flow mitochondrie",
+      "source_file": "Hormny_10_inzulnov_rezistencia_areverzn_flow_mitoch.json",
+      "original_words": 5189,
+      "cleaned_words": 5848,
+      "reduction_percentage": 8.06
+    },
+    {
+      "title": "CIRKADIÁLNY PROTOKOL #1 OPTIMÁLNA STRAVA",
+      "source_file": "CIRKADILNY_PROTOKOL_1_OPTIMLNA_STRAVA.json",
+      "original_words": 6617,
+      "cleaned_words": 7333,
+      "reduction_percentage": 4.51
+    },
+    {
+      "title": "Prečo umelé modré svetlo dehydratuje a zníži vitamín D?",
+      "source_file": "Preo_umel_modr_svetlo_dehydratuje_azni_vitamn_D.json",
+      "original_words": 1587,
+      "cleaned_words": 1662,
+      "reduction_percentage": 9.28
+    },
+    {
+      "title": "ENERGIA #2 BIO-ELEKTROMAGNETIZMUS",
+      "source_file": "ENERGIA_2_BIO-ELEKTROMAGNETIZMUS.json",
+      "original_words": 2944,
+      "cleaned_words": 3230,
+      "reduction_percentage": 5.68
+    },
+    {
+      "title": "KB #5 Koherencia vody alias tekutý kryštál",
+      "source_file": "KB_5Koherencia_vody_alias_tekut_krytl.json",
+      "original_words": 3488,
+      "cleaned_words": 3887,
+      "reduction_percentage": 7.25
+    },
+    {
+      "title": "VZNIK ŽIVOTA #5 Endosymbióza",
+      "source_file": "VZNIK_IVOTA_5_Endosymbiza.json",
+      "original_words": 4415,
+      "cleaned_words": 4946,
+      "reduction_percentage": 2.23
+    },
+    {
+      "title": "Je Svetlo odpoveď pre lepšie Zdravie, Redox, ale aj moderné dogmy?",
+      "source_file": "Je_Svetlo_odpoveď_pre_lepšie_Zdravie_Redox_ale_aj_.json",
+      "original_words": 1994,
+      "cleaned_words": 1795,
+      "reduction_percentage": 10.76
+    },
+    {
+      "title": "VOZ #14 Rayleigh Bénardova konvekcia a neustály pohyb vody",
+      "source_file": "VOZ_14_Rayleigh_Bnardova_konvekcia_aneustly_pohyb_v.json",
+      "original_words": 2237,
+      "cleaned_words": 2286,
+      "reduction_percentage": 14.88
+    },
+    {
+      "title": "Prečo ti modré svetlo (tzv. ALAN) zväčší mitochondrie",
+      "source_file": "Preo_ti_modr_svetlo_tzv_ALAN_zv_mitochondrie.json",
+      "original_words": 1932,
+      "cleaned_words": 2021,
+      "reduction_percentage": 12.34
+    },
+    {
+      "title": "VOZ #10 Svaly, ubikvitinácia a potréningové (ne) jedenie",
+      "source_file": "VOZ_10_Svaly_ubikvitincia_apotrningov_ne_jedenie.json",
+      "original_words": 2699,
+      "cleaned_words": 2877,
+      "reduction_percentage": 8.6
+    },
+    {
+      "title": "MITOCHONDRIE #10 DEUTÉRIUM a ŤAŽKÁ VODA",
+      "source_file": "MITOCHONDRIE_10_DEUTRIUM_aAK_VODA.json",
+      "original_words": 2677,
+      "cleaned_words": 3009,
+      "reduction_percentage": 4.17
+    },
+    {
+      "title": "ENERGIA #7 VPLYV EMP (vlnenia) NA BIOLÓGIU",
+      "source_file": "ENERGIA_7_VPLYV_EMP_vlnenia_NABIOLGIU.json",
+      "original_words": 5463,
+      "cleaned_words": 5983,
+      "reduction_percentage": 10.81
+    },
+    {
+      "title": "NEUROTRANSMITERY #1 DOPAMÍN a SEROTONÍN",
+      "source_file": "NEUROTRANSMITERY_1_DOPAMN_aSEROTONN.json",
+      "original_words": 2978,
+      "cleaned_words": 3373,
+      "reduction_percentage": 1.82
+    },
+    {
+      "title": "Črevo a mozog #4 Bipedalizmus, pohyb a grounding",
+      "source_file": "revo_amozog_4_Bipedalizmus_pohyb_agrounding.json",
+      "original_words": 1619,
+      "cleaned_words": 1696,
+      "reduction_percentage": 10.57
+    },
+    {
+      "title": "MATRIX #5 Mitochondria, voda a hydrodynamika",
+      "source_file": "MATRIX_5_Mitochondria_voda_ahydrodynamika.json",
+      "original_words": 3322,
+      "cleaned_words": 3563,
+      "reduction_percentage": 8.01
+    },
+    {
+      "title": "Hormóny #2 Redox, Cholesterol, statíny a glutatión",
+      "source_file": "Hormny_2_Redox_Cholesterol_statny_aglutatin.json",
+      "original_words": 1937,
+      "cleaned_words": 2099,
+      "reduction_percentage": 5.91
+    },
+    {
+      "title": "Epigenetika #24 Hypotyreóza – riešenia, alternatívy a praktický protokol",
+      "source_file": "Epigenetika_24_Hypotyreóza_riešenia_alternatívy_ap.json",
+      "original_words": 2775,
+      "cleaned_words": 2677,
+      "reduction_percentage": 7.49
+    },
+    {
+      "title": "Črevo a mozog #11 Žalúdočné kyseliny a ako pomôcť s HCL",
+      "source_file": "revo_amozog_11_aldon_kyseliny_aako_pomc_sHCL.json",
+      "original_words": 2921,
+      "cleaned_words": 3168,
+      "reduction_percentage": 9.45
+    },
+    {
+      "title": "MITOCHONDRIE #8 HETEROPLAZMIA",
+      "source_file": "MITOCHONDRIE_8_HETEROPLAZMIA.json",
+      "original_words": 4975,
+      "cleaned_words": 5468,
+      "reduction_percentage": 4.03
+    },
+    {
+      "title": "KB#6 Fonón, solitón a vibrácia",
+      "source_file": "KB6_Fonónsolitón_avibrácia.json",
+      "original_words": 2390,
+      "cleaned_words": 2266,
+      "reduction_percentage": 8.19
+    },
+    {
+      "title": "Vitamín C a jeho mnohé „tváre“",
+      "source_file": "Vitamín_C_ajeho_mnohé_tváre.json",
+      "original_words": 6021,
+      "cleaned_words": 5848,
+      "reduction_percentage": 6.52
+    },
+    {
+      "title": "Hormóny #3 Cholesterol a jeho rozdielny objem, hmotnosť a Energia",
+      "source_file": "Hormny_3_Cholesterol_ajeho_rozdielny_objem_hmotnos_.json",
+      "original_words": 4069,
+      "cleaned_words": 4274,
+      "reduction_percentage": 11.8
+    },
+    {
+      "title": "VOZ #4 Ako DHA spravilo Svetlo užitočným",
+      "source_file": "VOZ_4_Ako_DHA_spravilo_Svetlo_uitonm.json",
+      "original_words": 3930,
+      "cleaned_words": 4331,
+      "reduction_percentage": 9.65
+    },
+    {
+      "title": "VOZ #6 Čo je Zeta potenciál a prečo niekomu nefunguje Ketogénna strava",
+      "source_file": "VOZ_6_o_je_Zeta_potencil_apreo_niekomu_nefunguje_Ke.json",
+      "original_words": 2852,
+      "cleaned_words": 3145,
+      "reduction_percentage": 7.77
+    },
+    {
+      "title": "VOZ #19 Akvafotomika a infračervené svetlo (NIR)",
+      "source_file": "VOZ_19_Akvafotomika_ainfraerven_svetlo_NIR.json",
+      "original_words": 2934,
+      "cleaned_words": 3199,
+      "reduction_percentage": 6.05
+    },
+    {
+      "title": "MITOCHONDRIE #3 BETAOXIDÁCIA verzus GLYKOLÝZA",
+      "source_file": "MITOCHONDRIE_3_BETAOXIDÁCIA_verzus_GLYKOLÝZA.json",
+      "original_words": 5014,
+      "cleaned_words": 4614,
+      "reduction_percentage": 12.57
+    },
+    {
+      "title": "Črevo a mozog #2 Vírusy a priepustné črevo",
+      "source_file": "revo_amozog_2_Vrusy_apriepustn_revo.json",
+      "original_words": 2218,
+      "cleaned_words": 2426,
+      "reduction_percentage": 14.37
+    },
+    {
+      "title": "Hormóny #4 Cholesterol a Triglyceridy v krvi – Môže byť zvýšený cholesterol dobrý?",
+      "source_file": "Hormny_4_Cholesterol_aTriglyceridy_vkrvi_Me_by_zven.json",
+      "original_words": 3273,
+      "cleaned_words": 3510,
+      "reduction_percentage": 6.62
+    },
+    {
+      "title": "POLITIKA, VÍRUS, VAKCÍNY a HOMO SAPIENS",
+      "source_file": "POLITIKA_VRUS_VAKCNY_aHOMO_SAPIENS.json",
+      "original_words": 7629,
+      "cleaned_words": 8511,
+      "reduction_percentage": 14.29
+    },
+    {
+      "title": "KB #11 Asociačno indukčná hypotéza alias Proteíny ako polovodiče",
+      "source_file": "KB_11_Asociano_indukn_hypotza_alias_Proteny_ako_pol.json",
+      "original_words": 4091,
+      "cleaned_words": 4295,
+      "reduction_percentage": 9.41
+    },
+    {
+      "title": "Epigenetika #22 Cukrovka 1. a 2. typu ako fotoelektrický verzus hallov jav",
+      "source_file": "Epigenetika_22_Cukrovka_1_a2_typu_ako_fotoelektric.json",
+      "original_words": 5316,
+      "cleaned_words": 5177,
+      "reduction_percentage": 6.09
+    },
+    {
+      "title": "Čo je to Redox a prečo na ňom záleží?",
+      "source_file": "o_je_to_Redox_apreo_naom_zle.json",
+      "original_words": 1201,
+      "cleaned_words": 1344,
+      "reduction_percentage": 6.71
+    },
+    {
+      "title": "Hormóny #6 Vitamín A, štítna žľaza a ukradnutý pregnenolón",
+      "source_file": "Hormóny_6_Vitamín_A_štítna_žľaza_aukradnutý_pregne.json",
+      "original_words": 3640,
+      "cleaned_words": 3463,
+      "reduction_percentage": 10.15
+    },
+    {
+      "title": "VZNIK ŽIVOTA #7 JÓD a VÝVOJ MOZGU",
+      "source_file": "VZNIK_ŽIVOTA_7_JÓD_aVÝVOJ_MOZGU.json",
+      "original_words": 5822,
+      "cleaned_words": 5632,
+      "reduction_percentage": 11.13
+    },
+    {
+      "title": "Novoročné prianie – 10 Odporúčaní a Tipov na rok 2023",
+      "source_file": "Novoročné_prianie_10_Odporúčaní_aTipov_narok_2023.json",
+      "original_words": 2397,
+      "cleaned_words": 2394,
+      "reduction_percentage": 1.12
+    },
+    {
+      "title": "KB #15 Epifýza ako tretie oko a mozgomiešny mok",
+      "source_file": "KB_15_Epifza_ako_tretie_oko_amozgomieny_mok.json",
+      "original_words": 3868,
+      "cleaned_words": 4191,
+      "reduction_percentage": 11.2
+    },
+    {
+      "title": "Epigenetika #2 Čo je Epigenetika a ako pracuje",
+      "source_file": "Epigenetika_2_o_je_Epigenetika_aako_pracuje.json",
+      "original_words": 1436,
+      "cleaned_words": 1385,
+      "reduction_percentage": 17.67
+    },
+    {
+      "title": "MITOCHONDRIE #5 ETC (Elektrónový transportný cyklus)",
+      "source_file": "MITOCHONDRIE_5_ETC_Elektrnov_transportn_cyklus.json",
+      "original_words": 3888,
+      "cleaned_words": 4246,
+      "reduction_percentage": 4.38
+    },
+    {
+      "title": "Črevo a mozog #8 Ženské telo, pôrod, vývoj mozgu a ketóza",
+      "source_file": "Črevo_amozog_8_Ženské_telo_pôrod_vývoj_mozgu_aketó.json",
+      "original_words": 5068,
+      "cleaned_words": 4866,
+      "reduction_percentage": 6.74
+    },
+    {
+      "title": "Epigenetika #5 Síra, cysteín, glutatión a Detox verzus Redox",
+      "source_file": "Epigenetika_5_Síra_cysteín_glutatión_aDetox_verzus.json",
+      "original_words": 4666,
+      "cleaned_words": 4220,
+      "reduction_percentage": 15.39
+    },
+    {
+      "title": "VOZ #15 Kvantizácia elektrónu, DHA a biotické prvky",
+      "source_file": "VOZ_15_Kvantizcia_elektrnu_DHA_abiotick_prvky.json",
+      "original_words": 2391,
+      "cleaned_words": 2484,
+      "reduction_percentage": 9.92
+    },
+    {
+      "title": "Epigenetika #1 Melanopsin, Dopamín a krátkozrakosť",
+      "source_file": "Epigenetika_1_Melanopsin_Dopamn_akrtkozrakos.json",
+      "original_words": 3235,
+      "cleaned_words": 3417,
+      "reduction_percentage": 11.35
+    },
+    {
+      "title": "VOZ #8 Ubikvitinácia a praktické Kroky a Testy ako ju zlepšiť",
+      "source_file": "VOZ_8_Ubikvitincia_apraktick_Kroky_aTesty_ako_ju_zl.json",
+      "original_words": 3410,
+      "cleaned_words": 3618,
+      "reduction_percentage": 10.75
+    },
+    {
+      "title": "Črevo a mozog #1 Skutočné paleo a pôvod lowcarb",
+      "source_file": "revo_amozog_1_Skuton_paleo_apvod_lowcarb.json",
+      "original_words": 1662,
+      "cleaned_words": 1886,
+      "reduction_percentage": 8.04
+    },
+    {
+      "title": "Črevo a mozog #14 Protokol ako zlepšiť črevo/ leaky gut",
+      "source_file": "revo_amozog_14_Protokol_ako_zlepi_revo_leaky_gut.json",
+      "original_words": 3809,
+      "cleaned_words": 4260,
+      "reduction_percentage": 6.32
+    },
+    {
+      "title": "Epigenetika #8 Ako vplýva deutérium na typ a prejav choroby?",
+      "source_file": "Epigenetika_8_Ako_vplva_deutrium_natyp_aprejav_chor.json",
+      "original_words": 2144,
+      "cleaned_words": 2330,
+      "reduction_percentage": 7.13
+    },
+    {
+      "title": "AKO SOM SA DOSTAL K TOMU, ČO ROBÍM-1.časť",
+      "source_file": "AKO_SOM_SA_DOSTAL_KTOMU_O_ROBM-1as.json",
+      "original_words": 998,
+      "cleaned_words": 1099,
+      "reduction_percentage": 4.85
+    },
+    {
+      "title": "Adaptácia na chlad #8 Teplo verzus, zima a efektivita",
+      "source_file": "Adaptcia_nachlad_8_Teplo_verzus_zima_aefektivita.json",
+      "original_words": 1104,
+      "cleaned_words": 1198,
+      "reduction_percentage": 9.85
+    },
+    {
+      "title": "KB #13 Zlatý rez, Fibonacciho postupnosť a Voda",
+      "source_file": "KB_13_Zlat_rez_Fibonacciho_postupnos_aVoda.json",
+      "original_words": 3401,
+      "cleaned_words": 3811,
+      "reduction_percentage": 7.93
+    },
+    {
+      "title": "KB #7 Skutočná chemická energia ATP a Voda",
+      "source_file": "KB_7_Skutočná_chemická_energia_ATP_aVoda.json",
+      "original_words": 3334,
+      "cleaned_words": 3187,
+      "reduction_percentage": 6.68
+    },
+    {
+      "title": "Matrix #9 Elektrická rezistencia verzus vodivosť v biológii",
+      "source_file": "Matrix_9_Elektrická_rezistencia_verzus_vodivosť_vb.json",
+      "original_words": 2628,
+      "cleaned_words": 2432,
+      "reduction_percentage": 9.49
+    },
+    {
+      "title": "KB #22 Spánok, Bdenie a Regenerácia",
+      "source_file": "KB_22_Spánok_Bdenie_aRegenerácia.json",
+      "original_words": 1950,
+      "cleaned_words": 1364,
+      "reduction_percentage": 32.0
+    },
+    {
+      "title": "Adaptácia na chlad #2 Protokol-Ako sa adaptovať na chlad",
+      "source_file": "Adaptcia_nachlad_2_Protokol-Ako_sa_adaptova_nachlad.json",
+      "original_words": 5509,
+      "cleaned_words": 6129,
+      "reduction_percentage": 9.45
+    },
+    {
+      "title": "Adaptácia na chlad #3 Hnedý tuk a UCP (rozpojenie)",
+      "source_file": "Adaptcia_nachlad_3_Hned_tuk_aUCP_rozpojenie.json",
+      "original_words": 3266,
+      "cleaned_words": 3358,
+      "reduction_percentage": 12.34
+    },
+    {
+      "title": "VOZ #11 Cyklotrónová rezonancia Vápnika, uEMP a ketóza ako barlička",
+      "source_file": "VOZ_11_Cyklotrónová_rezonancia_Vápnika_uEMP_aketóz.json",
+      "original_words": 4280,
+      "cleaned_words": 3979,
+      "reduction_percentage": 7.59
+    },
+    {
+      "title": "Epigenetika #15 Histamín, HIT a ich skutočný význam",
+      "source_file": "Epigenetika_15_Histamn_HIT_aich_skuton_vznam.json",
+      "original_words": 2708,
+      "cleaned_words": 2942,
+      "reduction_percentage": 8.79
+    },
+    {
+      "title": "Štruktúrovaná voda a kolagén",
+      "source_file": "truktrovan_voda_akolagn.json",
+      "original_words": 2146,
+      "cleaned_words": 2365,
+      "reduction_percentage": 8.12
+    },
+    {
+      "title": "ENERGIA #5 ŠTVRTÁ FÁZA VODY",
+      "source_file": "ENERGIA_5_TVRT_FZA_VODY.json",
+      "original_words": 4221,
+      "cleaned_words": 4645,
+      "reduction_percentage": 4.08
+    },
+    {
+      "title": "ENERGIA #3 EINSTEIN A VLNENIE",
+      "source_file": "ENERGIA_3_EINSTEIN_AVLNENIE.json",
+      "original_words": 2544,
+      "cleaned_words": 2777,
+      "reduction_percentage": 5.3
+    },
+    {
+      "title": "MITOCHONDRIA A DÝCHACÍ REŤAZEC – 2.časť",
+      "source_file": "MITOCHONDRIA_ADCHAC_REAZEC_2as.json",
+      "original_words": 921,
+      "cleaned_words": 1044,
+      "reduction_percentage": 7.59
+    },
+    {
+      "title": "VZNIK ŽIVOTA #3 SACHARIDY verzus TUKY",
+      "source_file": "VZNIK_IVOTA_3_SACHARIDY_verzus_TUKY.json",
+      "original_words": 4812,
+      "cleaned_words": 5270,
+      "reduction_percentage": 3.67
+    },
+    {
+      "title": "MITOCHONDRIE #6 UCP, ATP a ATP-syntáza",
+      "source_file": "MITOCHONDRIE_6_UCP_ATP_aATP-syntza.json",
+      "original_words": 3595,
+      "cleaned_words": 3905,
+      "reduction_percentage": 6.33
+    },
+    {
+      "title": "Epigenetika #3 EM sila ako kontrolór Epigenetiky",
+      "source_file": "Epigenetika_3_EM_sila_ako_kontrolr_Epigenetiky.json",
+      "original_words": 1753,
+      "cleaned_words": 1827,
+      "reduction_percentage": 13.12
+    },
+    {
+      "title": "Sú opaľovacie krémy naozaj prospešné?",
+      "source_file": "S_opaovacie_krmy_naozaj_prospen.json",
+      "original_words": 2027,
+      "cleaned_words": 2277,
+      "reduction_percentage": 8.71
+    },
+    {
+      "title": "KB #17 Vápnik, VGCC a umelé EMP",
+      "source_file": "KB_17_Vpnik_VGCC_aumel_EMP.json",
+      "original_words": 3907,
+      "cleaned_words": 4303,
+      "reduction_percentage": 11.29
+    },
+    {
+      "title": "Matrix #2 elektrická povaha vesmíru vs elektrická mitochondria",
+      "source_file": "Matrix_2_elektrick_povaha_vesmru_vs_elektrick_mitoc.json",
+      "original_words": 4008,
+      "cleaned_words": 4298,
+      "reduction_percentage": 9.45
+    },
+    {
+      "title": "Epigenetika #7 Ako a kde začína transgeneračná epigenetika",
+      "source_file": "Epigenetika_7_Ako_akde_začína_transgeneračná_epige.json",
+      "original_words": 3462,
+      "cleaned_words": 3292,
+      "reduction_percentage": 6.44
+    },
+    {
+      "title": "Vakcíny, Redox a ekonomika 2. časť",
+      "source_file": "Vakcny_Redox_aekonomika_2_as.json",
+      "original_words": 3993,
+      "cleaned_words": 4563,
+      "reduction_percentage": 8.04
+    },
+    {
+      "title": "Epigenetika #18 Čo sú biofotóny a prečo ich tvoríme",
+      "source_file": "Epigenetika_18_o_s_biofotny_apreo_ich_tvorme.json",
+      "original_words": 2231,
+      "cleaned_words": 2228,
+      "reduction_percentage": 12.45
+    },
+    {
+      "title": "Neurotransmitery #4 Dopamín a depresia",
+      "source_file": "Neurotransmitery_4_Dopamn_adepresia.json",
+      "original_words": 2060,
+      "cleaned_words": 2310,
+      "reduction_percentage": 10.99
+    },
+    {
+      "title": "Voda, Oheň, Zem #1 alias 3 Živly Prírody a ich skutočná povaha",
+      "source_file": "Voda_Ohe_Zem_1_alias_3_ivly_Prrody_aich_skuton_pova.json",
+      "original_words": 2476,
+      "cleaned_words": 2689,
+      "reduction_percentage": 7.57
+    },
+    {
+      "title": "Hormóny #9 Prečo športovci (ne) potrebujú sacharidy",
+      "source_file": "Hormóny_9_Prečo_športovci_ne_potrebujú_sacharidy.json",
+      "original_words": 4524,
+      "cleaned_words": 4370,
+      "reduction_percentage": 4.89
+    },
+    {
+      "title": "Črevo a mozog #5 Mikrobióm a tráviaca sústava",
+      "source_file": "revo_amozog_5_Mikrobim_atrviaca_sstava.json",
+      "original_words": 3175,
+      "cleaned_words": 3493,
+      "reduction_percentage": 9.04
+    },
+    {
+      "title": "Novoročné tipy/myšlienky na rok 2024 pre mitochondriak-ov",
+      "source_file": "Novoron_tipymylienky_narok_2024_pre_mitochondriak-o.json",
+      "original_words": 2684,
+      "cleaned_words": 2900,
+      "reduction_percentage": 5.24
+    },
+    {
+      "title": "Epigenetika #27 Ako slnečné okuliare zvyšujú riziko rakoviny kože",
+      "source_file": "Epigenetika_27_Ako_slnen_okuliare_zvyuj_riziko_rako.json",
+      "original_words": 3373,
+      "cleaned_words": 3634,
+      "reduction_percentage": 8.15
+    },
+    {
+      "title": "ADAPTÁCIA NA CHLAD #1 CHLAD verzus OTUŽOVANIE",
+      "source_file": "ADAPTCIA_NACHLAD_1_CHLAD_verzus_OTUOVANIE.json",
+      "original_words": 1551,
+      "cleaned_words": 1719,
+      "reduction_percentage": 8.7
+    },
+    {
+      "title": "KB #14 Rozpolenie vody, Supravodivosť a podchladenie",
+      "source_file": "KB_14_Rozpolenie_vody_Supravodivos_apodchladenie.json",
+      "original_words": 3357,
+      "cleaned_words": 3762,
+      "reduction_percentage": 5.67
+    }
+  ]
+}

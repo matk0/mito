@@ -1,0 +1,537 @@
+[
+  {
+    "url": "https://jaroslavlachky.sk/cirkadialny-rytmus-1-cirkadialne-geny-per/",
+    "title": "Cirkadiánny rytmus #1 Cirkadiálne gény PER",
+    "source_file": "Cirkadinny_rytmus_1_Cirkadilne_gny_PER.json",
+    "original_word_count": 6473,
+    "cleaned_word_count": 7192,
+    "marketing_analysis": {
+      "score": 29,
+      "patterns": [
+        "Marketing keyword 'kup': 2 times",
+        "Navigation pattern 'navigácia': 3 times",
+        "Navigation pattern 'ďalej': 3 times",
+        "Navigation pattern 'späť': 1 times",
+        "Navigation pattern 'home': 1 times",
+        "Meta pattern 'tag': 1 times",
+        "Meta pattern 'autor': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 15 times"
+      ],
+      "confidence": 0.4032258064516129
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 7192,
+      "sentence_count": 422,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.4050333704115684
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7787096774193549,
+    "top_phrases": [
+      "ako tvoje telo",
+      "tvoje telo vie",
+      "telo vie kedy",
+      "vie kedy správny",
+      "kedy správny čas",
+      "ako tvoje telo vie",
+      "tvoje telo vie kedy",
+      "telo vie kedy správny",
+      "vie kedy správny čas",
+      "ako tvoje telo vie kedy"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:10.237798"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/vznik-zivota-4-leptin/",
+    "title": "VZNIK ŽIVOTA #4 LEPTÍN",
+    "source_file": "VZNIK_IVOTA_4_LEPTN.json",
+    "original_word_count": 5806,
+    "cleaned_word_count": 6436,
+    "marketing_analysis": {
+      "score": 35,
+      "patterns": [
+        "Marketing keyword 'členstvo': 1 times",
+        "Marketing keyword 'kúp': 2 times",
+        "Marketing keyword 'akcia': 1 times",
+        "Marketing keyword 'zdarma': 1 times",
+        "Marketing keyword 'zadarmo': 1 times",
+        "Marketing keyword 'premium': 1 times",
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'menu': 1 times",
+        "Navigation pattern 'ďalej': 2 times",
+        "Navigation pattern 'domov': 1 times",
+        "Meta pattern 'date': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 14 times"
+      ],
+      "confidence": 0.5438160348042262
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 6436,
+      "sentence_count": 466,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.4223119950279677
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7224735860783096,
+    "top_phrases": [
+      "predstavujem bossa tvojho",
+      "bossa tvojho tela",
+      "predstavujem bossa tvojho tela",
+      "leptín hlavný hormón",
+      "hlavný hormón ktorý",
+      "hormón ktorý ovláda",
+      "ktorý ovláda celé",
+      "ovláda celé naše",
+      "celé naše telo",
+      "leptín hlavný hormón ktorý"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:10.690919"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/mitochondrie-7-ros-alias-volne-radikaly/",
+    "title": "MITOCHONDRIE #7 ROS alias VOĽNÉ RADIKÁLY",
+    "source_file": "MITOCHONDRIE_7_ROS_alias_VOĽNÉ_RADIKÁLY.json",
+    "original_word_count": 4919,
+    "cleaned_word_count": 4902,
+    "marketing_analysis": {
+      "score": 25,
+      "patterns": [
+        "Marketing keyword 'prihlásiť': 1 times",
+        "Marketing keyword 'akcia': 1 times",
+        "Marketing keyword 'webinár': 1 times",
+        "Navigation pattern 'pokračovanie': 1 times",
+        "Navigation pattern 'menu': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 17 times"
+      ],
+      "confidence": 0.5099959200326397
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 4902,
+      "sentence_count": 333,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.43512851897184823
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7360016319869441,
+    "top_phrases": [
+      "voľné radikály ako",
+      "radikály ako kde",
+      "ako kde tele",
+      "kde tele vznikajú",
+      "tele vznikajú aká",
+      "vznikajú aká ich",
+      "aká ich úloha",
+      "ich úloha prečo",
+      "úloha prečo môže",
+      "prečo môže byť"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:10.954394"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/epigenetika-14-zvlastnosti-etc-a-3-tipy-pre-zdravie-aj-chudnutie/",
+    "title": "Epigenetika #14 Zvláštnosti ETC, a 3 tipy pre zdravie aj chudnutie",
+    "source_file": "Epigenetika_14_Zvltnosti_ETC_a3_tipy_pre_zdravie_aj.json",
+    "original_word_count": 3023,
+    "cleaned_word_count": 3358,
+    "marketing_analysis": {
+      "score": 19,
+      "patterns": [
+        "Marketing keyword 'zdieľaj': 1 times",
+        "Marketing keyword 'odber': 1 times",
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'ďalej': 2 times",
+        "Meta pattern 'tag': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 10 times"
+      ],
+      "confidence": 0.5658129839189995
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 3358,
+      "sentence_count": 186,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.4648600357355569
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7136748064324002,
+    "top_phrases": [
+      "všetko tvoje mitochondrie",
+      "tvoje mitochondrie dokážu",
+      "mitochondrie dokážu etc",
+      "dokážu etc krebsovym",
+      "etc krebsovym cyklom",
+      "krebsovym cyklom prečo",
+      "cyklom prečo niektoré",
+      "prečo niektoré spia",
+      "niektoré spia iné",
+      "spia iné metabolicky"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:11.120448"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/neurotransmitery-2-gaba-a-acetylcholin/",
+    "title": "Neurotransmitery #2 GABA a Acetylcholín",
+    "source_file": "Neurotransmitery_2_GABA_aAcetylcholn.json",
+    "original_word_count": 2150,
+    "cleaned_word_count": 2410,
+    "marketing_analysis": {
+      "score": 8,
+      "patterns": [
+        "Marketing keyword 'kup': 2 times",
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'ďalej': 1 times",
+        "Meta pattern 'tag': 1 times"
+      ],
+      "confidence": 0.33195020746887965
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 2410,
+      "sentence_count": 144,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.5240663900414938
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.8072199170124482,
+    "top_phrases": [
+      "predchádzajúcom článku dozvedel",
+      "článku dozvedel neurotransmitery",
+      "dozvedel neurotransmitery akú",
+      "neurotransmitery akú úlohu",
+      "akú úlohu mozgu",
+      "úlohu mozgu zohrávajú",
+      "mozgu zohrávajú ako",
+      "zohrávajú ako ich",
+      "ako ich tvorba",
+      "ich tvorba závisí"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:11.162789"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/vznik-zivota-1-cirkadialny-rytmus/",
+    "title": "VZNIK ŽIVOTA #1 Cirkadiálny rytmus",
+    "source_file": "VZNIK_IVOTA_1_Cirkadilny_rytmus.json",
+    "original_word_count": 3184,
+    "cleaned_word_count": 3491,
+    "marketing_analysis": {
+      "score": 14,
+      "patterns": [
+        "Marketing keyword 'kúp': 1 times",
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'ďalej': 1 times",
+        "Meta pattern 'tag': 2 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 7 times"
+      ],
+      "confidence": 0.40103122314523065
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 3491,
+      "sentence_count": 242,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.48639358350042966
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7795875107419078,
+    "top_phrases": [
+      "najbližšej sérií článkov",
+      "sérií článkov chcem",
+      "článkov chcem ukázať",
+      "chcem ukázať ako",
+      "ukázať ako kde",
+      "ako kde prečo",
+      "kde prečo vznikol",
+      "prečo vznikol život",
+      "vznikol život akým",
+      "život akým náhodám"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:11.429069"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/energia-6-je-oteplovanie-zeme-skutocne/",
+    "title": "ENERGIA #6 JE OTEPĽOVANIE ZEME SKUTOČNÉ?",
+    "source_file": "ENERGIA_6_JE_OTEPOVANIE_ZEME_SKUTON.json",
+    "original_word_count": 4048,
+    "cleaned_word_count": 4524,
+    "marketing_analysis": {
+      "score": 23,
+      "patterns": [
+        "Marketing keyword 'kúp': 2 times",
+        "Marketing keyword 'akcia': 1 times",
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'menu': 1 times",
+        "Navigation pattern 'ďalej': 3 times",
+        "Navigation pattern 'domov': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 10 times"
+      ],
+      "confidence": 0.5083996463306808
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 4524,
+      "sentence_count": 306,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.48010610079575594
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7366401414677277,
+    "top_phrases": [
+      "moderný problém zeme",
+      "problém zeme začal",
+      "zeme začal asi",
+      "začal asi roku",
+      "asi roku 1850",
+      "roku 1850 keď",
+      "1850 keď sme",
+      "keď sme začali",
+      "sme začali využívať",
+      "začali využívať umelé"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:11.450582"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/energia-1-elektromagnetizmus/",
+    "title": "ENERGIA #1 ELEKTROMAGNETIZMUS",
+    "source_file": "ENERGIA_1_ELEKTROMAGNETIZMUS.json",
+    "original_word_count": 3427,
+    "cleaned_word_count": 3740,
+    "marketing_analysis": {
+      "score": 16,
+      "patterns": [
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'ďalej': 4 times",
+        "Navigation pattern 'späť': 1 times",
+        "Navigation pattern 'home': 1 times",
+        "Meta pattern 'tag': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 7 times"
+      ],
+      "confidence": 0.42780748663101603
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 3740,
+      "sentence_count": 278,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.5008021390374332
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7688770053475936,
+    "top_phrases": [
+      "rýchly sumár článku",
+      "sumár článku prečo",
+      "článku prečo ľudia",
+      "prečo ľudia vnímajú",
+      "ľudia vnímajú čas",
+      "vnímajú čas rozdielne",
+      "rýchly sumár článku prečo",
+      "sumár článku prečo ľudia",
+      "článku prečo ľudia vnímajú",
+      "prečo ľudia vnímajú čas"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:11.833357"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/vznik-zivota-5-endosymbioza/",
+    "title": "VZNIK ŽIVOTA #5 Endosymbióza",
+    "source_file": "VZNIK_IVOTA_5_Endosymbiza.json",
+    "original_word_count": 4415,
+    "cleaned_word_count": 4962,
+    "marketing_analysis": {
+      "score": 29,
+      "patterns": [
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'menu': 3 times",
+        "Navigation pattern 'ďalej': 4 times",
+        "Navigation pattern 'späť': 1 times",
+        "Meta pattern 'tag': 2 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 17 times"
+      ],
+      "confidence": 0.5844417573559049
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 4962,
+      "sentence_count": 345,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.44961708988311166
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7062232970576381,
+    "top_phrases": [
+      "ľudské telo funguje",
+      "telo funguje jedinom",
+      "funguje jedinom hlavnom",
+      "jedinom hlavnom princípe",
+      "ľudské telo funguje jedinom",
+      "telo funguje jedinom hlavnom",
+      "funguje jedinom hlavnom princípe",
+      "ľudské telo funguje jedinom hlavnom",
+      "telo funguje jedinom hlavnom princípe",
+      "ľudské telo funguje jedinom hlavnom princípe"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:12.118913"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/politika-virus-vakciny-a-homo-sapiens/",
+    "title": "POLITIKA, VÍRUS, VAKCÍNY a HOMO SAPIENS",
+    "source_file": "POLITIKA_VRUS_VAKCNY_aHOMO_SAPIENS.json",
+    "original_word_count": 7629,
+    "cleaned_word_count": 8551,
+    "marketing_analysis": {
+      "score": 45,
+      "patterns": [
+        "Marketing keyword 'zadarmo': 2 times",
+        "Marketing keyword 'odber': 1 times",
+        "Marketing keyword 'kup': 2 times",
+        "Marketing keyword 'sleduj': 2 times",
+        "Marketing keyword 'like': 1 times",
+        "Navigation pattern 'menu': 1 times",
+        "Navigation pattern 'ďalej': 1 times",
+        "Navigation pattern 'späť': 1 times",
+        "Meta pattern 'tag': 9 times",
+        "Meta pattern 'date': 3 times",
+        "Meta pattern 'author': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 13 times"
+      ],
+      "confidence": 0.5262542392702607
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 8551,
+      "sentence_count": 593,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.41995088293766814
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7294983042918958,
+    "top_phrases": [
+      "tomto článku chystám",
+      "článku chystám odhaliť",
+      "chystám odhaliť zopár",
+      "odhaliť zopár skutočností",
+      "zopár skutočností našom",
+      "skutočností našom pôvode",
+      "našom pôvode homo",
+      "pôvode homo sapiens",
+      "homo sapiens našej",
+      "sapiens našej rozdielnosti"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:12.553265"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/energia-3-einstein-a-vlnenie/",
+    "title": "ENERGIA #3 EINSTEIN A VLNENIE",
+    "source_file": "ENERGIA_3_EINSTEIN_AVLNENIE.json",
+    "original_word_count": 2544,
+    "cleaned_word_count": 2793,
+    "marketing_analysis": {
+      "score": 15,
+      "patterns": [
+        "Marketing keyword 'sleduj': 1 times",
+        "Navigation pattern 'menu': 1 times",
+        "Navigation pattern 'ďalej': 1 times",
+        "Navigation pattern 'domov': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 10 times"
+      ],
+      "confidence": 0.5370569280343717
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 2793,
+      "sentence_count": 245,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.48442534908700324
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7251772287862513,
+    "top_phrases": [
+      "predstav jednoducho ako",
+      "jednoducho ako vlnu",
+      "ako vlnu mori",
+      "predstav jednoducho ako vlnu",
+      "jednoducho ako vlnu mori",
+      "predstav jednoducho ako vlnu mori",
+      "vlnu ktorá šíri",
+      "ktorá šíri priestore",
+      "šíri priestore všetkými",
+      "priestore všetkými smermi"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:13.091703"
+  },
+  {
+    "url": "https://jaroslavlachky.sk/blog-o-mne-mitochondria-a-dychaci-retazec/",
+    "title": "MITOCHONDRIA A DÝCHACÍ REŤAZEC – 2.časť",
+    "source_file": "MITOCHONDRIA_ADCHAC_REAZEC_2as.json",
+    "original_word_count": 921,
+    "cleaned_word_count": 1049,
+    "marketing_analysis": {
+      "score": 5,
+      "patterns": [
+        "Navigation pattern 'pokračovanie': 1 times",
+        "Self-reference pattern '\\bčlán\\w*\\b': 4 times"
+      ],
+      "confidence": 0.47664442326024786
+    },
+    "quality_analysis": {
+      "quality_score": 0.9,
+      "issues": [
+        "Poor paragraph structure"
+      ],
+      "word_count": 1049,
+      "sentence_count": 69,
+      "paragraph_count": 1,
+      "unique_word_ratio": 0.6120114394661582
+    },
+    "needs_cleaning": true,
+    "cleanliness_score": 0.7493422306959009,
+    "top_phrases": [
+      "mitochondrie zodpovedné naše",
+      "zodpovedné naše zdravie",
+      "naše zdravie výkon",
+      "mitochondrie zodpovedné naše zdravie",
+      "zodpovedné naše zdravie výkon",
+      "mitochondrie zodpovedné naše zdravie výkon",
+      "nich prebieha dýchací",
+      "prebieha dýchací reťazec",
+      "dýchací reťazec tvorí",
+      "reťazec tvorí energia"
+    ],
+    "analysis_timestamp": "2025-07-17T07:46:13.096796"
+  }
+]
