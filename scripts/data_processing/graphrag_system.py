@@ -216,15 +216,17 @@ class SlovakHealthGraphRAG:
             with self.neo4j_driver.session() as session:
                 # Get entity information and its strongest connections
                 query = """
-                MATCH (e:Entity)-[r:CO_OCCURS]-(related:Entity)
+                MATCH (e:Entity)
                 WHERE e.name = $entity_name OR e.normalized_name = $entity_name
-                WITH e, related, r.strength as strength
+                WITH e
+                OPTIONAL MATCH (e)-[r:CO_OCCURS]-(related:Entity)
+                WITH e, related, MAX(r.strength) as strength
                 ORDER BY strength DESC
                 LIMIT $max_related
                 RETURN e.name as entity_name, 
                        e.type as entity_type,
                        e.mention_count as mention_count,
-                       collect({name: related.name, strength: strength}) as related_entities
+                       collect(DISTINCT {name: related.name, strength: strength}) as related_entities
                 """
                 
                 result = session.run(query, 

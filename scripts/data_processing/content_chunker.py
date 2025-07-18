@@ -3,8 +3,9 @@
 import json
 import os
 import re
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Literal, Optional
 from pathlib import Path
+from semantic_chunker import SemanticChunker
 
 class ContentChunker:
     def __init__(self, 
@@ -12,22 +13,41 @@ class ContentChunker:
                  output_dir: str = "./data/processed/chunked_data",
                  chunk_size: int = 800,
                  chunk_overlap: int = 200,
-                 context_window: int = 300):
+                 context_window: int = 300,
+                 chunking_strategy: Literal["fixed", "semantic"] = "fixed",
+                 semantic_breakpoint_type: Literal["percentile", "standard_deviation", "gradient"] = "percentile",
+                 semantic_breakpoint_amount: float = 85.0):
         """
         Initialize the content chunker.
         
         Args:
             input_dirs: List of directories containing scraped JSON articles
             output_dir: Directory to save chunked content
-            chunk_size: Target size for each chunk (in tokens/words)
-            chunk_overlap: Overlap between consecutive chunks
+            chunk_size: Target size for each chunk (in tokens/words) - for fixed strategy
+            chunk_overlap: Overlap between consecutive chunks - for fixed strategy
             context_window: Additional context words to include before/after each chunk
+            chunking_strategy: Strategy to use: "fixed" or "semantic"
+            semantic_breakpoint_type: For semantic chunking: "percentile", "standard_deviation", or "gradient"
+            semantic_breakpoint_amount: Threshold value for semantic breakpoints
         """
         self.input_dirs = [Path(d) for d in input_dirs]
         self.output_dir = Path(output_dir)
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.context_window = context_window
+        self.chunking_strategy = chunking_strategy
+        
+        # Initialize semantic chunker if needed
+        if chunking_strategy == "semantic":
+            self.semantic_chunker = SemanticChunker(
+                breakpoint_threshold_type=semantic_breakpoint_type,
+                breakpoint_threshold_amount=semantic_breakpoint_amount,
+                min_chunk_size=200,  # Reasonable minimum for Slovak content
+                max_chunk_size=chunk_size,  # Use provided max size
+                buffer_size=1
+            )
+        else:
+            self.semantic_chunker = None
         
         # Create output directory
         self.output_dir.mkdir(exist_ok=True)
@@ -37,7 +57,15 @@ class ContentChunker:
             'total_articles': 0,
             'total_chunks': 0,
             'avg_chunk_size': 0,
-            'articles_processed': []
+            'articles_processed': [],
+            'chunking_strategy': chunking_strategy,
+            'chunking_params': {
+                'strategy': chunking_strategy,
+                'chunk_size': chunk_size,
+                'chunk_overlap': chunk_overlap if chunking_strategy == "fixed" else None,
+                'semantic_breakpoint_type': semantic_breakpoint_type if chunking_strategy == "semantic" else None,
+                'semantic_breakpoint_amount': semantic_breakpoint_amount if chunking_strategy == "semantic" else None
+            }
         }
     
     def clean_text(self, text: str) -> str:
@@ -320,7 +348,11 @@ class ContentChunker:
                 print(f"⚠️  Skipping {file_path.name}: content too short")
                 return []
             
-            chunks = self.create_chunks(content, metadata)
+            # Choose chunking method based on strategy
+            if self.chunking_strategy == "semantic":
+                chunks = self.semantic_chunker.chunk_with_metadata(content, metadata)
+            else:
+                chunks = self.create_chunks(content, metadata)
             
             print(f"✅ Processed {file_path.name}: {len(chunks)} chunks created")
             self.stats['articles_processed'].append({
@@ -341,8 +373,13 @@ class ContentChunker:
         print("🚀 Starting enhanced content chunking process...")
         print(f"📂 Input directories: {[str(d) for d in self.input_dirs]}")
         print(f"📂 Output directory: {self.output_dir}")
-        print(f"⚙️  Chunk size: {self.chunk_size} words, Overlap: {self.chunk_overlap} words")
-        print(f"🔍 Context window: {self.context_window} words (preceding + following)")
+        print(f"🔧 Chunking strategy: {self.chunking_strategy}")
+        if self.chunking_strategy == "fixed":
+            print(f"⚙️  Chunk size: {self.chunk_size} words, Overlap: {self.chunk_overlap} words")
+            print(f"🔍 Context window: {self.context_window} words (preceding + following)")
+        else:
+            print(f"⚙️  Max chunk size: {self.chunk_size} words")
+            print(f"🧠 Semantic threshold: {self.semantic_chunker.breakpoint_threshold_type} ({self.semantic_chunker.breakpoint_threshold_amount})")
         print("-" * 60)
         
         all_json_files = []

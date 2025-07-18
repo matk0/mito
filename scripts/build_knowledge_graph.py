@@ -8,11 +8,14 @@ This script creates versioned knowledge graphs from different source types
 provenance tracking and the ability to switch between versions.
 
 Usage:
-    # Create KB from cleaned blog articles
+    # Create KB from cleaned blog articles (default fixed chunking)
     python scripts/build_knowledge_graph.py --source-type blog --input-dir data/raw/scraped_data/articles/cleaned_articles/articles/
     
-    # Create KB with multiple sources
-    python scripts/build_knowledge_graph.py --source-types blog,forum --version-name "blog_forum_combined"
+    # Create KB with semantic chunking
+    python scripts/build_knowledge_graph.py --source-type blog --chunking-strategy semantic --semantic-threshold-amount 90.0
+    
+    # Create KB with multiple sources and semantic chunking
+    python scripts/build_knowledge_graph.py --source-types blog,forum --chunking-strategy semantic --version-name "semantic_blog_forum"
     
     # List all versions
     python scripts/build_knowledge_graph.py --list-versions
@@ -39,10 +42,15 @@ logger = logging.getLogger(__name__)
 class VersionedKnowledgeGraphBuilder:
     """Builds and manages versioned knowledge graphs with complete provenance tracking."""
     
-    def __init__(self):
+    def __init__(self, chunking_strategy: str = "fixed", semantic_breakpoint_type: str = "percentile", semantic_breakpoint_amount: float = 85.0):
         self.project_root = Path(__file__).parent.parent
         self.kg_base_dir = self.project_root / "data" / "knowledge_graphs"
         self.kg_base_dir.mkdir(exist_ok=True, parents=True)
+        
+        # Store chunking configuration
+        self.chunking_strategy = chunking_strategy
+        self.semantic_breakpoint_type = semantic_breakpoint_type
+        self.semantic_breakpoint_amount = semantic_breakpoint_amount
         
         # Source type configurations
         self.source_configs = {
@@ -93,7 +101,8 @@ class VersionedKnowledgeGraphBuilder:
             "sources": {},
             "processing_stats": {},
             "neo4j_database": f"neo4j_{version_name.replace('v_', '').replace('_', '')}",
-            "chromadb_collections": []
+            "chromadb_collections": [],
+            "building_techniques": self.get_building_techniques_metadata()
         }
         
         # Analyze each source
@@ -126,6 +135,101 @@ class VersionedKnowledgeGraphBuilder:
                 metadata["chromadb_collections"].append(f"{version_name}_{source_type}_chunks")
         
         return metadata
+    
+    def get_building_techniques_metadata(self) -> Dict[str, Any]:
+        """Generate metadata about the techniques used to build this knowledge graph."""
+        # Dynamic chunking parameters based on strategy
+        if self.chunking_strategy == "semantic":
+            chunking_technique = "Semantic Text Chunking"
+            chunking_description = "Split articles at semantic boundaries using sentence embeddings and similarity thresholds"
+            chunking_params = {
+                "strategy": "semantic",
+                "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+                "breakpoint_threshold_type": self.semantic_breakpoint_type,
+                "breakpoint_threshold_amount": f"{self.semantic_breakpoint_amount}%",
+                "method": "embedding-based semantic boundary detection"
+            }
+            chunking_strategy_desc = "Semantic boundary-aware chunking"
+        else:
+            chunking_technique = "Fixed-Size Text Chunking"
+            chunking_description = "Split articles into fixed-size chunks with overlap for context preservation"
+            chunking_params = {
+                "strategy": "fixed",
+                "chunk_size": "800 words",
+                "overlap": "200 words",
+                "method": "sentence-boundary aware with overlap"
+            }
+            chunking_strategy_desc = "Fixed-size overlapping chunking"
+        
+        return {
+            "pipeline_stages": [
+                {
+                    "name": "Content Chunking",
+                    "technique": chunking_technique,
+                    "description": chunking_description,
+                    "parameters": chunking_params
+                },
+                {
+                    "name": "Entity Extraction",
+                    "technique": "Named Entity Recognition (NER)",
+                    "description": "Extract Slovak health entities using pattern matching and NLP",
+                    "parameters": {
+                        "categories": "15 health categories",
+                        "language": "Slovak",
+                        "method": "rule-based + pattern matching"
+                    }
+                },
+                {
+                    "name": "Vector Embeddings",
+                    "technique": "Dense Vector Representations",
+                    "description": "Generate semantic embeddings for chunk similarity search",
+                    "parameters": {
+                        "model": "sentence-transformers/all-MiniLM-L6-v2",
+                        "dimensions": "384",
+                        "database": "ChromaDB"
+                    }
+                },
+                {
+                    "name": "Knowledge Graph",
+                    "technique": "Entity-Relationship Graph",
+                    "description": "Build connected graph of entities and their relationships",
+                    "parameters": {
+                        "database": "Neo4j",
+                        "relationship_types": "co-occurrence, semantic similarity",
+                        "graph_structure": "Entity-Chunk-Article nodes"
+                    }
+                },
+                {
+                    "name": "GraphRAG Integration",
+                    "technique": "Hybrid Retrieval-Augmented Generation",
+                    "description": "Combine vector similarity with graph traversal for context retrieval",
+                    "parameters": {
+                        "retrieval_method": "Vector + Graph hybrid",
+                        "ranking": "Combined similarity scores",
+                        "context_assembly": "Multi-source chunk merging"
+                    }
+                }
+            ],
+            "technologies": {
+                "vector_database": "ChromaDB",
+                "graph_database": "Neo4j",
+                "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+                "nlp_framework": "Custom Slovak NER",
+                "chunking_strategy": chunking_strategy_desc
+            },
+            "methodology": {
+                "approach": "GraphRAG (Graph + Retrieval-Augmented Generation)",
+                "data_flow": "Raw Content → Chunks → Entities → Embeddings + Graph → Hybrid Search",
+                "versioning": "Immutable versioned knowledge bases",
+                "provenance": "Full source tracking and metadata preservation"
+            },
+            "quality_measures": {
+                "entity_validation": "Manual review + pattern validation",
+                "chunk_quality": "Semantic coherence scoring",
+                "relationship_accuracy": "Co-occurrence frequency filtering",
+                "retrieval_precision": "Hybrid scoring (vector + graph)"
+            }
+        }
     
     def create_version_structure(self, version_name: str) -> Path:
         """Create the directory structure for a new version."""
@@ -162,7 +266,10 @@ class VersionedKnowledgeGraphBuilder:
             
             chunker = ContentChunker(
                 input_dirs=input_dirs,
-                output_dir=str(output_dir)
+                output_dir=str(output_dir),
+                chunking_strategy=self.chunking_strategy,
+                semantic_breakpoint_type=self.semantic_breakpoint_type,
+                semantic_breakpoint_amount=self.semantic_breakpoint_amount
             )
             
             chunker.process_all_articles()
@@ -344,6 +451,18 @@ class VersionedKnowledgeGraphBuilder:
             stats = metadata.get('processing_stats', {})
             if stats:
                 print(f"   Stats: {stats.get('entities_created', 0)} entities, {stats.get('relationships_created', 0)} relationships")
+            
+            # Show building techniques if available
+            techniques = metadata.get('building_techniques', {})
+            if techniques:
+                methodology = techniques.get('methodology', {})
+                approach = methodology.get('approach', 'Unknown')
+                print(f"   Technique: {approach}")
+                
+                technologies = techniques.get('technologies', {})
+                vector_db = technologies.get('vector_database', 'Unknown')
+                graph_db = technologies.get('graph_database', 'Unknown')
+                print(f"   Stack: {vector_db} + {graph_db}")
     
     def activate_version(self, version_name: str):
         """Activate a specific version for GraphRAG."""
@@ -415,6 +534,11 @@ class VersionedKnowledgeGraphBuilder:
             success = self.run_graph_building(version_dir, metadata)
         
         if success:
+            # Update metadata with final processing timestamp
+            metadata["completed_at"] = datetime.now().isoformat()
+            metadata["build_duration_seconds"] = (datetime.fromisoformat(metadata["completed_at"]) - 
+                                                 datetime.fromisoformat(metadata["created_at"])).total_seconds()
+            
             # Save metadata
             self.save_metadata(version_dir, metadata)
             
@@ -447,6 +571,14 @@ def main():
     parser.add_argument('--description', type=str, default='',
                        help='Description for this knowledge graph version')
     
+    # Chunking strategy options
+    parser.add_argument('--chunking-strategy', type=str, choices=['fixed', 'semantic'], default='fixed',
+                       help='Chunking strategy to use: "fixed" (default) or "semantic"')
+    parser.add_argument('--semantic-threshold-type', type=str, choices=['percentile', 'standard_deviation', 'gradient'], 
+                       default='percentile', help='Semantic breakpoint threshold type (for semantic chunking)')
+    parser.add_argument('--semantic-threshold-amount', type=float, default=85.0,
+                       help='Semantic breakpoint threshold amount (default: 85.0)')
+    
     # Management commands
     parser.add_argument('--list-versions', action='store_true',
                        help='List all available knowledge graph versions')
@@ -455,7 +587,11 @@ def main():
     
     args = parser.parse_args()
     
-    builder = VersionedKnowledgeGraphBuilder()
+    builder = VersionedKnowledgeGraphBuilder(
+        chunking_strategy=args.chunking_strategy,
+        semantic_breakpoint_type=args.semantic_threshold_type,
+        semantic_breakpoint_amount=args.semantic_threshold_amount
+    )
     
     # Handle management commands
     if args.list_versions:
