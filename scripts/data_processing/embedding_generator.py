@@ -152,6 +152,15 @@ class EmbeddingGenerator:
         
         return all_embeddings
     
+    def _validate_metadata_value(self, value):
+        """Validate that metadata values are compatible with ChromaDB."""
+        if value is None:
+            return ""
+        elif isinstance(value, (str, int, float)):
+            return value
+        else:
+            return str(value)
+    
     def store_in_vector_db(self, chunks: List[Dict[str, Any]], embeddings: np.ndarray):
         """Store chunks and embeddings in Chroma vector database."""
         print(f"💾 Storing {len(chunks)} embeddings in vector database...")
@@ -172,7 +181,7 @@ class EmbeddingGenerator:
             documents.append(chunk['text'])
             
             # Enhanced metadata (Chroma doesn't support nested objects, so flatten)
-            metadata = {
+            raw_metadata = {
                 # Core source attribution
                 'source_url': chunk.get('source_url', ''),
                 'source_title': chunk.get('source_title', ''),
@@ -196,14 +205,17 @@ class EmbeddingGenerator:
                 'chunk_sentence_count': chunk.get('chunk_sentence_count', 0),
                 
                 # For retrieval and citation
-                'article_excerpt': chunk.get('article_excerpt', '')[:200],  # Truncate long excerpts
-                'chunk_start_sentence': chunk.get('chunk_start_sentence', '')[:200],
-                'chunk_end_sentence': chunk.get('chunk_end_sentence', '')[:200],
+                'article_excerpt': chunk.get('article_excerpt', '')[:200] if chunk.get('article_excerpt') else '',
+                'chunk_start_sentence': chunk.get('chunk_start_sentence', '')[:200] if chunk.get('chunk_start_sentence') else '',
+                'chunk_end_sentence': chunk.get('chunk_end_sentence', '')[:200] if chunk.get('chunk_end_sentence') else '',
                 
-                # Adjacent chunks for context expansion
-                'previous_chunk_id': chunk.get('adjacent_chunk_ids', {}).get('previous'),
-                'next_chunk_id': chunk.get('adjacent_chunk_ids', {}).get('next')
+                # Adjacent chunks for context expansion (filter out None values)
+                'previous_chunk_id': chunk.get('adjacent_chunk_ids', {}).get('previous') or -1,
+                'next_chunk_id': chunk.get('adjacent_chunk_ids', {}).get('next') or -1
             }
+            
+            # Validate all metadata values
+            metadata = {k: self._validate_metadata_value(v) for k, v in raw_metadata.items()}
             metadatas.append(metadata)
         
         # Store in collection (batch upsert)
